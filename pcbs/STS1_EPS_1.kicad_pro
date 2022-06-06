@@ -427,6 +427,22 @@
     [
       "5e906db2-81b9-4191-b4ed-f1d03e54219a",
       ""
+    ],
+    [
+      "3f2412fd-ceb3-4d5f-b693-7628adb9c64f",
+      "Battery Charge Controller"
+    ],
+    [
+      "0b54958e-6712-400f-aa61-9f5fa371c31d",
+      "Solar Cell Connectors"
+    ],
+    [
+      "1f2aab95-1ce2-4d7d-8e47-47ae14e38d9e",
+      "Cubesat Bus Interface"
+    ],
+    [
+      "8efe9fa1-fd79-411e-9a4d-de1a5e8757ee",
+      "Battery"
     ]
   ],
   "text_variables": {}
