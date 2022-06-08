@@ -1,6 +1,6 @@
 (kicad_sch (version 20211123) (generator eeschema)
 
-  (uuid 6aa67700-c556-41e1-aead-32c0878ad2de)
+  (uuid d6211fc3-1a75-43f3-a6b0-e1580593f24a)
 
   (paper "A4")
 
@@ -221,6 +221,10 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 4f798839-b5cd-4a94-a92b-f339732fe4a1)
   )
+  (hierarchical_label "BATT" (shape input) (at 29.21 46.99 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 7b1997b4-2363-4ba7-8676-147931d75f93)
+  )
   (hierarchical_label "Panel_X+_[1..8]" (shape input) (at 29.21 27.94 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 985e3d79-df95-4388-aa65-ed2e8a06d9d1)
@@ -228,6 +232,10 @@
   (hierarchical_label "COBC_SPI_[1..6]" (shape input) (at 29.464 20.32 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid bdd33713-9ee2-4f76-be27-effa32f54f14)
+  )
+  (hierarchical_label "BATT_I" (shape input) (at 29.21 50.8 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid d49a0dc8-7a09-42fc-9d02-cb435e1faeed)
   )
   (hierarchical_label "VOUT" (shape input) (at 29.464 17.018 180)
     (effects (font (size 1.27 1.27)) (justify right))
