@@ -483,7 +483,6 @@
     )
   )
 
-
   (junction (at 165.1 45.72) (diameter 0) (color 0 0 0 0)
     (uuid 07eedbdc-305f-48c2-a69b-7029615430c5)
   )
@@ -595,7 +594,6 @@
 
   (no_connect (at 87.63 80.01) (uuid 20e257bf-a984-46bd-89d5-f9ab4c4a7d38))
   (no_connect (at 87.63 77.47) (uuid 240d1333-ba4f-49a5-880a-ea1de820cbc2))
-  (no_connect (at 165.1 58.42) (uuid 4f23b76a-81c8-4eef-bc76-25ede29d3add))
   (no_connect (at 165.1 55.88) (uuid 582ddd3d-8f3e-413d-964e-77364eebeccb))
   (no_connect (at 87.63 74.93) (uuid 5f6bd28f-3fe1-42e8-953b-7ff721611bfd))
   (no_connect (at 177.8 66.04) (uuid 6f735d0c-082e-4c2e-99b6-be9e3306f77e))
@@ -608,7 +606,7 @@
   (no_connect (at 87.63 87.63) (uuid 7e4381a9-0e5d-475a-9760-bfbde58dabac))
   (no_connect (at 139.7 53.34) (uuid 865a485a-9f21-46c4-9500-57a3cd76a425))
   (no_connect (at 165.1 71.12) (uuid c23fbf9a-d9db-4e14-9fca-6f2424a81e49))
-  (no_connect (at 177.8 71.12) (uuid c23fbf9a-d9db-4e14-9fca-6f2424a81e49))
+  (no_connect (at 177.8 71.12) (uuid c23fbf9a-d9db-4e14-9fca-6f2424a81e4a))
 
   (bus_entry (at 149.86 93.98) (size 2.54 -2.54)
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -764,6 +762,11 @@
   (bus (pts (xy 67.31 59.69) (xy 67.31 62.23))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 4094e627-5ba5-4285-a9d9-68d5c7365ca2)
+  )
+
+  (wire (pts (xy 165.1 58.42) (xy 177.8 58.42))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 41dfea86-eb6c-4c20-89af-804467c83df6)
   )
   (bus (pts (xy 67.31 72.39) (xy 67.31 78.74))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -971,10 +974,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid cafd784d-c1a7-4ac1-960c-cb4decf52156)
   )
-  (wire (pts (xy 165.1 58.42) (xy 177.8 58.42))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid cbd4e992-bb0e-4f55-ad24-5fa0843c55e9)
-  )
   (wire (pts (xy 165.1 83.82) (xy 177.8 83.82))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid cd6124c3-cc1e-4979-996e-1bf4b3bb5a0f)
@@ -1131,6 +1130,10 @@
   (hierarchical_label "EPS_BAT_GOOD" (shape input) (at 165.1 68.58 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid c97278a7-b292-4b89-96bc-26fcd0e21366)
+  )
+  (hierarchical_label "EPS_BAT_FAULT" (shape input) (at 165.1 58.42 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid fb0739a1-09a7-4dcf-8388-2badadf95bff)
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x25_Odd_Even") (at 92.71 74.93 0) (unit 1)

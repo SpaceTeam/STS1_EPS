@@ -1,0 +1,19 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 9bed4409-f2bd-4295-9520-c54f5f6d49a8)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "VOUT_GATED" (shape output) (at 52.07 26.67 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 9262e312-fb41-47dc-bec6-a6b68aad7dc0)
+  )
+  (hierarchical_label "VOUT" (shape input) (at 36.83 26.67 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid e325f189-b8a4-4384-92eb-d00c9c3cf1d0)
+  )
+)

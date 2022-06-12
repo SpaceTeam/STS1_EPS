@@ -445,8 +445,24 @@
       "Analog Digital Converters"
     ],
     [
+      "bbd043cd-1576-4bc5-a25b-1f385bea2665",
+      "Battery Inhibits"
+    ],
+    [
+      "e2064052-5fd5-4fd9-90d4-ce7b28c75b19",
+      "Bus Gate"
+    ],
+    [
+      "b17ba0e3-1ddb-49c3-85eb-9d0dec0807ee",
+      "Current Sources"
+    ],
+    [
       "8efe9fa1-fd79-411e-9a4d-de1a5e8757ee",
       "Battery"
+    ],
+    [
+      "385aadbb-2cd4-43e1-9f59-43b251a5f3b9",
+      "MPPT Current Sensors"
     ]
   ],
   "text_variables": {}
