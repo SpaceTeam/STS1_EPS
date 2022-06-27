@@ -48,13 +48,7 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -118,15 +112,8 @@
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [
-        0.0
-      ],
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "track_widths": [],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -137,16 +124,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_to_pin|2476500|406400|cffc5311-745a-4406-a125-f25e33d5e151|236f4db0-3169-478b-9870-20882369392f",
-      "pin_to_pin|2476500|406400|cffc5311-745a-4406-a125-f25e33d5e151|cb52e925-dbd7-492b-a187-cfa86c559a62",
-      "pin_to_pin|2476500|431800|236f4db0-3169-478b-9870-20882369392f|cb52e925-dbd7-492b-a187-cfa86c559a62",
-      "pin_to_pin|2476500|558800|5ed708d8-3a34-4c4b-9a06-504e3d2d9db8|7791564f-f965-4a12-86b5-9942022b0a47",
-      "power_pin_not_driven|1130300|1117600|2c49f3e8-99bc-4993-b94f-08417f0bc47b|00000000-0000-0000-0000-000000000000",
-      "power_pin_not_driven|2095500|1473200|c4b55ea8-5e1b-44d2-8f68-5e5c55c63eee|00000000-0000-0000-0000-000000000000",
-      "power_pin_not_driven|2120900|406400|f5f3e59a-2b83-470f-8f25-b2366a60fee2|00000000-0000-0000-0000-000000000000",
-      "power_pin_not_driven|2120900|533400|d2ab529b-e7ba-433a-b988-c308aa8cff1b|00000000-0000-0000-0000-000000000000"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -355,7 +333,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "STS1_EPS_1.kicad_pro",
+    "filename": "STS1_EPS_2.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -387,7 +365,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "D:/Program Files/KiCad/6.0/bin/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -416,15 +394,6 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "fix_passive_vals": false,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 0,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
@@ -434,40 +403,8 @@
   },
   "sheets": [
     [
-      "5e906db2-81b9-4191-b4ed-f1d03e54219a",
+      "38c03ff7-ea47-4d00-b37d-ddcaa7d87722",
       ""
-    ],
-    [
-      "3f2412fd-ceb3-4d5f-b693-7628adb9c64f",
-      "Battery Charge Controller"
-    ],
-    [
-      "0b54958e-6712-400f-aa61-9f5fa371c31d",
-      "Solar Cell Connectors"
-    ],
-    [
-      "1f2aab95-1ce2-4d7d-8e47-47ae14e38d9e",
-      "Cubesat Bus Interface"
-    ],
-    [
-      "1fa7f756-57e9-4cd3-900e-1a1c84a07cba",
-      "Analog Digital Converters"
-    ],
-    [
-      "e2064052-5fd5-4fd9-90d4-ce7b28c75b19",
-      "Bus Gate"
-    ],
-    [
-      "b17ba0e3-1ddb-49c3-85eb-9d0dec0807ee",
-      "Current Sources"
-    ],
-    [
-      "8efe9fa1-fd79-411e-9a4d-de1a5e8757ee",
-      "Battery"
-    ],
-    [
-      "385aadbb-2cd4-43e1-9f59-43b251a5f3b9",
-      "MPPT Bus Junction"
     ]
   ],
   "text_variables": {}

@@ -483,6 +483,7 @@
     )
   )
 
+
   (junction (at 165.1 45.72) (diameter 0) (color 0 0 0 0)
     (uuid 07eedbdc-305f-48c2-a69b-7029615430c5)
   )
@@ -1141,7 +1142,7 @@
     (uuid 00000000-0000-0000-0000-00006179b797)
     (property "Reference" "CSBI_1" (id 0) (at 93.98 38.9382 0))
     (property "Value" "~" (id 1) (at 93.98 41.2496 0))
-    (property "Footprint" "" (id 2) (at 92.71 74.93 0)
+    (property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x25_P2.00mm_Vertical" (id 2) (at 92.71 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 92.71 74.93 0)
@@ -1204,7 +1205,7 @@
     (uuid 00000000-0000-0000-0000-0000617ab6cd)
     (property "Reference" "CSBI_2" (id 0) (at 171.45 37.6682 0))
     (property "Value" "~" (id 1) (at 171.45 39.9796 0))
-    (property "Footprint" "" (id 2) (at 170.18 73.66 0)
+    (property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x25_P2.00mm_Vertical" (id 2) (at 170.18 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 170.18 73.66 0)
