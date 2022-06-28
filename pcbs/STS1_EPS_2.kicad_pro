@@ -394,6 +394,15 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
@@ -405,6 +414,14 @@
     [
       "38c03ff7-ea47-4d00-b37d-ddcaa7d87722",
       ""
+    ],
+    [
+      "565e35d1-cb7b-4a86-8e2f-32bed42f487e",
+      "CSBI"
+    ],
+    [
+      "d08cc104-26df-403e-aeed-bb3c2e21e328",
+      "Deployment Timer"
     ]
   ],
   "text_variables": {}

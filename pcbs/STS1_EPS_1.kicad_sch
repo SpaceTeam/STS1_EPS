@@ -224,15 +224,15 @@
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type background))
         )
-        (pin passive line (at 10.16 0 180) (length 2.54)
+        (pin power_out line (at 10.16 0 180) (length 2.54)
           (name "VO" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 10.16 -2.54 180) (length 2.54)
+        (pin input line (at 10.16 -2.54 180) (length 2.54)
           (name "Vo_s" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -7.62 90) (length 2.54)
+        (pin power_in line (at 0 -7.62 90) (length 2.54)
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
@@ -240,7 +240,7 @@
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "4" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at -10.16 -2.54 0) (length 2.54)
+        (pin input line (at -10.16 -2.54 0) (length 2.54)
           (name "EN" (effects (font (size 1.27 1.27))))
           (number "5" (effects (font (size 1.27 1.27))))
         )
@@ -252,7 +252,7 @@
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "7" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at -10.16 0 0) (length 2.54)
+        (pin power_in line (at -10.16 0 0) (length 2.54)
           (name "VCC" (effects (font (size 1.27 1.27))))
           (number "8" (effects (font (size 1.27 1.27))))
         )
@@ -307,6 +307,9 @@
 
   (junction (at 92.71 114.3) (diameter 0) (color 0 0 0 0)
     (uuid 0f3ec6ec-ecd2-4ae0-aefe-8705f1fb070f)
+  )
+  (junction (at 118.11 25.4) (diameter 0) (color 0 0 0 0)
+    (uuid 7e46cb34-468a-4755-8393-210f26ef978f)
   )
   (junction (at 96.52 114.3) (diameter 0) (color 0 0 0 0)
     (uuid b152402a-3b18-41af-9505-db1fcba70273)
@@ -659,6 +662,10 @@
     (uuid a75e50d1-a77e-4de6-a213-a8d87184c5db)
   )
 
+  (wire (pts (xy 118.11 82.55) (xy 177.8 82.55))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid aa40f748-a5bb-4145-910c-a2ec5b0740c5)
+  )
   (wire (pts (xy 43.18 27.94) (xy 62.23 27.94))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid aaf11d4f-e95c-4e53-85ea-d023ed58e5fe)
@@ -686,6 +693,10 @@
   (wire (pts (xy 38.1 22.86) (xy 62.23 22.86))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b16f99e3-2724-49d1-80a5-cb3947a573b8)
+  )
+  (wire (pts (xy 118.11 25.4) (xy 118.11 82.55))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid b30a90c4-6f07-4de0-863c-4a348528f710)
   )
   (bus (pts (xy 38.1 82.55) (xy 40.64 82.55))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -779,7 +790,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid d6bef97a-d6af-4ad7-a4de-68aba6035e0b)
   )
-  (wire (pts (xy 101.6 25.4) (xy 130.81 25.4))
+  (wire (pts (xy 101.6 25.4) (xy 118.11 25.4))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid d7bd12e5-7491-48ae-8098-232c38952827)
   )
@@ -848,6 +859,10 @@
   (wire (pts (xy 76.2 55.88) (xy 76.2 58.42))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid fe6451ca-dcf9-4d6d-b955-8c26c9357f30)
+  )
+  (wire (pts (xy 118.11 25.4) (xy 130.81 25.4))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid feb6b608-f152-478e-801a-d7703ea26728)
   )
 
   (label "MPPT_Y+_1_I" (at 81.28 58.42 270)
@@ -1381,7 +1396,7 @@
     (property "Sheet name" "Cubesat Bus Interface" (id 0) (at 234.95 61.5184 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "STS1_EPS_CSBI.kicad_sch" (id 1) (at 234.95 93.0406 0)
+    (property "Sheet file" "STS1_EPS__1_CSBI.kicad_sch" (id 1) (at 234.95 93.0406 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "EPS_CHARGING" input (at 234.95 64.77 180)
@@ -1730,14 +1745,14 @@
     )
   )
 
-  (sheet (at 177.8 67.31) (size 21.59 15.24)
+  (sheet (at 177.8 67.31) (size 21.59 17.78)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 255 255 0 1.0000))
     (uuid e2064052-5fd5-4fd9-90d4-ce7b28c75b19)
     (property "Sheet name" "Bus Gate" (id 0) (at 184.15 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "STS1_EPS_1_BUS_GATE.kicad_sch" (id 1) (at 171.45 83.82 0)
+    (property "Sheet file" "STS1_EPS_1_BUS_GATE.kicad_sch" (id 1) (at 171.45 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "VOUT" input (at 177.8 69.85 180)
@@ -1767,6 +1782,10 @@
     (pin "DS3_H" bidirectional (at 177.8 77.47 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid ef7e73bc-95b6-4996-9971-71849e2b9385)
+    )
+    (pin "MPPT_BUS" input (at 177.8 82.55 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 51bc1d02-768f-4e8a-ab37-733c1ba65772)
     )
   )
 
@@ -2062,6 +2081,27 @@
     (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/34875903-e1d4-472d-8714-40c51c5143a0"
       (reference "#PWR093") (unit 1) (value "GND") (footprint "")
     )
+    (path "/e2064052-5fd5-4fd9-90d4-ce7b28c75b19/9e7f5c17-5077-471e-9cff-677ea202c3c1"
+      (reference "#PWR094") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/e2064052-5fd5-4fd9-90d4-ce7b28c75b19/ab4e8d3d-ebe1-489f-a869-2f0aacd36162"
+      (reference "#PWR095") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/e2064052-5fd5-4fd9-90d4-ce7b28c75b19/4aed2e18-4063-4e0b-bc80-17ac9f9b848d"
+      (reference "#PWR096") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/e2064052-5fd5-4fd9-90d4-ce7b28c75b19/fbcf7852-b06c-4cf0-bbf0-bc5aa599a928"
+      (reference "#PWR097") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/e2064052-5fd5-4fd9-90d4-ce7b28c75b19/b64a8a08-fff5-4412-bea2-36257ea1fd65"
+      (reference "#PWR098") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/e2064052-5fd5-4fd9-90d4-ce7b28c75b19/ca3247af-ec01-45df-b259-0c6467a979c9"
+      (reference "#PWR099") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/e2064052-5fd5-4fd9-90d4-ce7b28c75b19/d992ef2c-5347-42e4-8429-ec24c6233f14"
+      (reference "#PWR0100") (unit 1) (value "GND") (footprint "")
+    )
     (path "/1fa7f756-57e9-4cd3-900e-1a1c84a07cba/6482bd63-53da-4999-b022-1368d9a158a9"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
@@ -2077,6 +2117,9 @@
     (path "/0eccf400-f663-4f29-ba90-46a6acfd504b"
       (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
     )
+    (path "/e2064052-5fd5-4fd9-90d4-ce7b28c75b19/32657242-fdf6-4aa4-b75c-144293c91a79"
+      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
+    )
     (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/aca05398-1342-4a8f-a4cd-d711c1a7ba9b"
       (reference "C1") (unit 1) (value "50u") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T")
     )
@@ -2087,7 +2130,7 @@
       (reference "C3") (unit 1) (value "1µ") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/2ecf8c27-5a06-4677-a78b-6c66446641af"
-      (reference "C4") (unit 1) (value "680u") (footprint "")
+      (reference "C4") (unit 1) (value "680u") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X")
     )
     (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/78138a8e-6850-4e86-91d3-eb5b3ed3d001"
       (reference "C5") (unit 1) (value "50u") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T")
@@ -2171,10 +2214,16 @@
       (reference "C31") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/246d1528-42e6-4397-9e4a-5b0aeee34460"
-      (reference "C32") (unit 1) (value "680u") (footprint "")
+      (reference "C32") (unit 1) (value "680u") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X")
     )
     (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/c95f2ade-1fdc-45b4-9fe9-a38d44812dba"
       (reference "C33") (unit 1) (value "100p") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/e2064052-5fd5-4fd9-90d4-ce7b28c75b19/85b4ac38-6cb1-41a4-8023-3c58f865869d"
+      (reference "C34") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/e2064052-5fd5-4fd9-90d4-ce7b28c75b19/91f16d60-a8a5-4b39-a2c9-c7e080f307cf"
+      (reference "C35") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/1f2aab95-1ce2-4d7d-8e47-47ae14e38d9e/00000000-0000-0000-0000-00006179b797"
       (reference "CSBI_1") (unit 1) (value "~") (footprint "Connector_PinHeader_2.00mm:PinHeader_2x25_P2.00mm_Vertical")
@@ -2231,7 +2280,7 @@
       (reference "J7") (unit 1) (value "Panel Z+") (footprint "STS_Connector:M8085108")
     )
     (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/1f1fdffb-ad25-4e35-b984-29299b320fef"
-      (reference "L1") (unit 1) (value "680n") (footprint "Inductor_SMD:L_10.4x10.4_H4.8")
+      (reference "L1") (unit 1) (value "100u") (footprint "Inductor_SMD:L_Vishay_IHLP-4040")
     )
     (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/5afc5b79-309d-4228-a56a-22709fa82172"
       (reference "Q1") (unit 1) (value "SI7135DP-T1-GE3") (footprint "STS_Package_SO:POWERPAK_SO8_single")
@@ -2469,6 +2518,12 @@
     )
     (path "/e2064052-5fd5-4fd9-90d4-ce7b28c75b19/ff882d1a-8b34-4900-9769-a00f6ac083f9"
       (reference "U27") (unit 1) (value "TPS2420RSAT") (footprint "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.45x1.45mm_ThermalVias")
+    )
+    (path "/e2064052-5fd5-4fd9-90d4-ce7b28c75b19/fff12846-eff6-4eb2-bd20-b27dd071cd9f"
+      (reference "U28") (unit 1) (value "LTC4451AV#TRMPBF") (footprint "STS_Package_DFN_QFN:AD_LQFN-16")
+    )
+    (path "/e2064052-5fd5-4fd9-90d4-ce7b28c75b19/7284aa17-b888-495f-befc-8770e00ce38e"
+      (reference "U29") (unit 1) (value "LTC4451AV#TRMPBF") (footprint "STS_Package_DFN_QFN:AD_LQFN-16")
     )
   )
 )
