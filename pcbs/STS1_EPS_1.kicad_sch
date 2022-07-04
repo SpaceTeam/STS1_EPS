@@ -311,9 +311,6 @@
   (junction (at 124.46 34.29) (diameter 0) (color 0 0 0 0)
     (uuid 289fcf37-24c4-4833-81a4-b647aa97f60a)
   )
-  (junction (at 250.19 46.99) (diameter 0) (color 0 0 0 0)
-    (uuid 490dcd82-0d01-49f9-a33d-de68564696f9)
-  )
   (junction (at 134.62 120.65) (diameter 0) (color 0 0 0 0)
     (uuid b152402a-3b18-41af-9505-db1fcba70273)
   )
@@ -606,10 +603,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 6f1e72ba-d64b-4077-b245-576f68e8c566)
   )
-  (wire (pts (xy 250.19 44.45) (xy 250.19 46.99))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 707423c7-3b9b-46eb-b6af-8888d86f23cc)
-  )
   (wire (pts (xy 81.28 64.77) (xy 81.28 67.31))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 766c57d9-deb8-4969-841d-321ca04c7870)
@@ -718,10 +711,6 @@
   (wire (pts (xy 232.41 120.65) (xy 234.95 120.65))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid aea1bc36-c5c2-4ac2-8efc-d4cc1547c69d)
-  )
-  (wire (pts (xy 127 86.36) (xy 129.54 86.36))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid aedda7f9-cf03-4bae-8946-c6bc8eddf7f0)
   )
   (wire (pts (xy 130.81 120.65) (xy 134.62 120.65))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -936,10 +925,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0b1d1853-e270-4dc8-acff-99da4f94408d)
   )
-  (label "DS2_L" (at 127 86.36 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 0c6ed176-7e56-4da4-9893-7b4092485b39)
-  )
   (label "BAT_CHARGING" (at 231.14 73.66 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 0f0cff4b-1383-4564-8cf8-45451700e2ed)
@@ -971,6 +956,10 @@
   (label "MPPT_X-_1_I" (at 232.41 130.81 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 2a410ce8-63f0-4604-b4ed-2f64ebc07af1)
+  )
+  (label "DS4_SIGNAL_1" (at 127 83.82 180)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 2a42ee98-bc7e-42d0-a133-46d84378844b)
   )
   (label "Panel_Y-_[1..8]" (at 227.33 105.41 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -1019,6 +1008,10 @@
   (label "Panel_X-_5" (at 59.69 138.43 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 75322bb6-ffad-4895-80eb-12dacf66e328)
+  )
+  (label "DS4_SIGNAL_1" (at 250.19 44.45 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 75d05b66-b364-4cef-9fa1-23e411267184)
   )
   (label "MPPT_Z+_1_I" (at 232.41 140.97 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -1111,10 +1104,6 @@
   (label "BATT_RAW" (at 166.37 69.85 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b223ad06-9846-4eae-a3ee-d404c52485ae)
-  )
-  (label "DS2_H" (at 127 83.82 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid b5c61cea-26c5-444c-9e56-d6053a2ad751)
   )
   (label "MPPT_Z+_1_I" (at 86.36 67.31 270)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -1696,14 +1685,14 @@
     )
   )
 
-  (sheet (at 129.54 64.77) (size 34.29 24.13) (fields_autoplaced)
+  (sheet (at 129.54 64.77) (size 34.29 29.845) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 255 255 0 1.0000))
     (uuid 8efe9fa1-fd79-411e-9a4d-de1a5e8757ee)
     (property "Sheet name" "Battery" (id 0) (at 129.54 64.0584 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "STS1_EPS_BATTERY.kicad_sch" (id 1) (at 129.54 89.4846 0)
+    (property "Sheet file" "STS1_EPS_BATTERY.kicad_sch" (id 1) (at 129.54 95.1996 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "BATT" input (at 140.97 64.77 90)
@@ -1734,13 +1723,9 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid e66e0ebe-930e-4c45-91a4-f9965cc34c7f)
     )
-    (pin "DS2_H" input (at 129.54 83.82 180)
+    (pin "DS4_SIGNAL_1" input (at 129.54 83.82 180)
       (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 735686eb-dce3-4d6e-9260-4eff593db3c2)
-    )
-    (pin "DS2_L" input (at 129.54 86.36 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 6759e42c-73c1-4c5d-b820-437b2e607b0d)
+      (uuid f42c712e-61fe-4571-a319-768d158b0fc8)
     )
   )
 
@@ -1937,7 +1922,7 @@
     (path "/1fa7f756-57e9-4cd3-900e-1a1c84a07cba/8f4dc1f6-a98e-4f86-a7bb-b30a459cdb8f"
       (reference "#PWR048") (unit 1) (value "GND") (footprint "")
     )
-    (path "/8efe9fa1-fd79-411e-9a4d-de1a5e8757ee/5d8dcbd3-a26f-4bd9-8369-6f9912c614bf"
+    (path "/8efe9fa1-fd79-411e-9a4d-de1a5e8757ee/c0bc4476-4aa5-479f-b4a3-34a1f6026b8d"
       (reference "#PWR049") (unit 1) (value "GND") (footprint "")
     )
     (path "/157d3eb0-aad9-42b8-bf9e-84357c424797/28930ea7-05c0-4372-bc1f-5297705d608c"
@@ -2100,7 +2085,7 @@
       (reference "C7") (unit 1) (value "10µ") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/4e6fb95b-2fd2-4223-9ebd-6e07ed394875"
-      (reference "C8") (unit 1) (value "200n") (footprint "Capacitor_SMD:C_1812_4532Metric")
+      (reference "C8") (unit 1) (value "200n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/0822b058-9658-4bd1-b4dc-a10863dac121"
       (reference "C9") (unit 1) (value "680p") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -2246,6 +2231,12 @@
     (path "/385aadbb-2cd4-43e1-9f59-43b251a5f3b9/5fdeb631-ae70-4c90-bd4f-602e590f8ccf"
       (reference "Q3") (unit 1) (value "SI7135DP-T1-GE3") (footprint "STS_Package_SO:POWERPAK_SO8_single")
     )
+    (path "/8efe9fa1-fd79-411e-9a4d-de1a5e8757ee/767c2000-78a8-499c-9a48-e6fb1d04ae26"
+      (reference "Q4") (unit 1) (value "SI7272DP-T1-GE3") (footprint "STS_Package_SO:POWERPAK_SO8")
+    )
+    (path "/8efe9fa1-fd79-411e-9a4d-de1a5e8757ee/86db2731-62ec-450e-ab7c-b2796a31e495"
+      (reference "Q4") (unit 2) (value "SI7272DP-T1-GE3") (footprint "STS_Package_SO:POWERPAK_SO8")
+    )
     (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/78647b3a-bb18-4641-a0b7-ebe2e13283d3"
       (reference "R1") (unit 1) (value "135k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
@@ -2357,14 +2348,14 @@
     (path "/385aadbb-2cd4-43e1-9f59-43b251a5f3b9/85e89dba-490d-4816-a11a-82096e5ea897"
       (reference "R37") (unit 1) (value "0") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/8efe9fa1-fd79-411e-9a4d-de1a5e8757ee/c6c5a199-be2a-448c-82e3-9e57c4744b7c"
-      (reference "R44") (unit 1) (value "0") (footprint "Resistor_SMD:R_0805_2012Metric")
+    (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/162ca839-a2bd-4916-963a-6aaf38f4e25f"
+      (reference "R38") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/8efe9fa1-fd79-411e-9a4d-de1a5e8757ee/1684b46f-112a-4cc7-812b-7b58cca2364d"
+      (reference "R39") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/385aadbb-2cd4-43e1-9f59-43b251a5f3b9/6d5c5344-4166-4f6b-8a60-61e8e3fac33e"
       (reference "R45") (unit 1) (value "0") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/162ca839-a2bd-4916-963a-6aaf38f4e25f"
-      (reference "R?") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/f74591fa-cb68-47ad-92f1-f91edd2699b9"
       (reference "RV1") (unit 1) (value "50k") (footprint "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical")
@@ -2375,16 +2366,16 @@
     (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/85050ad2-8966-49b6-8716-98a48503ec34"
       (reference "U1") (unit 1) (value "LTC4020EUHFPBF") (footprint "STS_Package_DFN_QFN:AD_QFN-38_UHF")
     )
-    (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/19646095-6b26-4483-8648-0e6783e27ac2"
+    (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/dbec227c-8f41-4541-bcbe-07875e029fcf"
       (reference "U2") (unit 1) (value "SI7272DP-T1-GE3") (footprint "STS_Package_SO:POWERPAK_SO8")
     )
-    (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/dbec227c-8f41-4541-bcbe-07875e029fcf"
+    (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/19646095-6b26-4483-8648-0e6783e27ac2"
       (reference "U2") (unit 2) (value "SI7272DP-T1-GE3") (footprint "STS_Package_SO:POWERPAK_SO8")
     )
-    (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/cc6c4ec8-91e0-4c05-9d35-f249289df484"
+    (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/ebc1de83-5877-4385-ba1e-c7d8e677ab87"
       (reference "U3") (unit 1) (value "SI7272DP-T1-GE3") (footprint "STS_Package_SO:POWERPAK_SO8")
     )
-    (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/ebc1de83-5877-4385-ba1e-c7d8e677ab87"
+    (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/cc6c4ec8-91e0-4c05-9d35-f249289df484"
       (reference "U3") (unit 2) (value "SI7272DP-T1-GE3") (footprint "STS_Package_SO:POWERPAK_SO8")
     )
     (path "/8efe9fa1-fd79-411e-9a4d-de1a5e8757ee/00884843-2a5b-42d8-b1c1-2e50bd54c0bd"
