@@ -304,7 +304,6 @@
     )
   )
 
-
   (junction (at 130.81 120.65) (diameter 0) (color 0 0 0 0)
     (uuid 0f3ec6ec-ecd2-4ae0-aefe-8705f1fb070f)
   )
@@ -1793,9 +1792,6 @@
     (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/cedd8196-a6fb-429b-92d2-e7999b753d14"
       (reference "#PWR05") (unit 1) (value "GND") (footprint "")
     )
-    (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/21427ab3-f927-47c2-9007-77be5ea7b935"
-      (reference "#PWR06") (unit 1) (value "GND") (footprint "")
-    )
     (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/49aafd0c-f2f7-46c0-b838-c815a852ae3f"
       (reference "#PWR07") (unit 1) (value "GND") (footprint "")
     )
@@ -2080,9 +2076,6 @@
     )
     (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/b2f07a73-3c14-46f3-9742-da81c8631dfd"
       (reference "C6") (unit 1) (value "2µ2") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/66ff38e8-8046-4a07-b6e3-f32b9064ac90"
-      (reference "C7") (unit 1) (value "10µ") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/4e6fb95b-2fd2-4223-9ebd-6e07ed394875"
       (reference "C8") (unit 1) (value "200n") (footprint "Capacitor_SMD:C_0805_2012Metric")
