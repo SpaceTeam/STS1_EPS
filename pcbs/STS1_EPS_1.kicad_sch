@@ -2170,7 +2170,7 @@
     (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/8f6bf3af-3f01-4dbb-8f07-882a8f9e43fa"
       (reference "D2") (unit 1) (value "SD1206T040S1R0") (footprint "Diode_SMD:D_1206_3216Metric")
     )
-    (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/c86c75d0-26d2-415b-b476-528eed946890"
+    (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/6e400447-bdf1-46d4-a4e2-dd481f60e82f"
       (reference "D3") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric")
     )
     (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/36f1a2af-9d20-4835-847b-9f6a2db37990"
@@ -2257,7 +2257,7 @@
     (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/4121c95f-530f-4852-92e0-9f75d7af4926"
       (reference "R9") (unit 1) (value "166k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/31f65667-94a8-4432-ae47-d7ecc02cd3dc"
+    (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/26061cc5-9048-41c7-b293-682992d6266e"
       (reference "R10") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/c6e42e21-2767-47ac-b579-7d6f310b876b"
