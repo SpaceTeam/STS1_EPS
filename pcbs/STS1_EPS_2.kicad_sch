@@ -1023,7 +1023,7 @@
   (symbol (lib_id "power:GND") (at 40.64 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 81fc32f2-1bea-4d85-b273-19aea6694f98)
-    (property "Reference" "#PWR?" (id 0) (at 46.99 48.26 0)
+    (property "Reference" "#PWR0101" (id 0) (at 46.99 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 43.815 48.2599 90)
@@ -1041,7 +1041,7 @@
   (symbol (lib_id "power:GND") (at 40.64 45.72 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid aa4cb8ae-1732-4508-8f86-241f5fda7b1d)
-    (property "Reference" "#PWR?" (id 0) (at 46.99 45.72 0)
+    (property "Reference" "#PWR0103" (id 0) (at 46.99 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 43.815 45.7199 90)
@@ -1101,7 +1101,7 @@
   (symbol (lib_id "power:GND") (at 27.94 55.88 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d6440847-fffc-4688-9eb9-ddd3a0cae49d)
-    (property "Reference" "#PWR?" (id 0) (at 21.59 55.88 0)
+    (property "Reference" "#PWR0105" (id 0) (at 21.59 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 20.955 55.88 90)
@@ -1610,20 +1610,20 @@
     (path "/4a4cf4f3-b3ca-46d9-b2ff-f21a8c4df335/b977856b-c438-4ac7-8f82-7ac4ae0e93fd"
       (reference "#PWR089") (unit 1) (value "GND") (footprint "")
     )
+    (path "/81fc32f2-1bea-4d85-b273-19aea6694f98"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
     (path "/d08cc104-26df-403e-aeed-bb3c2e21e328/08a55943-56b2-44aa-a3f3-c51c6cdeff77"
       (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/aa4cb8ae-1732-4508-8f86-241f5fda7b1d"
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
     )
     (path "/f6013889-7b77-4458-9ae4-3903f8947363/bdece9d4-cd42-463a-8ded-04f658ca84ce"
       (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
     )
-    (path "/81fc32f2-1bea-4d85-b273-19aea6694f98"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/aa4cb8ae-1732-4508-8f86-241f5fda7b1d"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/d6440847-fffc-4688-9eb9-ddd3a0cae49d"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
     )
     (path "/d08cc104-26df-403e-aeed-bb3c2e21e328/f818a80f-c894-4935-b466-2fb75a773837"
       (reference "C1") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -1709,8 +1709,14 @@
     (path "/975ef3b6-1008-4d19-83f6-e886243dad51/51f87c11-f21d-4b23-b860-40d7e720bc5a"
       (reference "Q11") (unit 1) (value "SI7272DP-T1-GE3") (footprint "STS_Package_SO:POWERPAK_SO8")
     )
+    (path "/975ef3b6-1008-4d19-83f6-e886243dad51/76ac225f-e9b4-4e25-8eaf-1a8360b32850"
+      (reference "Q11") (unit 2) (value "SI7272DP-T1-GE3") (footprint "STS_Package_SO:POWERPAK_SO8")
+    )
     (path "/975ef3b6-1008-4d19-83f6-e886243dad51/0b431690-362d-43a5-96c8-623909a67694"
       (reference "Q12") (unit 1) (value "SI7272DP-T1-GE3") (footprint "STS_Package_SO:POWERPAK_SO8")
+    )
+    (path "/975ef3b6-1008-4d19-83f6-e886243dad51/3e7b13e7-fc02-437d-8452-f538c7b813b0"
+      (reference "Q12") (unit 2) (value "SI7272DP-T1-GE3") (footprint "STS_Package_SO:POWERPAK_SO8")
     )
     (path "/782ccd28-d43b-446c-892c-2705ffe9f1f3/2494f21e-6a17-4d3d-9816-457c9335304d"
       (reference "Q13") (unit 1) (value "2N7002") (footprint "Package_TO_SOT_SMD:SOT-23")
