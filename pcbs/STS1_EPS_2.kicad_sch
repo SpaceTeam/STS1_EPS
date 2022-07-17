@@ -493,6 +493,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 3a93d894-6768-40ab-8e16-a1ff46a58bd4)
   )
+  (wire (pts (xy 131.445 43.18) (xy 171.45 43.18))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 3d068d10-aaeb-4abe-bb60-2651cecb3758)
+  )
   (wire (pts (xy 77.47 104.14) (xy 78.74 104.14))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 41b906cb-f218-46d0-be25-94814a1130c6)
@@ -516,6 +520,10 @@
   (wire (pts (xy 33.02 134.62) (xy 43.18 134.62))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 4f49c825-1e59-4800-a50d-8471be0829d3)
+  )
+  (wire (pts (xy 99.695 43.18) (xy 67.31 43.18))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 50ab791c-af46-4531-bc11-c898544b83f3)
   )
   (wire (pts (xy 43.18 134.62) (xy 43.18 123.19))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -556,10 +564,6 @@
   (wire (pts (xy 43.18 81.28) (xy 43.18 96.52))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 6f7382de-996a-485e-bf63-c3a390566c39)
-  )
-  (wire (pts (xy 67.31 43.18) (xy 171.45 43.18))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 73ffa595-bc61-489d-88d1-578945ba7a54)
   )
   (wire (pts (xy 38.1 101.6) (xy 49.53 101.6))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -767,7 +771,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 446752c9-ae26-4589-9919-a17c4a81f69e)
   )
-  (label "BAT_RAW" (at 48.26 142.24 180)
+  (label "BATT_RAW" (at 48.26 142.24 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 46f114ce-a7d3-4c42-a17e-81d32bf541b8)
   )
@@ -1386,6 +1390,26 @@
     )
   )
 
+  (sheet (at 99.695 41.275) (size 31.75 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 255 255 0 1.0000))
+    (uuid f1424bad-2b95-4d34-bc23-e338e9fb6fbb)
+    (property "Sheet name" "Capacitor Bank" (id 0) (at 99.695 40.5634 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "STS1_EPS_2_CAP_BANK.kicad_sch" (id 1) (at 99.695 45.6696 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "INTERNAL_V" input (at 99.695 43.18 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 47709d3a-3841-484e-b017-6bf96ea301b3)
+    )
+    (pin "BACKED_V" output (at 131.445 43.18 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 3457d759-bb27-4d26-87ef-c79904525394)
+    )
+  )
+
   (sheet (at 194.31 90.17) (size 27.305 8.255) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 255 255 0 1.0000))
@@ -1418,6 +1442,7 @@
     (path "/782ccd28-d43b-446c-892c-2705ffe9f1f3" (page "5"))
     (path "/f6013889-7b77-4458-9ae4-3903f8947363" (page "6"))
     (path "/975ef3b6-1008-4d19-83f6-e886243dad51" (page "7"))
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb" (page "8"))
   )
 
   (symbol_instances
@@ -1583,6 +1608,54 @@
     (path "/f6013889-7b77-4458-9ae4-3903f8947363/6ee1b713-3f25-4da3-abfd-ad806c0cffd9"
       (reference "#PWR054") (unit 1) (value "GND") (footprint "")
     )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/13001122-9f7b-43c3-9cd6-371a20f82a80"
+      (reference "#PWR055") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/c21bfdab-2dbd-4005-9d4d-c0f43b63b038"
+      (reference "#PWR056") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/9ef7a3ec-23f3-4ac7-9b08-342500594731"
+      (reference "#PWR057") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/34315873-e1af-41b7-b231-ae4abdb02aa7"
+      (reference "#PWR058") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/b6da7ff9-8d77-4115-b71a-43f45a813e0c"
+      (reference "#PWR059") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/12b8c6ff-7483-4f98-982b-64a09013cc09"
+      (reference "#PWR060") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/df9adae2-19f6-4079-9357-1ac16edbe82f"
+      (reference "#PWR061") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/f59ab91b-3873-4e0d-8e76-309adc34e8ad"
+      (reference "#PWR062") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/383ee479-7cb6-4308-bda4-2db98e15e246"
+      (reference "#PWR063") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/6587fd9e-c92c-40a6-9b44-08d30c1591f7"
+      (reference "#PWR064") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/fde8fff5-656e-431d-93fc-1003e8df912c"
+      (reference "#PWR065") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/e14abb33-d113-43eb-8f7e-1d73c17f0fc5"
+      (reference "#PWR066") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/0694a10a-d8da-48a3-b260-f97da1e700fd"
+      (reference "#PWR067") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/4654fb7e-8526-4edf-9b7f-34d2719c3a74"
+      (reference "#PWR068") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/5b9d4dea-f51b-4891-acb6-d037458505db"
+      (reference "#PWR069") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/8e498e40-ec1c-494a-b618-f427264a6574"
+      (reference "#PWR070") (unit 1) (value "GND") (footprint "")
+    )
     (path "/4a4cf4f3-b3ca-46d9-b2ff-f21a8c4df335/cfc68ce3-6fc8-4636-977e-f459f51d4fdc"
       (reference "#PWR081") (unit 1) (value "GND") (footprint "")
     )
@@ -1639,6 +1712,54 @@
     )
     (path "/782ccd28-d43b-446c-892c-2705ffe9f1f3/a7dfca9f-bc6f-491c-bbcc-38e010c31859"
       (reference "C5") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/723f186f-e509-4f79-b697-dbc3026f5475"
+      (reference "C6") (unit 1) (value "C_Polarized") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X")
+    )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/b1760b00-bfac-4a83-8ee9-c2f1bfd2d1f9"
+      (reference "C7") (unit 1) (value "C") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/f6ed493f-e121-427f-a2ef-45fec099a83b"
+      (reference "C8") (unit 1) (value "C") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/e0e4504f-53f9-4186-9cf0-5f5692dade37"
+      (reference "C9") (unit 1) (value "C") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/6a609d22-4e4e-4b0a-9f7a-81951b5fa963"
+      (reference "C10") (unit 1) (value "C_Polarized") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X")
+    )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/ec6df8a7-950d-4da9-9729-0fcf78f40e28"
+      (reference "C11") (unit 1) (value "C") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/212e8519-c4b5-4595-8229-b1c4277c4f37"
+      (reference "C12") (unit 1) (value "C") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/b2ed7dd8-3df9-4cc2-a304-b76acaec94bc"
+      (reference "C13") (unit 1) (value "C_Polarized") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X")
+    )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/5c66b8e1-b79a-4cff-b6c3-acfed3cf5ae1"
+      (reference "C14") (unit 1) (value "C") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/1e60eeae-2139-4b4d-9a5c-78a8982d7e29"
+      (reference "C15") (unit 1) (value "C") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/9704fb47-fef8-4b6d-ada7-99cc254ed926"
+      (reference "C16") (unit 1) (value "C_Polarized") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X")
+    )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/b4121b47-f7c9-43d3-8a0e-2fd48447831d"
+      (reference "C17") (unit 1) (value "C") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/54ec4744-d942-4ba6-a87b-b8c60bfb75f8"
+      (reference "C18") (unit 1) (value "C") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/cda492c7-7d76-4ced-952b-f2800c1db58b"
+      (reference "C19") (unit 1) (value "C_Polarized") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X")
+    )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/d4e47442-5155-44e0-88cf-fcdd2d5213e9"
+      (reference "C20") (unit 1) (value "C") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/8299084d-fb7b-4316-b7e8-0f44cd67c851"
+      (reference "C21") (unit 1) (value "C") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/4a4cf4f3-b3ca-46d9-b2ff-f21a8c4df335/59e947b1-e254-4558-91bc-1318a7ec413c"
       (reference "C29") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0805_2012Metric")
