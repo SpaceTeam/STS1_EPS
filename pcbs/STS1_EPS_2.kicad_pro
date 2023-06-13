@@ -105,8 +105,8 @@
         "max_error": 0.005,
         "min_clearance": 0.19999999999999998,
         "min_copper_edge_clearance": 0.01,
-        "min_hole_clearance": 0.254,
-        "min_hole_to_hole": 0.5,
+        "min_hole_clearance": 0.25,
+        "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
@@ -332,7 +332,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "ignore",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -346,7 +346,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "STS1_EPS_1.kicad_pro",
+    "filename": "STS1_EPS_2.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -378,9 +378,9 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "D:/Program Files/KiCad/6.0/bin/",
       "specctra_dsn": "",
-      "step": "../../../../Users/davfr/Desktop/STS1_EPS_1.step",
+      "step": "../../../../Users/davfr/Desktop/STS1_EPS_2.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -425,40 +425,36 @@
   },
   "sheets": [
     [
-      "5e906db2-81b9-4191-b4ed-f1d03e54219a",
+      "38c03ff7-ea47-4d00-b37d-ddcaa7d87722",
       ""
     ],
     [
-      "3f2412fd-ceb3-4d5f-b693-7628adb9c64f",
-      "Battery Charge Controller"
+      "565e35d1-cb7b-4a86-8e2f-32bed42f487e",
+      "CSBI"
     ],
     [
-      "0b54958e-6712-400f-aa61-9f5fa371c31d",
-      "Solar Cell Connectors"
+      "d08cc104-26df-403e-aeed-bb3c2e21e328",
+      "Deployment Timer"
     ],
     [
-      "1f2aab95-1ce2-4d7d-8e47-47ae14e38d9e",
-      "Cubesat Bus Interface"
+      "4a4cf4f3-b3ca-46d9-b2ff-f21a8c4df335",
+      "Bus Gate"
     ],
     [
-      "1fa7f756-57e9-4cd3-900e-1a1c84a07cba",
-      "Analog Digital Converters"
+      "782ccd28-d43b-446c-892c-2705ffe9f1f3",
+      "Deployment Switches + RBF"
     ],
     [
-      "b17ba0e3-1ddb-49c3-85eb-9d0dec0807ee",
-      "Current Sources"
+      "f6013889-7b77-4458-9ae4-3903f8947363",
+      "Battery State Detection"
     ],
     [
-      "8efe9fa1-fd79-411e-9a4d-de1a5e8757ee",
-      "Battery"
+      "975ef3b6-1008-4d19-83f6-e886243dad51",
+      "Antenna Deployment"
     ],
     [
-      "157d3eb0-aad9-42b8-bf9e-84357c424797",
-      "Power ORing"
-    ],
-    [
-      "385aadbb-2cd4-43e1-9f59-43b251a5f3b9",
-      "MPPT Bus Junction"
+      "f1424bad-2b95-4d34-bc23-e338e9fb6fbb",
+      "Capacitor Bank"
     ]
   ],
   "text_variables": {}

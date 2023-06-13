@@ -1,0 +1,25 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 6694ecbd-245f-4858-b96e-2a9d2ecdc94b)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+
+  (wire (pts (xy 25.4 27.94) (xy 251.46 27.94))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 5fb90de8-e5c4-4a30-a2da-cd4368a52263)
+  )
+
+  (hierarchical_label "BATT" (shape input) (at 25.4 27.94 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 29493591-2cb5-43f5-b9f3-b4fd69767e61)
+  )
+  (hierarchical_label "BATT_INHIBIT" (shape input) (at 251.46 27.94 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 57bce366-b71f-46d0-ab15-632ab022993f)
+  )
+)

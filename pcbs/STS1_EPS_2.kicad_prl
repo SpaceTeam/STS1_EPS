@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 1,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [],
@@ -62,11 +62,11 @@
       35,
       36
     ],
-    "visible_layers": "000d030_80000007",
-    "zone_display_mode": 1
+    "visible_layers": "ffd7f02_fffffff8",
+    "zone_display_mode": 0
   },
   "meta": {
-    "filename": "STS1_EPS_1.kicad_prl",
+    "filename": "STS1_EPS_2.kicad_prl",
     "version": 3
   },
   "project": {
