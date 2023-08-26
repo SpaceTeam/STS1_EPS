@@ -62,11 +62,11 @@
       35,
       36
     ],
-    "visible_layers": "ffd7fff_ffffffff",
+    "visible_layers": "ffd7f02_fffffff8",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "STS1_EPS_3.kicad_prl",
+    "filename": "STS1_EPS_2.kicad_prl",
     "version": 3
   },
   "project": {
