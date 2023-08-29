@@ -455,6 +455,10 @@
     [
       "f1424bad-2b95-4d34-bc23-e338e9fb6fbb",
       "Capacitor Bank"
+    ],
+    [
+      "75dca64b-8858-4c1f-8340-a846cd3da1d0",
+      "Battery"
     ]
   ],
   "text_variables": {}
