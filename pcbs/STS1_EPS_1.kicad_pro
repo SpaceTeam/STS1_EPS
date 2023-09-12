@@ -119,7 +119,9 @@
         "use_height_for_length_calcs": true
       },
       "track_widths": [
-        0.0
+        0.0,
+        0.0,
+        0.2
       ],
       "via_dimensions": [
         {
@@ -137,9 +139,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "power_pin_not_driven|1460500|1282700|d893578e-f1f5-4b9e-b334-39baa003d836|00000000-0000-0000-0000-000000000000"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
