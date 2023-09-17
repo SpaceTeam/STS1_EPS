@@ -387,6 +387,7 @@
     )
   )
 
+
   (junction (at 130.81 120.65) (diameter 0) (color 0 0 0 0)
     (uuid 0f3ec6ec-ecd2-4ae0-aefe-8705f1fb070f)
   )
@@ -2342,10 +2343,10 @@
       (reference "C34") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/1f2aab95-1ce2-4d7d-8e47-47ae14e38d9e/00000000-0000-0000-0000-00006179b797"
-      (reference "CSBI_1") (unit 1) (value "CSBI_1") (footprint "Connector_PinHeader_2.00mm:PinHeader_2x25_P2.00mm_Vertical")
+      (reference "CSBI_1") (unit 1) (value "ESQT-125-02-F-D-800") (footprint "Connector_PinHeader_2.00mm:PinHeader_2x25_P2.00mm_Vertical")
     )
     (path "/1f2aab95-1ce2-4d7d-8e47-47ae14e38d9e/00000000-0000-0000-0000-0000617ab6cd"
-      (reference "CSBI_2") (unit 1) (value "CSBI_2") (footprint "Connector_PinHeader_2.00mm:PinHeader_2x25_P2.00mm_Vertical")
+      (reference "CSBI_2") (unit 1) (value "ESQT-125-02-F-D-800") (footprint "Connector_PinHeader_2.00mm:PinHeader_2x25_P2.00mm_Vertical")
     )
     (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/94825378-4abf-4605-a44d-ce5a98bab42f"
       (reference "D1") (unit 1) (value "SD1206T040S1R0") (footprint "Diode_SMD:D_1206_3216Metric")
