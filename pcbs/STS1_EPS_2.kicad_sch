@@ -637,6 +637,66 @@
         )
       )
     )
+    (symbol "power:GNDREF" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GNDREF" (id 1) (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GNDREF_0_1"
+        (polyline
+          (pts
+            (xy -0.635 -1.905)
+            (xy 0.635 -1.905)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.127 -2.54)
+            (xy 0.127 -2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -1.27)
+            (xy 0 0)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -1.27)
+            (xy -1.27 -1.27)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+      (symbol "GNDREF_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GNDREF" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
   )
 
   (junction (at 27.94 43.18) (diameter 0) (color 0 0 0 0)
@@ -1035,7 +1095,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 153b1462-8287-44a0-8d55-e248e7ce5006)
   )
-  (label "DS2_SIGNAL_3" (at 78.74 101.6 0)
+  (label "DS1_SIGNAL_3" (at 78.74 101.6 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1a57c075-0b31-47cf-aeb1-3f582c5fd195)
   )
@@ -1171,10 +1231,6 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d559df45-d92e-43c1-828a-15e6bf03faf5)
   )
-  (label "GNDREF" (at 43.815 180.34 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid d6af2843-44d9-4afa-a0a2-5b2da91acfdd)
-  )
   (label "BATT_RAW" (at 193.04 109.855 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid da6d9039-0a41-4754-b538-693e46351534)
@@ -1287,6 +1343,24 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cd219788-7b9a-43b8-bcba-0db0134c2e19))
+  )
+
+  (symbol (lib_id "power:GNDREF") (at 43.815 180.34 90) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 27387f3b-2bfa-4b28-8ff1-4907e84527b6)
+    (property "Reference" "#PWR?" (id 0) (at 50.165 180.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDREF" (id 1) (at 46.99 180.3399 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (id 2) (at 43.815 180.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 43.815 180.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 274c70ee-525a-44a1-a954-60d69655a7f1))
   )
 
   (symbol (lib_id "power:GND") (at 40.64 53.34 90) (unit 1)
@@ -2293,6 +2367,12 @@
     (path "/565e35d1-cb7b-4a86-8e2f-32bed42f487e/517a0e72-49b5-4f1e-b514-9db03e38576e"
       (reference "#PWR0123") (unit 1) (value "~") (footprint "")
     )
+    (path "/782ccd28-d43b-446c-892c-2705ffe9f1f3/2f88d1c3-a8ed-418c-9a0c-3bcf014bd61e"
+      (reference "#PWR0124") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/27387f3b-2bfa-4b28-8ff1-4907e84527b6"
+      (reference "#PWR?") (unit 1) (value "GNDREF") (footprint "")
+    )
     (path "/d08cc104-26df-403e-aeed-bb3c2e21e328/f818a80f-c894-4935-b466-2fb75a773837"
       (reference "C1") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
@@ -2304,6 +2384,9 @@
     )
     (path "/782ccd28-d43b-446c-892c-2705ffe9f1f3/1e44f5c4-696e-4dcb-b2ad-588c0b279dab"
       (reference "C4") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/782ccd28-d43b-446c-892c-2705ffe9f1f3/bab6904b-9018-41a1-928c-c75a76fad2c6"
+      (reference "C5") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/f1424bad-2b95-4d34-bc23-e338e9fb6fbb/723f186f-e509-4f79-b697-dbc3026f5475"
       (reference "C7") (unit 1) (value "C_Polarized") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X")
