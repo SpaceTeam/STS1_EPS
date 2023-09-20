@@ -449,6 +449,7 @@
     )
   )
 
+
   (junction (at 154.94 43.18) (diameter 0) (color 0 0 0 0)
     (uuid 008a1b28-ac4c-4645-b9e4-d442482cbda3)
   )
@@ -1123,6 +1124,10 @@
   (hierarchical_label "MPPT_Y-_2_I" (shape output) (at 86.36 103.505 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid cdb00961-baa6-47cf-8d53-0e0065cde7e1)
+  )
+  (hierarchical_label "MPPT_SUM" (shape output) (at 146.685 43.18 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid d42ac237-0b5d-4fb3-8fc3-9a869ecb9e14)
   )
   (hierarchical_label "MPPT_Y+_2_IN" (shape input) (at 47.625 46.355 180)
     (effects (font (size 1.27 1.27)) (justify right))
