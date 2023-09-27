@@ -715,7 +715,6 @@
     )
   )
 
-
   (junction (at 27.94 43.18) (diameter 0) (color 0 0 0 0)
     (uuid 01b3e30f-8b1e-4b7c-8ae6-3c7f221d9801)
   )
@@ -2597,16 +2596,28 @@
       (reference "F1") (unit 1) (value "Fuse") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/565e35d1-cb7b-4a86-8e2f-32bed42f487e/3e26f730-253e-402a-8120-a5ab0c373033"
-      (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_4.3mm_M4_Pad_Via")
+      (reference "H1") (unit 1) (value "Mounting hole electronic stack") (footprint "MountingHole:MountingHole_4.3mm_M4_Pad_Via")
     )
     (path "/565e35d1-cb7b-4a86-8e2f-32bed42f487e/d6f3a41e-c12c-4fed-8ae4-99cbe30ad5b9"
-      (reference "H2") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_4.3mm_M4_Pad_Via")
+      (reference "H2") (unit 1) (value "Mounting hole electronic stack") (footprint "MountingHole:MountingHole_4.3mm_M4_Pad_Via")
     )
     (path "/565e35d1-cb7b-4a86-8e2f-32bed42f487e/c826bf62-693b-4c19-886c-ab0ebdd04faa"
-      (reference "H3") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_4.3mm_M4_Pad_Via")
+      (reference "H3") (unit 1) (value "Mounting hole electronic stack") (footprint "MountingHole:MountingHole_4.3mm_M4_Pad_Via")
     )
     (path "/565e35d1-cb7b-4a86-8e2f-32bed42f487e/ecd18666-b577-4e14-af9a-2c822fc2f68a"
-      (reference "H4") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_4.3mm_M4_Pad_Via")
+      (reference "H4") (unit 1) (value "Mounting hole electronic stack") (footprint "MountingHole:MountingHole_4.3mm_M4_Pad_Via")
+    )
+    (path "/565e35d1-cb7b-4a86-8e2f-32bed42f487e/d5dcaae4-2428-43e6-83dc-21ae675e835c"
+      (reference "H5") (unit 1) (value "Mounting hole battery holder") (footprint "MountingHole:MountingHole_2.2mm_M2")
+    )
+    (path "/565e35d1-cb7b-4a86-8e2f-32bed42f487e/710f803f-be75-4914-8bc1-442ce47fae42"
+      (reference "H6") (unit 1) (value "Mounting hole battery holder") (footprint "MountingHole:MountingHole_2.2mm_M2")
+    )
+    (path "/565e35d1-cb7b-4a86-8e2f-32bed42f487e/21414d59-7e29-405a-a957-2bbae953d7b2"
+      (reference "H7") (unit 1) (value "Mounting hole battery holder") (footprint "MountingHole:MountingHole_2.2mm_M2")
+    )
+    (path "/565e35d1-cb7b-4a86-8e2f-32bed42f487e/2a1a3319-182c-4dac-baac-77c1f29f1a0d"
+      (reference "H8") (unit 1) (value "Mounting hole battery holder") (footprint "MountingHole:MountingHole_2.2mm_M2")
     )
     (path "/d55f1a10-ba3c-4c5f-97bf-5adefda70676"
       (reference "J1") (unit 1) (value "DS1") (footprint "STS_Connector:M808420245")
