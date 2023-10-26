@@ -403,7 +403,6 @@
     )
   )
 
-
   (junction (at 130.81 120.65) (diameter 0) (color 0 0 0 0)
     (uuid 0f3ec6ec-ecd2-4ae0-aefe-8705f1fb070f)
   )
@@ -1520,9 +1519,7 @@
     (property "Datasheet" "~" (id 3) (at 242.57 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Part#" "ESQT-107-02-F-D-800" (id 4) (at 242.57 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
+    (property "Part#" "ESQT-111-02-F-D-640" (id 4) (at 243.205 59.69 0))
     (pin "1" (uuid 1e1ee3c8-86ab-40b7-9598-caa8b44e6d32))
     (pin "10" (uuid f9fe9698-f341-4508-b8e2-5d4673acd587))
     (pin "11" (uuid 5127e6e0-2cb8-4a9c-93fa-98671fac6af2))
@@ -2381,10 +2378,10 @@
       (reference "C34") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/1f2aab95-1ce2-4d7d-8e47-47ae14e38d9e/00000000-0000-0000-0000-00006179b797"
-      (reference "CSBI_1") (unit 1) (value "ESQT-125-02-F-D-800") (footprint "Connector_PinHeader_2.00mm:PinHeader_2x25_P2.00mm_Vertical")
+      (reference "CSBI_1") (unit 1) (value "ESQT-125-02-F-D-640") (footprint "Connector_PinHeader_2.00mm:PinHeader_2x25_P2.00mm_Vertical")
     )
     (path "/1f2aab95-1ce2-4d7d-8e47-47ae14e38d9e/00000000-0000-0000-0000-0000617ab6cd"
-      (reference "CSBI_2") (unit 1) (value "ESQT-125-02-F-D-800") (footprint "Connector_PinHeader_2.00mm:PinHeader_2x25_P2.00mm_Vertical")
+      (reference "CSBI_2") (unit 1) (value "ESQT-125-02-F-D-640") (footprint "Connector_PinHeader_2.00mm:PinHeader_2x25_P2.00mm_Vertical")
     )
     (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/94825378-4abf-4605-a44d-ce5a98bab42f"
       (reference "D1") (unit 1) (value "SD1206T040S1R0") (footprint "Diode_SMD:D_1206_3216Metric")
@@ -2492,13 +2489,13 @@
       (reference "R6") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/3b8240d2-4008-4a93-b05d-8d239444b308"
-      (reference "R7") (unit 1) (value "500k") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R7") (unit 1) (value "499k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/f458de1e-ae9b-4650-9d23-8e3e2b2b59c3"
       (reference "R8") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/4121c95f-530f-4852-92e0-9f75d7af4926"
-      (reference "R9") (unit 1) (value "166k") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R9") (unit 1) (value "169k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/2b84e897-05d2-47fa-b5db-a7f9425518f6"
       (reference "R10") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -2543,7 +2540,7 @@
       (reference "R23") (unit 1) (value "6k8") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/1fa7f756-57e9-4cd3-900e-1a1c84a07cba/4f4fa1eb-492d-404d-b7dd-002a78e82a53"
-      (reference "R24") (unit 1) (value "87k5") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R24") (unit 1) (value "86k6") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/1fa7f756-57e9-4cd3-900e-1a1c84a07cba/b0917f33-35b4-44e8-983e-3d1f6ba9470a"
       (reference "R25") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -2627,7 +2624,7 @@
       (reference "R51") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/1fa7f756-57e9-4cd3-900e-1a1c84a07cba/e38bd244-a496-4946-b121-0ffdb72633a8"
-      (reference "R52") (unit 1) (value "87k5") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R52") (unit 1) (value "86k6") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/1fa7f756-57e9-4cd3-900e-1a1c84a07cba/65588c33-cbaf-48da-984b-d8c1b3dc2ee0"
       (reference "R53") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")

@@ -547,7 +547,6 @@
     )
   )
 
-
   (junction (at 193.04 45.72) (diameter 0) (color 0 0 0 0)
     (uuid 07eedbdc-305f-48c2-a69b-7029615430c5)
   )
@@ -913,6 +912,7 @@
     (property "Datasheet" "~" (id 3) (at 92.71 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Part #" "SQT-125-02-L-D" (id 4) (at 94.615 109.22 0))
     (pin "1" (uuid f9603961-b66f-4dbe-a6ab-ad2bf947c003))
     (pin "10" (uuid 6ff6e635-79f0-49f8-a21e-dd8d94865f5e))
     (pin "11" (uuid be642562-9280-46f2-a9c9-4f569882ef7c))
@@ -976,6 +976,7 @@
     (property "Datasheet" "~" (id 3) (at 198.12 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Part #" "SQT-125-02-L-D" (id 4) (at 198.12 107.95 0))
     (pin "1" (uuid 1c5849c5-6015-4fa7-bc0a-f0b01b2ddd1c))
     (pin "10" (uuid 9879b7dc-faad-45aa-b8c2-71c50e7804d3))
     (pin "11" (uuid d43fa5ed-a964-4503-80ef-a2ce13b0819a))
