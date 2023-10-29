@@ -1519,7 +1519,7 @@
     (property "Datasheet" "~" (id 3) (at 242.57 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Part#" "ESQT-111-02-F-D-640" (id 4) (at 243.205 59.69 0))
+    (property "Part#" "ESQT-111-02-F-D-560" (id 4) (at 243.205 59.69 0))
     (pin "1" (uuid 1e1ee3c8-86ab-40b7-9598-caa8b44e6d32))
     (pin "10" (uuid f9fe9698-f341-4508-b8e2-5d4673acd587))
     (pin "11" (uuid 5127e6e0-2cb8-4a9c-93fa-98671fac6af2))
@@ -2378,10 +2378,10 @@
       (reference "C34") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/1f2aab95-1ce2-4d7d-8e47-47ae14e38d9e/00000000-0000-0000-0000-00006179b797"
-      (reference "CSBI_1") (unit 1) (value "ESQT-125-02-F-D-640") (footprint "Connector_PinHeader_2.00mm:PinHeader_2x25_P2.00mm_Vertical")
+      (reference "CSBI_1") (unit 1) (value "ESQT-125-02-F-D-560") (footprint "Connector_PinHeader_2.00mm:PinHeader_2x25_P2.00mm_Vertical")
     )
     (path "/1f2aab95-1ce2-4d7d-8e47-47ae14e38d9e/00000000-0000-0000-0000-0000617ab6cd"
-      (reference "CSBI_2") (unit 1) (value "ESQT-125-02-F-D-640") (footprint "Connector_PinHeader_2.00mm:PinHeader_2x25_P2.00mm_Vertical")
+      (reference "CSBI_2") (unit 1) (value "ESQT-125-02-F-D-560") (footprint "Connector_PinHeader_2.00mm:PinHeader_2x25_P2.00mm_Vertical")
     )
     (path "/3f2412fd-ceb3-4d5f-b693-7628adb9c64f/94825378-4abf-4605-a44d-ce5a98bab42f"
       (reference "D1") (unit 1) (value "SD1206T040S1R0") (footprint "Diode_SMD:D_1206_3216Metric")
