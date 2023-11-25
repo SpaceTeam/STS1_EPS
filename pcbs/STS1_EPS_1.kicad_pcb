@@ -384,7 +384,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 993e394b-4da4-40ff-9435-f9ad7f56d09e)
     )
-    (fp_text value "ESQT-125-02-F-D-800" (at 1 50.06) (layer "F.Fab") hide
+    (fp_text value "ESQT-125-02-F-D-560" (at 1 50.06) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 733ec003-03f1-4ef3-b00c-6ad1dafc7b69)
     )
@@ -509,8 +509,8 @@
       (net 1 "GND") (pinfunction "Pin_49") (pintype "passive") (tstamp 4cc45cf8-19fb-4937-8a24-00cb422c2002))
     (pad "50" thru_hole oval locked (at 2 48) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "Pin_50") (pintype "passive") (tstamp 0a00b42b-28e7-436b-bcc7-c0e2bdd614a3))
-    (model ":STS_Connector:ESQT-125-02-M-D-640.stp"
-      (offset (xyz 1 -24 10))
+    (model ":STS_Connector:ESQT-125-02-M-D-560.stp"
+      (offset (xyz 1 -24 7.9))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
@@ -564,7 +564,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9a91568d-c324-45bb-ac5d-2558fe0340f5)
     )
-    (fp_text value "ESQT-125-02-F-D-800" (at 1 50.06) (layer "F.Fab") hide
+    (fp_text value "ESQT-125-02-F-D-560" (at 1 50.06) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f3f5ad9c-b20c-4545-bf9c-187c16cc6e14)
     )
@@ -689,8 +689,8 @@
       (net 1 "GND") (pinfunction "Pin_49") (pintype "passive") (tstamp c9522b9f-4721-4976-816e-035555f758de))
     (pad "50" thru_hole oval locked (at 2 48) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "Pin_50") (pintype "passive") (tstamp fbe70963-89f5-4bf1-ba43-31e7e6b46102))
-    (model ":STS_Connector:ESQT-125-02-M-D-640.stp"
-      (offset (xyz 1 -24 10))
+    (model ":STS_Connector:ESQT-125-02-M-D-560.stp"
+      (offset (xyz 1 -24 7.9))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
@@ -1358,7 +1358,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5e9b6f90-adf3-4774-826b-7c4950b5d724)
     )
-    (fp_text value "87k5" (at 0 1.65) (layer "F.Fab")
+    (fp_text value "86k6" (at 0 1.65) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7beee12f-2c39-4b6a-a21e-2a69278d991f)
     )
@@ -3975,7 +3975,7 @@
     (at 76.5556 85.5312 90)
     (descr "Through hole straight pin header, 2x11, 2.00mm pitch, double rows")
     (tags "Through hole pin header THT 2x11 2.00mm double row")
-    (property "Part#" "ESQT-107-02-F-D-800")
+    (property "Part#" "ESQT-111-02-F-D-560")
     (property "Sheetfile" "STS1_EPS_1.kicad_sch")
     (property "Sheetname" "")
     (path "/ded3cad6-377c-4d68-8742-ee2e9e416717")
@@ -4053,10 +4053,10 @@
       (net 181 "/V_LOGIC") (pinfunction "Pin_21") (pintype "passive") (tstamp 07a6d42c-7157-40bd-be06-58950e58f58f))
     (pad "22" thru_hole oval locked (at 2 20 90) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask)
       (net 182 "/MPPT_SUM") (pinfunction "Pin_22") (pintype "passive") (tstamp a1b65a22-6c05-4fc3-959c-cce85e5d274f))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.00mm.3dshapes/PinHeader_2x11_P2.00mm_Vertical.wrl"
-      (offset (xyz 0 0 0))
+    (model ":STS_Connector:ESQT-111-02-M-D-560.stp"
+      (offset (xyz 1 -10 7.9))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 90))
     )
   )
 
@@ -4198,7 +4198,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5dd8ad14-1841-4104-9195-238b19d23d2e)
     )
-    (fp_text value "87k5" (at 0 1.65 90) (layer "F.Fab")
+    (fp_text value "86k6" (at 0 1.65 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c6980209-0e58-4906-9cb8-96fd55397643)
     )
@@ -5040,7 +5040,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp af48d299-1601-44b7-b1a4-611efaf91e49)
     )
-    (fp_text value "500k" (at 0 -1.65) (layer "B.Fab")
+    (fp_text value "499k" (at 0 -1.65) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 7a7fc0ce-c662-4ee0-bfce-229ec1bb4bf3)
     )
@@ -5951,7 +5951,7 @@
       (net 38 "/BAT_FAULT") (pinfunction "K") (pintype "passive") (tstamp 11ba4c90-1bda-43e0-a084-0ff137bfdeef))
     (pad "2" smd rect (at 1.45 0 270) (size 1.3 1.4) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 1 "GND") (pinfunction "A") (pintype "passive") (tstamp ee73067a-99bd-4378-819f-46461652ff22))
-    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMF.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_1206_3216Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6645,7 +6645,7 @@
       (net 100 "/BAT_CHARGING") (pinfunction "K") (pintype "passive") (tstamp 776d7fd8-da9d-428f-9506-fbb11e2fe9d6))
     (pad "2" smd rect (at 1.45 0 270) (size 1.3 1.4) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 1 "GND") (pinfunction "A") (pintype "passive") (tstamp 45ceefb0-4d06-48ba-a8f0-4a2a69437fbb))
-    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMF.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_1206_3216Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7030,7 +7030,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 1c6c3837-7ed5-4ebe-ab8a-6808180e30c1)
     )
-    (fp_text value "166k" (at 0 -1.65 90) (layer "B.Fab")
+    (fp_text value "169k" (at 0 -1.65 90) (layer "B.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 5461469c-16ee-4714-9fbb-95fb970b6538)
     )
