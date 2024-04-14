@@ -5031,7 +5031,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "STS_Misc:SOP127P780X200-14N"
 			(at 119.38 95.25 0)
 			(effects
 				(font
@@ -5131,7 +5131,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "STS_Misc:SOP127P780X200-14N"
 			(at 119.38 39.37 0)
 			(effects
 				(font
