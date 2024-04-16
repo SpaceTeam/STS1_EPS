@@ -3679,7 +3679,7 @@
 		)
 		(uuid "bfbf20ab-b1a4-4852-9351-0e65cdd27f6c")
 	)
-	(label "DS2_SIGNAL_2"
+	(label "DS1_SIGNAL_2"
 		(at 168.91 49.53 180)
 		(fields_autoplaced yes)
 		(effects
