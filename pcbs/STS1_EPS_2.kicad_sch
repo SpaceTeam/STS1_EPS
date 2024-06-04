@@ -2301,28 +2301,12 @@
 		(uuid "e44f3e22-cb34-4fef-a285-70d33097114e")
 	)
 	(no_connect
-		(at 43.815 187.96)
-		(uuid "0b856ff6-ac96-4f9c-8ddf-3dc575bff456")
-	)
-	(no_connect
-		(at 31.115 187.96)
-		(uuid "35009442-39a3-4a31-a52b-0daec4565124")
-	)
-	(no_connect
 		(at 73.66 182.245)
 		(uuid "4cb297f7-b85f-4453-b5f5-e0ae6536e24d")
 	)
 	(no_connect
-		(at 31.115 190.5)
-		(uuid "6fb501a6-e935-4097-a511-c422a93a6b2d")
-	)
-	(no_connect
 		(at 95.25 187.325)
 		(uuid "9b3e3c57-b98a-4989-813e-cb1c7bb2df9f")
-	)
-	(no_connect
-		(at 43.815 190.5)
-		(uuid "a2dcc8cf-70f3-4d97-b58f-d8ea229d80bc")
 	)
 	(no_connect
 		(at 95.25 179.705)
@@ -2410,7 +2394,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.035 180.34) (xy 31.115 180.34)
+			(xy 26.035 180.34) (xy 31.75 180.34)
 		)
 		(stroke
 			(width 0)
@@ -2447,6 +2431,16 @@
 			(type default)
 		)
 		(uuid "23a37489-cc4f-40d2-a71a-f42ba0b265f3")
+	)
+	(wire
+		(pts
+			(xy 240.03 58.42) (xy 242.57 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "277497cf-c546-40ba-918f-8f546c8f0668")
 	)
 	(wire
 		(pts
@@ -2680,6 +2674,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 180.34) (xy 43.815 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eccda4e-29be-4b97-9f5a-2ae34553fada")
+	)
+	(wire
+		(pts
 			(xy 33.655 90.805) (xy 33.655 99.06)
 		)
 		(stroke
@@ -2707,6 +2711,16 @@
 			(type default)
 		)
 		(uuid "6fc45fe8-9594-457e-acbc-206290b10390")
+	)
+	(wire
+		(pts
+			(xy 44.45 182.88) (xy 43.815 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7686291d-0347-4069-8382-d81a524c609b")
 	)
 	(wire
 		(pts
@@ -2760,6 +2774,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 66.04) (xy 242.57 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c3c41ab-7872-402a-962b-83309ebc9887")
+	)
+	(wire
+		(pts
 			(xy 27.94 48.26) (xy 27.94 50.8)
 		)
 		(stroke
@@ -2777,6 +2801,26 @@
 			(type default)
 		)
 		(uuid "8da52dac-d392-45ef-aa85-04def0542315")
+	)
+	(wire
+		(pts
+			(xy 31.75 182.88) (xy 31.115 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fb402d3-8223-4695-83f8-a231135bbcd3")
+	)
+	(wire
+		(pts
+			(xy 240.03 60.96) (xy 242.57 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9213167a-c56f-46a2-9ea3-f070c42133d9")
 	)
 	(bus
 		(pts
@@ -2807,6 +2851,26 @@
 			(type default)
 		)
 		(uuid "95199bc7-8332-46e7-ae6d-7ea1812d8a0e")
+	)
+	(wire
+		(pts
+			(xy 240.03 63.5) (xy 242.57 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d0d1d7d-abf0-4361-acdc-ec9a2625be7a")
+	)
+	(wire
+		(pts
+			(xy 240.03 55.88) (xy 242.57 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a02cb260-92b8-4abd-9680-8216d5e0348f")
 	)
 	(wire
 		(pts
@@ -2990,6 +3054,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 185.42) (xy 31.115 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c685bb73-e25d-492d-8a30-65b0825df398")
+	)
+	(wire
+		(pts
 			(xy 190.5 133.985) (xy 194.31 133.985)
 		)
 		(stroke
@@ -2997,6 +3071,16 @@
 			(type default)
 		)
 		(uuid "c6930b1d-ded3-4959-98cd-bad43069ae53")
+	)
+	(wire
+		(pts
+			(xy 44.45 185.42) (xy 43.815 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf386e8e-da35-4e18-a233-86d645c0325c")
 	)
 	(wire
 		(pts
@@ -3239,9 +3323,9 @@
 		)
 		(uuid "1ef3b7e1-07e0-48ed-b72c-eb4a8e52846b")
 	)
-	(text "Ideal diode, that ensures that the \nbattery can not be discharged via the UCI."
+	(text "Ideal diode, that ensures\nthat the battery can not \nbe discharged via the UCI."
 		(exclude_from_sim no)
-		(at 55.245 194.945 0)
+		(at 73.152 196.596 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3338,6 +3422,28 @@
 		)
 		(uuid "1d285b53-61e8-42af-a6ba-9f20b451c9c1")
 	)
+	(label "UCI_COBC_NOT_RST"
+		(at 240.03 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "244f5f53-377b-4292-97df-9de322985283")
+	)
+	(label "UCI_COBC_SWO"
+		(at 31.75 190.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2e0cc15e-45c4-47d6-8a5e-6935ae19de96")
+	)
 	(label "UCI_COBC_UART_[1..2]"
 		(at 240.03 53.34 180)
 		(fields_autoplaced yes)
@@ -3370,6 +3476,17 @@
 			(justify right bottom)
 		)
 		(uuid "3696574c-ba59-47d1-8341-b11cc5c917ff")
+	)
+	(label "UCI_COBC_SWO"
+		(at 240.03 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3a02ac83-123d-47c2-8e2f-fab53e9926b4")
 	)
 	(label "CENTER"
 		(at 27.94 63.5 180)
@@ -3425,6 +3542,17 @@
 			(justify right bottom)
 		)
 		(uuid "4d6cbe49-ac91-4c8c-8712-ba917ccd30dc")
+	)
+	(label "UCI_COBC_SWDIO"
+		(at 31.75 187.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4d7136f1-f94d-4a1d-92be-79656e79ddd7")
 	)
 	(label "DS2_SIGNAL_3"
 		(at 78.74 109.22 0)
@@ -3492,7 +3620,7 @@
 		)
 		(uuid "7cf9e318-4864-48b3-8a16-1a7e3e3f371a")
 	)
-	(label "UCI_COBC_UART_TX"
+	(label "UCI_COBC_UART_1"
 		(at 31.115 182.88 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3503,7 +3631,18 @@
 		)
 		(uuid "80ab6aae-4ea7-463a-93f6-8c6a399514a4")
 	)
-	(label "EPS_BAT_FAULT"
+	(label "UCI_COBC_NOT_RST"
+		(at 44.45 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "823ce505-edcc-4143-a3bc-94799c72befe")
+	)
+	(label "BAT_FAULT"
 		(at 240.03 50.8 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3613,6 +3752,17 @@
 		)
 		(uuid "a5eae205-2217-48ea-8e2c-94fd0339db3b")
 	)
+	(label "UCI_COBC_SWDCLK"
+		(at 240.03 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a6ac3653-639b-4254-a824-ea0764d26201")
+	)
 	(label "DS2_SIGNAL_1"
 		(at 40.64 55.88 0)
 		(fields_autoplaced yes)
@@ -3645,6 +3795,17 @@
 			(justify right bottom)
 		)
 		(uuid "b588e54a-2293-4f54-a8de-513fa8196d6b")
+	)
+	(label "UCI_COBC_SWDIO"
+		(at 240.03 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b5f28c7e-a759-480d-bfe2-702ee5ef4cb6")
 	)
 	(label "MPPT_BUS"
 		(at 110.49 142.24 180)
@@ -3800,7 +3961,7 @@
 		)
 		(uuid "e1dd09cf-1e2c-4520-a3ed-d169f07998d7")
 	)
-	(label "UCI_COBC_3V3"
+	(label "UCI_COBC_5V"
 		(at 31.115 185.42 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3821,6 +3982,28 @@
 			(justify right bottom)
 		)
 		(uuid "e8830e24-0162-47eb-94ef-19b9fd4bcbc8")
+	)
+	(label "UCI_COBC_5V"
+		(at 240.03 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e9e6798c-1d58-4a2b-ba16-74d6c089fe1b")
+	)
+	(label "UCI_COBC_SWDCLK"
+		(at 44.45 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec49d526-4d73-49dc-af57-d7ab74079c27")
 	)
 	(label "EPS_BAT_GOOD"
 		(at 222.885 107.315 0)
@@ -3855,7 +4038,7 @@
 		)
 		(uuid "f521df51-d268-4662-b37f-19a71f1b7737")
 	)
-	(label "UCI_COBC_UART_RX"
+	(label "UCI_COBC_UART_2"
 		(at 43.815 182.88 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3935,7 +4118,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
-		(at 36.195 185.42 0)
+		(at 36.83 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3944,7 +4127,7 @@
 		(fields_autoplaced yes)
 		(uuid "0776d10b-1d27-47b3-9afb-755f565d29cf")
 		(property "Reference" "J8"
-			(at 37.465 173.99 0)
+			(at 38.1 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3952,7 +4135,7 @@
 			)
 		)
 		(property "Value" "UCI"
-			(at 37.465 176.53 0)
+			(at 38.1 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3960,7 +4143,7 @@
 			)
 		)
 		(property "Footprint" "STS_Connector:M80-85110YY"
-			(at 36.195 185.42 0)
+			(at 36.83 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3969,7 +4152,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.195 185.42 0)
+			(at 36.83 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3978,7 +4161,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.195 185.42 0)
+			(at 36.83 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5590,7 +5773,7 @@
 	)
 	(sheet
 		(at 242.57 40.64)
-		(size 22.86 15.24)
+		(size 22.86 27.94)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5610,7 +5793,7 @@
 			)
 		)
 		(property "Sheetfile" "STS1_EPS_2_CSBI.kicad_sch"
-			(at 242.57 56.4646 0)
+			(at 242.57 69.1646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5667,6 +5850,56 @@
 				(justify left)
 			)
 			(uuid "37087f8e-33bc-40f0-8af7-963a3baca14f")
+		)
+		(pin "UCI_COBC_SWO" input
+			(at 242.57 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5cf226be-b4d3-4551-90fd-b02152596238")
+		)
+		(pin "UCI_COBC_SWDCLK" input
+			(at 242.57 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0e20e83d-a26a-46c8-b3a4-2ec5fc8849d1")
+		)
+		(pin "UCI_COBC_SWDIO" input
+			(at 242.57 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2431511c-8f74-4fec-aaa7-01eef38825a1")
+		)
+		(pin "UCI_COBC_NOT_RST" input
+			(at 242.57 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0cafb4b5-03fe-45cc-be30-b576be4885b3")
+		)
+		(pin "UCI_COBC_5V" input
+			(at 242.57 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0e7886f7-0e4d-49c1-bedc-167f4ca31bf9")
 		)
 		(instances
 			(project "STS1_EPS_2"
