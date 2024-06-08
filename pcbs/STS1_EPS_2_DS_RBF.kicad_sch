@@ -1472,6 +1472,36 @@
 		)
 		(uuid "f82891bc-405c-403e-bf06-b7213b276e0b")
 	)
+	(text "Open drain outputs"
+		(exclude_from_sim no)
+		(at 210.566 21.082 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "07fc67d8-17c5-4e8a-bc70-6d479642a1e5")
+	)
+	(text "Open drain outputs"
+		(exclude_from_sim no)
+		(at 90.17 19.812 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "641c48d7-bbc2-4d3d-b357-5d38069c40f1")
+	)
+	(text "Open drain outputs"
+		(exclude_from_sim no)
+		(at 83.312 63.754 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c93a310e-6ac5-4f86-bdb7-6d0a260ffabc")
+	)
 	(hierarchical_label "RBF_SIGNAL_3"
 		(shape input)
 		(at 205.105 30.48 0)

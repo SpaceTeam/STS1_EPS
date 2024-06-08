@@ -3299,6 +3299,17 @@
 		)
 		(uuid "34c96391-07b0-44db-85e5-55597484c8f9")
 	)
+	(text "Open drain output."
+		(exclude_from_sim no)
+		(at 264.922 64.262 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90311caa-d0c3-4c73-8b4a-2a768624305d")
+	)
 	(label "SET"
 		(at 167.64 121.92 180)
 		(fields_autoplaced yes)
