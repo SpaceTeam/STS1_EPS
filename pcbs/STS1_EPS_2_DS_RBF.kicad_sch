@@ -1590,7 +1590,7 @@
 		)
 		(uuid "07fc67d8-17c5-4e8a-bc70-6d479642a1e5")
 	)
-	(text "R27, R28 and R46 are optional bypasses that can be used for testing purposes.\nIn the flight model they must not be populated."
+	(text "R27, R28 and R46 are optional bypasses that can be used for testing purposes.\nIn the flight model they must not be populated.\n\nDS1+/-, DS2+/- and RBF+/- shall be connected to N/C switches. This way, \nwhen the CubeSat is within the deployer, those connections are interrupted."
 		(exclude_from_sim no)
 		(at 126.746 74.676 0)
 		(effects
