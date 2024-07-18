@@ -2947,7 +2947,7 @@
 	)
 	(text "Deployment Switch (DS1 + DS2 + RBF) + UVLO"
 		(exclude_from_sim no)
-		(at 139.7 153.67 0)
+		(at 107.188 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5426,40 +5426,40 @@
 			)
 		)
 		(pin "1"
-			(uuid "be2a704f-f911-4f93-b823-356cd77cea1d")
+			(uuid "be2a704f-f911-4f93-b823-356cd77cea1e")
 		)
 		(pin "7"
-			(uuid "a2b568ad-29c3-43a7-8732-0e8463a06ae0")
+			(uuid "a2b568ad-29c3-43a7-8732-0e8463a06ae1")
 		)
 		(pin "14"
-			(uuid "12066fa4-e60a-4f02-bdc4-af6bc39a8f43")
+			(uuid "12066fa4-e60a-4f02-bdc4-af6bc39a8f44")
 		)
 		(pin "2"
-			(uuid "a6090578-9186-4cf0-b214-575986e782ac")
+			(uuid "a6090578-9186-4cf0-b214-575986e782ad")
 		)
 		(pin "4"
-			(uuid "90e721e6-9c7f-4ae6-8686-3bfe7de4ceb5")
+			(uuid "90e721e6-9c7f-4ae6-8686-3bfe7de4ceb6")
 		)
 		(pin "10"
-			(uuid "f71cc927-39f9-42c0-8d3d-766f0feb0e13")
+			(uuid "f71cc927-39f9-42c0-8d3d-766f0feb0e14")
 		)
 		(pin "12"
-			(uuid "389c524b-7a46-4304-852f-9cf9ece8f5d3")
+			(uuid "389c524b-7a46-4304-852f-9cf9ece8f5d4")
 		)
 		(pin "9"
-			(uuid "16b33901-c12d-4d70-aff5-d83d3a47eafe")
+			(uuid "16b33901-c12d-4d70-aff5-d83d3a47eaff")
 		)
 		(pin "13"
-			(uuid "d8cc4571-b521-4907-b47c-0a5cb7f323fd")
+			(uuid "d8cc4571-b521-4907-b47c-0a5cb7f323fe")
 		)
 		(pin "11"
-			(uuid "38ffba51-a5da-4ab1-80c2-9ce34cad9612")
+			(uuid "38ffba51-a5da-4ab1-80c2-9ce34cad9613")
 		)
 		(pin "3"
-			(uuid "dd8994da-5e2f-4d90-899b-488676a75552")
+			(uuid "dd8994da-5e2f-4d90-899b-488676a75553")
 		)
 		(pin "12"
-			(uuid "67dd02fb-41ee-49ab-ae23-07edd1105c27")
+			(uuid "67dd02fb-41ee-49ab-ae23-07edd1105c28")
 		)
 		(instances
 			(project "STS1_EPS_2"

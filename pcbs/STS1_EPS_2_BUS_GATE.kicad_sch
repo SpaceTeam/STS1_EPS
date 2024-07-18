@@ -2062,12 +2062,6 @@
 		(uuid "35bee019-cf1c-48d9-b7cd-9a4925fd1335")
 	)
 	(junction
-		(at 153.035 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c98f5ea-ca07-4ec4-8db7-ae22b232d1e9")
-	)
-	(junction
 		(at 40.64 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2078,6 +2072,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78f48a0b-a0ce-46a5-ac5c-14a29e5690fd")
+	)
+	(junction
+		(at 149.86 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a11af5b-6b4b-4835-a366-cf2d45de5d23")
 	)
 	(junction
 		(at 110.49 36.83)
@@ -2130,6 +2130,16 @@
 			(type default)
 		)
 		(uuid "01aecd9e-7965-4058-81e2-5af3c40bfa6f")
+	)
+	(wire
+		(pts
+			(xy 149.86 134.62) (xy 152.4 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09a0c4f3-3f17-4bd8-9711-555aab0b42fb")
 	)
 	(wire
 		(pts
@@ -2423,6 +2433,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 134.62) (xy 160.655 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75dc04e2-7f02-4462-a33d-0ebdfd54cc5b")
+	)
+	(wire
+		(pts
 			(xy 26.67 39.37) (xy 40.64 39.37)
 		)
 		(stroke
@@ -2573,16 +2593,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.035 134.62) (xy 160.655 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a65762b1-0c29-48e4-a1ed-90579ae1a1c6")
-	)
-	(wire
-		(pts
 			(xy 168.275 139.7) (xy 168.275 147.32)
 		)
 		(stroke
@@ -2623,7 +2633,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 134.62) (xy 153.035 134.62)
+			(xy 148.59 134.62) (xy 149.86 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2813,6 +2823,18 @@
 		)
 		(uuid 123f3289-24b3-4e96-93e7-fdb7862c168b)
 	)
+	(rectangle
+		(start 91.694 82.042)
+		(end 255.016 164.846)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8a34d501-d429-4384-8554-94f152813471)
+	)
 	(text "Signal pull-ups"
 		(exclude_from_sim no)
 		(at 59.944 126.492 0)
@@ -2823,9 +2845,19 @@
 		)
 		(uuid "0cbbbf4a-95f1-407c-b182-4ec658287f0d")
 	)
+	(text "Gate signal logic"
+		(exclude_from_sim no)
+		(at 171.196 80.264 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1144e25d-1972-46c1-a86a-695af6d1452d")
+	)
 	(text "Overcurrent Protection\n"
 		(exclude_from_sim no)
-		(at 51.054 14.732 0)
+		(at 50.8 14.732 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2834,9 +2866,9 @@
 		)
 		(uuid "4ea25b69-a789-4bd6-9a24-0dfeab2360b4")
 	)
-	(text "Deployment Timer"
+	(text "Bus gate FET"
 		(exclude_from_sim no)
-		(at 101.092 14.8336 0)
+		(at 105.918 14.986 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4842,16 +4874,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 153.035 134.62 0)
+		(at 149.86 134.62 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bfe3e2d9-21d2-4cbe-a153-daaaca2ac52c")
 		(property "Reference" "TP18"
-			(at 155.575 130.0479 0)
+			(at 152.146 144.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4860,7 +4891,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 155.575 132.5879 0)
+			(at 153.924 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4869,7 +4900,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 158.115 134.62 0)
+			(at 144.78 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4878,7 +4909,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.115 134.62 0)
+			(at 144.78 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4887,7 +4918,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.035 134.62 0)
+			(at 149.86 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4902,6 +4933,74 @@
 			(project "STS1_EPS_2"
 				(path "/38c03ff7-ea47-4d00-b37d-ddcaa7d87722/4a4cf4f3-b3ca-46d9-b2ff-f21a8c4df335"
 					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 156.21 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1af538d-5318-457f-9c65-b5f213b9b1c8")
+		(property "Reference" "R4"
+			(at 156.21 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 156.21 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 156.21 136.398 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 156.21 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a7f27cd-f153-4bee-8173-cc49c5d28aa6")
+		)
+		(pin "2"
+			(uuid "a7af7233-1c89-46e8-9550-8c8e20a54db6")
+		)
+		(instances
+			(project "STS1_EPS_2"
+				(path "/38c03ff7-ea47-4d00-b37d-ddcaa7d87722/4a4cf4f3-b3ca-46d9-b2ff-f21a8c4df335"
+					(reference "R4")
 					(unit 1)
 				)
 			)

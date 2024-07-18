@@ -2689,6 +2689,12 @@
 		(uuid "5a37a9b6-55de-484a-9a8b-1100aeae14ab")
 	)
 	(junction
+		(at 151.13 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62508f25-22f2-4e6b-aa06-94df3ba42076")
+	)
+	(junction
 		(at 204.47 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2736,12 +2742,6 @@
 		(color 0 0 0 0)
 		(uuid "d1d0d76c-d2f8-49fb-bd0e-549676b45de9")
 	)
-	(junction
-		(at 158.75 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa8cebcd-fbec-41cf-8d54-1d6ecb72b0aa")
-	)
 	(wire
 		(pts
 			(xy 33.02 49.53) (xy 33.02 55.88)
@@ -2771,6 +2771,16 @@
 			(type default)
 		)
 		(uuid "09a58c6a-56c3-4d9b-8087-f41dee57f490")
+	)
+	(wire
+		(pts
+			(xy 168.91 90.17) (xy 171.45 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c55e434-4637-411e-b3f6-309f4d923496")
 	)
 	(wire
 		(pts
@@ -2814,16 +2824,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 97.79) (xy 231.14 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ecaf617-3fa2-485a-b213-0198e0617663")
-	)
-	(wire
-		(pts
 			(xy 175.26 93.98) (xy 175.26 97.79)
 		)
 		(stroke
@@ -2834,7 +2834,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 82.55) (xy 231.14 73.66)
+			(xy 237.49 82.55) (xy 237.49 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2984,7 +2984,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 90.17) (xy 158.75 90.17)
+			(xy 148.59 90.17) (xy 151.13 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3044,7 +3044,17 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 82.55) (xy 223.52 87.63)
+			(xy 151.13 90.17) (xy 161.29 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb4fa448-8457-4f69-9e26-1c78e8e92366")
+	)
+	(wire
+		(pts
+			(xy 229.87 82.55) (xy 229.87 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3104,16 +3114,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 90.17) (xy 171.45 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7ce0d6f-f556-4ee4-be06-f81e418d2a80")
-	)
-	(wire
-		(pts
 			(xy 33.02 69.85) (xy 33.02 73.66)
 		)
 		(stroke
@@ -3154,7 +3154,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 82.55) (xy 223.52 82.55)
+			(xy 219.71 82.55) (xy 222.25 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3164,13 +3164,23 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 73.66) (xy 252.73 73.66)
+			(xy 237.49 73.66) (xy 252.73 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dc7a8c12-8c3f-4c4e-84e5-8f1d945fd6f0")
+	)
+	(wire
+		(pts
+			(xy 237.49 92.71) (xy 237.49 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd3e4d07-bb94-46ef-a972-156927dd91a3")
 	)
 	(wire
 		(pts
@@ -3693,7 +3703,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 158.75 90.17 180)
+		(at 151.13 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3702,7 +3712,7 @@
 		(fields_autoplaced yes)
 		(uuid "19c74f13-024d-4def-aa69-b49136bd8ec9")
 		(property "Reference" "TP5"
-			(at 161.29 92.2019 0)
+			(at 153.67 92.2019 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3711,7 +3721,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 161.29 94.7419 0)
+			(at 153.67 94.7419 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3720,7 +3730,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 153.67 90.17 0)
+			(at 146.05 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3729,7 +3739,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 90.17 0)
+			(at 146.05 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3738,7 +3748,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 90.17 0)
+			(at 151.13 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4654,6 +4664,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 226.06 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69b74934-3486-4e33-8805-22d62a0d8b3a")
+		(property "Reference" "R38"
+			(at 228.092 88.392 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 228.092 86.106 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 226.06 80.772 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "279ba1e6-c3fc-4325-8ef6-8b14b3833b24")
+		)
+		(pin "2"
+			(uuid "02989b10-24f8-4728-a061-47b040a33c35")
+		)
+		(instances
+			(project "STS1_EPS_2"
+				(path "/38c03ff7-ea47-4d00-b37d-ddcaa7d87722/d08cc104-26df-403e-aeed-bb3c2e21e328"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 219.71 97.79 0)
 		(unit 1)
@@ -4986,6 +5063,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 165.1 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b778a40d-e0d7-4608-b2f2-5c55ce8b8ba6")
+		(property "Reference" "R11"
+			(at 167.132 96.012 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 167.132 93.726 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 165.1 88.392 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bbf040a-4608-49bc-8049-7b5042ae62a7")
+		)
+		(pin "2"
+			(uuid "edddfb85-6ae0-4827-9ad2-96b28c85e31b")
+		)
+		(instances
+			(project "STS1_EPS_2"
+				(path "/38c03ff7-ea47-4d00-b37d-ddcaa7d87722/d08cc104-26df-403e-aeed-bb3c2e21e328"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Fuse")
 		(at 219.71 74.93 0)
 		(unit 1)
@@ -5127,7 +5271,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:2N7002")
-		(at 228.6 87.63 0)
+		(at 234.95 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5136,7 +5280,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce2191ca-20bb-4d05-8b04-e757d095a12c")
 		(property "Reference" "Q3"
-			(at 234.95 86.3599 0)
+			(at 241.3 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5145,7 +5289,7 @@
 			)
 		)
 		(property "Value" "2N7002"
-			(at 234.95 88.8999 0)
+			(at 241.3 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5154,7 +5298,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 233.68 89.535 0)
+			(at 240.03 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5165,7 +5309,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 228.6 87.63 0)
+			(at 234.95 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5175,7 +5319,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 228.6 87.63 0)
+			(at 234.95 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5678,7 +5822,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 231.14 97.79 0)
+		(at 237.49 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5687,7 +5831,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe0a5e9f-b74c-4544-a9ea-496828c6b861")
 		(property "Reference" "#PWR034"
-			(at 231.14 104.14 0)
+			(at 237.49 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5696,7 +5840,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 233.68 99.0599 0)
+			(at 240.03 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5705,7 +5849,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 97.79 0)
+			(at 237.49 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5714,7 +5858,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 97.79 0)
+			(at 237.49 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5723,7 +5867,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 97.79 0)
+			(at 237.49 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
