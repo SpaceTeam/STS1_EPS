@@ -4700,7 +4700,7 @@
 				)
 			)
 		)
-		(property "Value" "Panel Z-"
+		(property "Value" "Panel X+"
 			(at 38.1 90.17 0)
 			(effects
 				(font
@@ -6013,7 +6013,7 @@
 				)
 			)
 		)
-		(property "Value" "Panel Y-"
+		(property "Value" "Panel Y+"
 			(at 38.1 41.91 0)
 			(effects
 				(font
@@ -6613,7 +6613,7 @@
 				)
 			)
 		)
-		(property "Value" "Panel Y+"
+		(property "Value" "Panel Y-"
 			(at 38.1 19.05 0)
 			(effects
 				(font
@@ -6767,7 +6767,7 @@
 				)
 			)
 		)
-		(property "Value" "Panel X+"
+		(property "Value" "Panel Z-"
 			(at 38.1 120.65 0)
 			(effects
 				(font
@@ -6944,7 +6944,7 @@
 				)
 			)
 		)
-		(property "Value" "Panel X-"
+		(property "Value" "Panel Z+"
 			(at 38.1 66.04 0)
 			(effects
 				(font
