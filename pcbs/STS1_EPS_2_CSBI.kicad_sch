@@ -1949,6 +1949,10 @@
 		(color 0 0 0 0)
 		(uuid "e708116d-2899-4e86-885c-cc66b7a4370a")
 	)
+	(no_connect
+		(at 151.13 53.34)
+		(uuid "061e6130-0c93-4742-b7fc-c967375114b5")
+	)
 	(bus_entry
 		(at 171.45 50.8)
 		(size 2.54 -2.54)
@@ -2672,18 +2676,6 @@
 			(justify right)
 		)
 		(uuid "71ff847a-6a96-4c87-b2bf-ed10177d9ff9")
-	)
-	(hierarchical_label "UCI_COBC_UART_[1..2]"
-		(shape input)
-		(at 151.13 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8d3af8ef-fda1-40d8-8537-6301c1be2c09")
 	)
 	(hierarchical_label "UCI_COBC_SWDCLK"
 		(shape input)

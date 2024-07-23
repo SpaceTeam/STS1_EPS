@@ -1162,6 +1162,313 @@
 				)
 			)
 		)
+		(symbol "STS_Power_Management:VESD05A8A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "STS_Misc:LLP1713-9L"
+				(at 0.254 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VESD05A8A_1_1"
+				(rectangle
+					(start -2.54 -1.27)
+					(end 2.54 -11.43)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.874) (xy 0 -5.334)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.334) (xy 1.27 -5.334)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.874) (xy 0 -8.509)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.874) (xy 0 -4.699)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.334) (xy 0 -4.699)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.334) (xy 1.27 -5.969)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.334) (xy 1.27 -7.874) (xy -1.27 -7.874)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -10.16 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -13.97 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_names
@@ -1847,16 +2154,6 @@
 		)
 		(uuid "9213167a-c56f-46a2-9ea3-f070c42133d9")
 	)
-	(bus
-		(pts
-			(xy 240.03 53.34) (xy 242.57 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9238bb66-f451-496e-956e-051117a1e3f4")
-	)
 	(wire
 		(pts
 			(xy 47.625 142.24) (xy 49.53 142.24)
@@ -2278,6 +2575,28 @@
 		)
 		(uuid "0017f4a1-7353-4973-925c-87430ceb880f")
 	)
+	(label "EPS_ANT_DEPLOY"
+		(at 220.98 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0859d7bb-efe6-4326-8bdc-e5cb3b889abf")
+	)
+	(label "BAT_FAULT"
+		(at 220.98 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0996fc0f-ed99-434d-9501-cb5b8daed0e0")
+	)
 	(label "BAT_FAULT"
 		(at 190.5 141.605 180)
 		(fields_autoplaced yes)
@@ -2366,8 +2685,8 @@
 		)
 		(uuid "244f5f53-377b-4292-97df-9de322985283")
 	)
-	(label "UCI_COBC_UART_[1..2]"
-		(at 240.03 53.34 180)
+	(label "UCI_COBC_SWDIO"
+		(at 210.82 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2375,7 +2694,18 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "3223a529-a40c-4776-8a40-0083799a2891")
+		(uuid "24e2095e-cfda-4f62-88b5-cef5a75b4936")
+	)
+	(label "UCI_COBC_NOT_RST"
+		(at 210.82 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "30d6c439-2d7e-441a-81dc-c67de30def9e")
 	)
 	(label "UVLO_SIGNAL"
 		(at 222.885 109.855 0)
@@ -2607,6 +2937,28 @@
 			(justify right bottom)
 		)
 		(uuid "95fb85a4-62d7-4360-b6e5-70f0efd75938")
+	)
+	(label "UCI_COBC_5V"
+		(at 220.98 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9bd452eb-1ad0-4267-81d4-8691aa5fd811")
+	)
+	(label "EPS_BAT_GOOD"
+		(at 220.98 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c83376b-8a8b-4c49-b488-f32e386d1787")
 	)
 	(label "V_LOGIC"
 		(at 109.855 92.71 180)
@@ -2872,6 +3224,17 @@
 		)
 		(uuid "e9e6798c-1d58-4a2b-ba16-74d6c089fe1b")
 	)
+	(label "UCI_COBC_SWO"
+		(at 210.82 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eca84774-312b-4065-98f1-63e8257ad135")
+	)
 	(label "EPS_BAT_GOOD"
 		(at 222.885 107.315 0)
 		(fields_autoplaced yes)
@@ -2882,6 +3245,17 @@
 			(justify left bottom)
 		)
 		(uuid "f15266a4-87dc-4319-9412-20a1e9d8332f")
+	)
+	(label "UCI_COBC_SWDCLK"
+		(at 210.82 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f4a9ed64-ca77-40b5-b92f-4eba11d8a2fe")
 	)
 	(label "NTC"
 		(at 27.94 66.04 180)
@@ -3383,6 +3757,95 @@
 		)
 	)
 	(symbol
+		(lib_id "STS_Power_Management:VESD05A8A")
+		(at 215.9 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a4dbf57-9949-434d-b302-fd66899f52b5")
+		(property "Reference" "D2"
+			(at 215.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 215.9 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "STS_Misc:LLP1713-9L"
+			(at 216.154 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "09ac00e8-a7c8-4da8-bdf6-3323b030bee9")
+		)
+		(pin "7"
+			(uuid "0aa3ca4d-6b3d-4088-9f6b-0cc2eda443c3")
+		)
+		(pin "9"
+			(uuid "4ce8d4bd-308a-4f71-a720-bc90c8b90515")
+		)
+		(pin "8"
+			(uuid "d33f266a-132d-47b3-abf0-ece8c04e5bcc")
+		)
+		(pin "3"
+			(uuid "e31b1980-09c5-4e92-9222-cff146de1254")
+		)
+		(pin "6"
+			(uuid "0e731bae-acb9-4270-9027-88e50fde2279")
+		)
+		(pin "4"
+			(uuid "9c106853-cb1d-4faa-9e13-644f9f2eed0c")
+		)
+		(pin "1"
+			(uuid "0ff4e476-25b1-4bb3-b7e9-dc24d278304b")
+		)
+		(pin "2"
+			(uuid "d1ebc337-a442-4bb2-9f1c-edd2195f0f99")
+		)
+		(instances
+			(project "STS1_EPS_2"
+				(path "/38c03ff7-ea47-4d00-b37d-ddcaa7d87722"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 27.94 53.34 270)
 		(unit 1)
@@ -3511,6 +3974,72 @@
 			(project "STS1_EPS_2"
 				(path "/38c03ff7-ea47-4d00-b37d-ddcaa7d87722"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 215.9 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2425a7e-b5c1-493f-862c-910c7ad0bcbd")
+		(property "Reference" "#PWR025"
+			(at 215.9 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a6387da-aa88-4457-a808-545d5db104f8")
+		)
+		(instances
+			(project "STS1_EPS_2"
+				(path "/38c03ff7-ea47-4d00-b37d-ddcaa7d87722"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4052,16 +4581,6 @@
 				(justify left)
 			)
 			(uuid "376a6861-00fc-470d-842c-aecfa324074e")
-		)
-		(pin "UCI_COBC_UART_[1..2]" input
-			(at 242.57 53.34 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "37087f8e-33bc-40f0-8af7-963a3baca14f")
 		)
 		(pin "UCI_COBC_SWO" input
 			(at 242.57 55.88 180)

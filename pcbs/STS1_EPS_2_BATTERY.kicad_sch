@@ -5148,7 +5148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91a2c55f-14e9-4aa8-ab33-0930a7079a1b")
-		(property "Reference" "U1"
+		(property "Reference" "U9"
 			(at 95.25 153.7014 0)
 			(effects
 				(font
@@ -5230,7 +5230,7 @@
 		(instances
 			(project "STS1_EPS_2"
 				(path "/38c03ff7-ea47-4d00-b37d-ddcaa7d87722/75dca64b-8858-4c1f-8340-a846cd3da1d0"
-					(reference "U1")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -5398,7 +5398,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 60.96 182.88 0)
 			(effects
 				(font
