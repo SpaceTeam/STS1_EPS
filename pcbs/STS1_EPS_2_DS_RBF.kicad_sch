@@ -544,7 +544,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-				(at 0 0 0)
+				(at 5.08 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -806,9 +806,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -856,7 +856,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -882,8 +882,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -920,7 +920,7 @@
 		(uuid "120264c9-1c02-4fac-8b2e-df104c23519f")
 	)
 	(junction
-		(at 205.105 34.29)
+		(at 205.74 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18f993cc-d990-45f9-80dd-0d5945a6465a")
@@ -938,7 +938,7 @@
 		(uuid "1a61a79c-d79c-4c61-b732-7e2ed9efb9d4")
 	)
 	(junction
-		(at 83.82 73.025)
+		(at 83.82 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42b21cc5-6f95-43ef-b1a6-0b38cb37cb6a")
@@ -1028,7 +1028,7 @@
 		(uuid "b8203b9d-49c2-4f00-aa2a-ec12af39ff9d")
 	)
 	(junction
-		(at 64.77 73.025)
+		(at 64.77 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba35ab52-401a-44bd-ad44-5481a9db59c3")
@@ -1040,25 +1040,25 @@
 		(uuid "c6b6dbaf-8c93-4006-8b31-25e7165ef65d")
 	)
 	(junction
-		(at 86.995 33.02)
+		(at 87.63 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7aaff67-61b8-4123-acbf-733ecd4b0ead")
 	)
 	(junction
-		(at 29.21 80.645)
+		(at 29.21 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5091921-3933-4f12-8b60-1d9809164df9")
 	)
 	(junction
-		(at 30.48 41.275)
+		(at 30.48 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f550c573-542b-42a2-8fae-3b67f592c56d")
 	)
 	(junction
-		(at 45.72 73.025)
+		(at 45.72 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb36535c-0e8b-49ac-b9c9-76aa2f0ea0bd")
@@ -1085,7 +1085,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 39.37) (xy 30.48 41.275)
+			(xy 30.48 39.37) (xy 30.48 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1175,7 +1175,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 39.37) (xy 79.375 39.37)
+			(xy 57.15 39.37) (xy 80.01 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1195,23 +1195,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.995 33.02) (xy 86.995 34.29)
+			(xy 87.63 33.02) (xy 87.63 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "187db6fe-292c-4ef0-9a97-b3da45e5c434")
-	)
-	(wire
-		(pts
-			(xy 45.72 73.025) (xy 45.72 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18b46ef0-5031-4e22-86c3-5ea744427a29")
 	)
 	(wire
 		(pts
@@ -1225,7 +1215,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 80.645) (xy 29.21 82.55)
+			(xy 29.21 81.28) (xy 29.21 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1315,7 +1305,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 68.58) (xy 83.82 73.025)
+			(xy 83.82 68.58) (xy 83.82 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1345,7 +1335,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.105 34.29) (xy 205.105 35.56)
+			(xy 205.74 34.29) (xy 205.74 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1385,7 +1375,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.105 30.48) (xy 205.105 34.29)
+			(xy 205.74 30.48) (xy 205.74 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1445,16 +1435,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 73.025) (xy 64.77 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75448b31-5335-46f6-b8c5-c1733a3deb6d")
-	)
-	(wire
-		(pts
 			(xy 35.56 88.9) (xy 35.56 91.44)
 		)
 		(stroke
@@ -1465,7 +1445,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.995 44.45) (xy 86.995 52.07)
+			(xy 87.63 44.45) (xy 87.63 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1485,7 +1465,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 78.74) (xy 29.21 80.645)
+			(xy 29.21 78.74) (xy 29.21 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1515,7 +1495,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 68.58) (xy 64.77 73.025)
+			(xy 64.77 68.58) (xy 64.77 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1545,7 +1525,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 41.275) (xy 30.48 43.18)
+			(xy 30.48 41.91) (xy 30.48 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1585,7 +1565,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.995 29.21) (xy 86.995 33.02)
+			(xy 87.63 29.21) (xy 87.63 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1615,7 +1595,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.105 45.72) (xy 205.105 53.34)
+			(xy 205.74 45.72) (xy 205.74 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1625,7 +1605,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 65.405) (xy 35.56 68.58)
+			(xy 35.56 66.04) (xy 35.56 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1675,16 +1655,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 73.025) (xy 83.82 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc88a3d6-ae48-41ee-96d0-de1696c6b431")
-	)
-	(wire
-		(pts
 			(xy 140.97 49.53) (xy 140.97 53.34)
 		)
 		(stroke
@@ -1705,7 +1675,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 68.58) (xy 45.72 73.025)
+			(xy 45.72 68.58) (xy 45.72 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1825,7 +1795,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 40.64) (xy 197.485 40.64)
+			(xy 173.99 40.64) (xy 198.12 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1835,7 +1805,7 @@
 	)
 	(text "Open drain outputs"
 		(exclude_from_sim no)
-		(at 210.566 21.082 0)
+		(at 210.82 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1845,7 +1815,7 @@
 	)
 	(text "R27, R28 and R46 are optional bypasses that can be used for testing purposes.\nIn the flight model they must not be populated.\n\nDS1+/-, DS2+/- and RBF+/- shall be connected to N/C switches. This way, \nwhen the CubeSat is within the deployer, those connections are interrupted."
 		(exclude_from_sim no)
-		(at 126.746 74.676 0)
+		(at 127 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1856,7 +1826,7 @@
 	)
 	(text "Open drain outputs"
 		(exclude_from_sim no)
-		(at 90.17 19.812 0)
+		(at 90.17 20.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1866,7 +1836,7 @@
 	)
 	(text "Open drain outputs"
 		(exclude_from_sim no)
-		(at 83.312 63.754 0)
+		(at 83.82 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1876,7 +1846,7 @@
 	)
 	(hierarchical_label "RBF_SIGNAL_3"
 		(shape input)
-		(at 205.105 30.48 0)
+		(at 205.74 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2032,7 +2002,7 @@
 	)
 	(hierarchical_label "V_LOGIC"
 		(shape input)
-		(at 35.56 65.405 180)
+		(at 35.56 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2056,7 +2026,7 @@
 	)
 	(hierarchical_label "DS1_SIGNAL_3"
 		(shape input)
-		(at 86.995 29.21 0)
+		(at 87.63 29.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2135,7 +2105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 15.24 91.44 0)
 			(effects
 				(font
@@ -2158,7 +2128,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 83.82 73.025 270)
+		(at 83.82 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2167,7 +2137,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a35dd26-cd41-4418-8e19-b7b739cf58ac")
 		(property "Reference" "TP20"
-			(at 88.9 71.7549 90)
+			(at 88.9 72.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2176,7 +2146,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 88.9 74.2949 90)
+			(at 88.9 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2185,7 +2155,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 83.82 78.105 0)
+			(at 83.82 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2194,7 +2164,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 78.105 0)
+			(at 83.82 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2203,7 +2173,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 73.025 0)
+			(at 83.82 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2268,7 +2238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 83.82 91.44 0)
 			(effects
 				(font
@@ -2291,7 +2261,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:2N7002")
-		(at 84.455 39.37 0)
+		(at 85.09 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2300,7 +2270,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d625ce7-6b2d-416c-8d8e-b38f98672e68")
 		(property "Reference" "Q7"
-			(at 90.805 38.0999 0)
+			(at 91.44 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2309,7 +2279,7 @@
 			)
 		)
 		(property "Value" "2N7002"
-			(at 90.805 40.6399 0)
+			(at 91.44 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2318,7 +2288,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 89.535 41.275 0)
+			(at 90.17 41.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2329,7 +2299,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 84.455 39.37 0)
+			(at 85.09 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2338,8 +2308,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 84.455 39.37 0)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 85.09 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2410,7 +2380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 29.21 91.44 0)
 			(effects
 				(font
@@ -2433,7 +2403,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 64.77 73.025 270)
+		(at 64.77 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2442,7 +2412,7 @@
 		(fields_autoplaced yes)
 		(uuid "109b39bc-f0b5-4191-8f49-3ea6117d64fa")
 		(property "Reference" "TP17"
-			(at 69.85 71.7549 90)
+			(at 69.85 72.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2451,7 +2421,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 69.85 74.2949 90)
+			(at 69.85 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2460,7 +2430,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 64.77 78.105 0)
+			(at 64.77 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2469,7 +2439,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 78.105 0)
+			(at 64.77 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2478,7 +2448,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 73.025 0)
+			(at 64.77 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2543,7 +2513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 16.51 52.07 0)
 			(effects
 				(font
@@ -2752,7 +2722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 62.23 39.37 0)
 			(effects
 				(font
@@ -2848,7 +2818,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 86.995 33.02 270)
+		(at 87.63 33.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2857,7 +2827,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e6b4c9d-58ef-4e2b-aaf7-1ef12eca3749")
 		(property "Reference" "TP11"
-			(at 92.71 31.7499 90)
+			(at 93.345 31.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2866,7 +2836,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 92.71 34.2899 90)
+			(at 93.345 34.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2875,7 +2845,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 86.995 38.1 0)
+			(at 87.63 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2884,7 +2854,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.995 38.1 0)
+			(at 87.63 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2893,7 +2863,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.995 33.02 0)
+			(at 87.63 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2958,7 +2928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 140.97 53.34 0)
 			(effects
 				(font
@@ -3024,7 +2994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 121.92 53.34 0)
 			(effects
 				(font
@@ -3090,7 +3060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 20.32 91.44 0)
 			(effects
 				(font
@@ -3159,7 +3129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 156.21 40.64 0)
 			(effects
 				(font
@@ -3234,7 +3204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 43.18 78.74 0)
 			(effects
 				(font
@@ -3306,7 +3276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 181.61 53.34 0)
 			(effects
 				(font
@@ -3376,7 +3346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 81.28 78.74 0)
 			(effects
 				(font
@@ -3405,7 +3375,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 30.48 41.275 90)
+		(at 30.48 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3414,7 +3384,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e44683f-d9a0-4237-b88b-2ccfc0873bba")
 		(property "Reference" "TP8"
-			(at 27.178 35.56 90)
+			(at 27.178 36.195 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3422,7 +3392,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 27.178 38.1 90)
+			(at 27.178 38.735 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3430,7 +3400,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 30.48 36.195 0)
+			(at 30.48 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3439,7 +3409,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 36.195 0)
+			(at 30.48 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3448,7 +3418,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.48 41.275 0)
+			(at 30.48 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3470,7 +3440,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.995 52.07 0)
+		(at 87.63 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3479,7 +3449,7 @@
 		(fields_autoplaced yes)
 		(uuid "56cf0970-1834-4067-9805-154e724d7a61")
 		(property "Reference" "#PWR049"
-			(at 86.995 58.42 0)
+			(at 87.63 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3488,7 +3458,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.995 57.15 0)
+			(at 87.63 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3496,7 +3466,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.995 52.07 0)
+			(at 87.63 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3505,7 +3475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.995 52.07 0)
+			(at 87.63 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3513,8 +3483,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 86.995 52.07 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3644,7 +3614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 35.56 52.07 0)
 			(effects
 				(font
@@ -3710,7 +3680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 45.72 91.44 0)
 			(effects
 				(font
@@ -3800,7 +3770,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 45.72 73.025 270)
+		(at 45.72 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3809,7 +3779,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c8390ed-8a86-4b31-957c-09730b5c3283")
 		(property "Reference" "TP13"
-			(at 50.8 71.7549 90)
+			(at 50.8 72.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3818,7 +3788,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 50.8 74.2949 90)
+			(at 50.8 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3827,7 +3797,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 45.72 78.105 0)
+			(at 45.72 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3836,7 +3806,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 78.105 0)
+			(at 45.72 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3845,7 +3815,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 73.025 0)
+			(at 45.72 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3910,7 +3880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 128.27 53.34 0)
 			(effects
 				(font
@@ -4002,7 +3972,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:2N7002")
-		(at 202.565 40.64 0)
+		(at 203.2 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4011,7 +3981,7 @@
 		(fields_autoplaced yes)
 		(uuid "71f7dbf8-0aeb-49e2-aaf7-a539bb0e9b01")
 		(property "Reference" "Q1"
-			(at 208.915 39.3699 0)
+			(at 209.55 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4020,7 +3990,7 @@
 			)
 		)
 		(property "Value" "2N7002"
-			(at 208.915 41.9099 0)
+			(at 209.55 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4029,7 +3999,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 207.645 42.545 0)
+			(at 208.28 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4040,7 +4010,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 202.565 40.64 0)
+			(at 203.2 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4049,8 +4019,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 202.565 40.64 0)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 203.2 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4078,7 +4048,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 29.21 80.645 90)
+		(at 29.21 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4087,7 +4057,7 @@
 		(fields_autoplaced yes)
 		(uuid "725f736b-4813-4e26-bc31-2a34620b74e2")
 		(property "Reference" "TP9"
-			(at 25.908 74.93 90)
+			(at 25.908 75.565 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,7 +4065,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 25.908 77.47 90)
+			(at 25.908 78.105 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4103,7 +4073,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 29.21 75.565 0)
+			(at 29.21 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4112,7 +4082,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 75.565 0)
+			(at 29.21 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4121,7 +4091,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 80.645 0)
+			(at 29.21 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4260,7 +4230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 179.07 40.64 0)
 			(effects
 				(font
@@ -4402,7 +4372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 35.56 91.44 0)
 			(effects
 				(font
@@ -4468,7 +4438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 158.75 53.34 0)
 			(effects
 				(font
@@ -4537,7 +4507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 62.23 78.74 0)
 			(effects
 				(font
@@ -4566,7 +4536,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.105 53.34 0)
+		(at 205.74 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4575,7 +4545,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8b5d4ac-0250-4bd5-91f8-67b0a222519f")
 		(property "Reference" "#PWR052"
-			(at 205.105 59.69 0)
+			(at 205.74 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4584,7 +4554,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.105 58.42 0)
+			(at 205.74 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4592,7 +4562,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.105 53.34 0)
+			(at 205.74 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4601,7 +4571,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.105 53.34 0)
+			(at 205.74 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4609,8 +4579,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 205.105 53.34 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4675,7 +4645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 64.77 91.44 0)
 			(effects
 				(font
@@ -4808,7 +4778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 21.59 52.07 0)
 			(effects
 				(font
@@ -4943,7 +4913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 45.72 52.07 0)
 			(effects
 				(font
@@ -5009,7 +4979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 30.48 52.07 0)
 			(effects
 				(font
@@ -5310,7 +5280,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 205.105 34.29 270)
+		(at 205.74 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5319,7 +5289,7 @@
 		(fields_autoplaced yes)
 		(uuid "d39a36ba-25be-449c-b337-fd1959720d89")
 		(property "Reference" "TP10"
-			(at 210.185 33.0199 90)
+			(at 210.82 33.0199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5328,7 +5298,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 210.185 35.5599 90)
+			(at 210.82 35.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5337,7 +5307,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 205.105 39.37 0)
+			(at 205.74 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5346,7 +5316,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.105 39.37 0)
+			(at 205.74 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5355,7 +5325,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.105 34.29 0)
+			(at 205.74 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5562,7 +5532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 			(at 43.18 39.37 0)
 			(effects
 				(font
@@ -5634,7 +5604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 64.77 52.07 0)
 			(effects
 				(font
@@ -5700,7 +5670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 148.59 53.34 0)
 			(effects
 				(font

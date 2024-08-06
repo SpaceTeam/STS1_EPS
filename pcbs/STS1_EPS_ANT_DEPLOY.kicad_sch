@@ -844,9 +844,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -894,7 +894,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -920,8 +920,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -940,13 +940,13 @@
 		)
 	)
 	(junction
-		(at 53.975 93.98)
+		(at 54.61 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d0c2f1a-c446-4c13-9d30-368fe01e04fe")
 	)
 	(junction
-		(at 118.745 93.98)
+		(at 119.38 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16a204a9-6a11-4b91-b261-2930a9a21d34")
@@ -964,7 +964,7 @@
 		(uuid "22458fcd-918d-4fb5-a6a5-dddc9f04ed74")
 	)
 	(junction
-		(at 34.925 99.06)
+		(at 35.56 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "296261dc-7ff0-4ea4-91cb-c028b5e3e2bd")
@@ -976,13 +976,13 @@
 		(uuid "2bf51b89-63eb-4311-8960-eca46cd30aa9")
 	)
 	(junction
-		(at 45.085 99.06)
+		(at 45.72 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31f2d5be-130d-423e-9b40-fcc1e7a68ab2")
 	)
 	(junction
-		(at 83.82 88.265)
+		(at 83.82 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "322d9a4d-4ef1-422f-a4c7-38001b21f0ec")
@@ -1012,7 +1012,7 @@
 		(uuid "57bd6257-2ac5-4a4b-8033-f7f2d3208e6f")
 	)
 	(junction
-		(at 56.515 93.98)
+		(at 57.15 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6546a120-d2d9-4e05-8170-dd246674c4fc")
@@ -1042,7 +1042,7 @@
 		(uuid "c51a460a-5fb5-4a0b-87e3-ee69119cb4b1")
 	)
 	(junction
-		(at 123.825 93.98)
+		(at 124.46 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ccf40531-1014-455e-9a36-ecbd32690f81")
@@ -1054,13 +1054,13 @@
 		(uuid "e7a92e04-5f9f-4fb6-9aaa-eb9fad55d53d")
 	)
 	(junction
-		(at 51.435 93.98)
+		(at 52.07 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea0dd6cb-1cd8-44cf-b010-b013ee42d0f6")
 	)
 	(junction
-		(at 121.285 93.98)
+		(at 121.92 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6c4af81-135c-47bb-b5c7-79de24bbbc56")
@@ -1073,7 +1073,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.895 102.87) (xy 48.895 110.49)
+			(xy 49.53 102.87) (xy 49.53 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1083,7 +1083,7 @@
 	)
 	(wire
 		(pts
-			(xy 51.435 93.98) (xy 53.975 93.98)
+			(xy 52.07 93.98) (xy 54.61 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1093,7 +1093,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 99.06) (xy 114.935 99.06)
+			(xy 100.33 99.06) (xy 115.57 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1103,7 +1103,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 90.17) (xy 83.82 88.265)
+			(xy 83.82 90.17) (xy 83.82 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1133,7 +1133,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.085 99.06) (xy 59.69 99.06)
+			(xy 45.72 99.06) (xy 59.69 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1163,7 +1163,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.745 93.98) (xy 121.285 93.98)
+			(xy 119.38 93.98) (xy 121.92 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1173,7 +1173,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.925 99.06) (xy 45.085 99.06)
+			(xy 35.56 99.06) (xy 45.72 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1183,7 +1183,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.975 93.98) (xy 56.515 93.98)
+			(xy 54.61 93.98) (xy 57.15 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1223,7 +1223,7 @@
 	)
 	(wire
 		(pts
-			(xy 56.515 93.98) (xy 63.5 93.98)
+			(xy 57.15 93.98) (xy 63.5 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1243,7 +1243,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 88.265) (xy 83.82 86.36)
+			(xy 83.82 88.9) (xy 83.82 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1263,7 +1263,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.285 93.98) (xy 123.825 93.98)
+			(xy 121.92 93.98) (xy 124.46 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1273,7 +1273,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.895 110.49) (xy 63.5 110.49)
+			(xy 49.53 110.49) (xy 63.5 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1283,7 +1283,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.745 110.49) (xy 104.14 110.49)
+			(xy 119.38 110.49) (xy 104.14 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1293,7 +1293,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 99.06) (xy 34.925 99.06)
+			(xy 33.02 99.06) (xy 35.56 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1333,7 +1333,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.825 93.98) (xy 126.365 93.98)
+			(xy 124.46 93.98) (xy 127 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1343,7 +1343,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 93.98) (xy 118.745 93.98)
+			(xy 111.76 93.98) (xy 119.38 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1353,7 +1353,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.745 102.87) (xy 118.745 110.49)
+			(xy 119.38 102.87) (xy 119.38 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1413,7 +1413,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.895 93.98) (xy 51.435 93.98)
+			(xy 49.53 93.98) (xy 52.07 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1585,7 +1585,7 @@
 	)
 	(symbol
 		(lib_id "STS_Transistor_FET:SI7272DP-T1-GE3")
-		(at 114.935 99.06 0)
+		(at 115.57 99.06 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1593,7 +1593,7 @@
 		(dnp no)
 		(uuid "3e7b13e7-fc02-437d-8452-f538c7b813b0")
 		(property "Reference" "Q22"
-			(at 114.935 102.87 0)
+			(at 115.57 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1602,7 +1602,7 @@
 			)
 		)
 		(property "Value" "SI7272DP-T1-GE3"
-			(at 114.935 105.41 0)
+			(at 115.57 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1611,7 +1611,7 @@
 			)
 		)
 		(property "Footprint" "STS_Package_SO:POWERPAK_SO8"
-			(at 120.777 100.33 0)
+			(at 121.412 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1621,7 +1621,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.735 99.06 0)
+			(at 166.37 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1631,7 +1631,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.935 99.06 0)
+			(at 115.57 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1640,7 +1640,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 121.031 103.632 0)
+			(at 121.666 103.632 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1813,7 +1813,7 @@
 	)
 	(symbol
 		(lib_id "STS_Transistor_FET:SI7272DP-T1-GE3")
-		(at 45.085 99.06 0)
+		(at 45.72 99.06 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1821,7 +1821,7 @@
 		(dnp no)
 		(uuid "76ac225f-e9b4-4e25-8eaf-1a8360b32850")
 		(property "Reference" "Q21"
-			(at 43.815 102.87 0)
+			(at 44.45 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1830,7 +1830,7 @@
 			)
 		)
 		(property "Value" "SI7272DP-T1-GE3"
-			(at 43.815 105.41 0)
+			(at 44.45 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1839,7 +1839,7 @@
 			)
 		)
 		(property "Footprint" "STS_Package_SO:POWERPAK_SO8"
-			(at 50.927 100.33 0)
+			(at 51.562 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1849,7 +1849,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.885 99.06 0)
+			(at 96.52 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1859,7 +1859,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.085 99.06 0)
+			(at 45.72 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1868,7 +1868,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 51.181 103.632 0)
+			(at 51.816 103.632 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1927,7 +1927,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 83.82 88.265 270)
+		(at 83.82 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1936,7 +1936,7 @@
 		(fields_autoplaced yes)
 		(uuid "94c9d838-391b-427f-8ad4-f3158fc9cd4d")
 		(property "Reference" "TP25"
-			(at 88.9 86.9949 90)
+			(at 88.9 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1945,7 +1945,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 88.9 89.5349 90)
+			(at 88.9 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1954,7 +1954,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 83.82 93.345 0)
+			(at 83.82 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1963,7 +1963,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 93.345 0)
+			(at 83.82 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1972,7 +1972,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 88.265 0)
+			(at 83.82 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1994,7 +1994,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 34.925 99.06 0)
+		(at 35.56 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2003,7 +2003,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a7a39d5-9396-4dca-996b-4bb5f3aac5c0")
 		(property "Reference" "TP24"
-			(at 37.465 94.4879 0)
+			(at 38.1 94.4879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2012,7 +2012,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 37.465 97.0279 0)
+			(at 38.1 97.0279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2021,7 +2021,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 40.005 99.06 0)
+			(at 40.64 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2030,7 +2030,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.005 99.06 0)
+			(at 40.64 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2039,7 +2039,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 34.925 99.06 0)
+			(at 35.56 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2104,7 +2104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 83.82 111.76 0)
 			(effects
 				(font
