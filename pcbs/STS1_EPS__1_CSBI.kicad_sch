@@ -1766,12 +1766,6 @@
 		(uuid "20f67594-c9df-441f-a96f-41804391bea3")
 	)
 	(junction
-		(at 87.63 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24a244a0-3ca5-4fef-b46c-7e12a8ca3c10")
-	)
-	(junction
 		(at 165.1 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1824,12 +1818,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85c6165a-7a66-4ffa-b1c4-80bc57daa78c")
-	)
-	(junction
-		(at 87.63 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d5bbbf2-24e8-4fce-bc9a-6d4f307c4b1e")
 	)
 	(junction
 		(at 87.63 57.15)
@@ -1958,8 +1946,20 @@
 		(uuid "f588674c-4ce8-40eb-a736-3cfd12f7facd")
 	)
 	(no_connect
-		(at 62.23 102.87)
+		(at 100.33 100.33)
+		(uuid "1224a12f-ff5d-4606-9038-71846ea13594")
+	)
+	(no_connect
+		(at 87.63 97.79)
 		(uuid "7e4381a9-0e5d-475a-9760-bfbde58daba9")
+	)
+	(no_connect
+		(at 100.33 97.79)
+		(uuid "a00a2660-83aa-4339-a29e-2f843f6079e1")
+	)
+	(no_connect
+		(at 87.63 100.33)
+		(uuid "c55c78cc-4f91-49cc-a215-e8d990265834")
 	)
 	(bus_entry
 		(at 149.86 93.98)
@@ -1978,15 +1978,6 @@
 			(type default)
 		)
 		(uuid "0d39cb63-2d35-4d40-874e-4a584d322813")
-	)
-	(bus_entry
-		(at 66.04 102.87)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ad17ee0-4cb6-40d1-b911-2180567c5ef0")
 	)
 	(bus_entry
 		(at 149.86 81.28)
@@ -2061,15 +2052,6 @@
 		(uuid "b284db34-267f-4721-b514-9c954c1d0ecf")
 	)
 	(bus_entry
-		(at 66.04 100.33)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca5ac964-8f2c-402c-bb95-d979e9c4106c")
-	)
-	(bus_entry
 		(at 67.31 67.31)
 		(size 2.54 -2.54)
 		(stroke
@@ -2129,16 +2111,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 100.33) (xy 87.63 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10a4852a-e90f-4327-8695-a85d3474a8a4")
-	)
-	(wire
-		(pts
 			(xy 87.63 64.77) (xy 100.33 64.77)
 		)
 		(stroke
@@ -2156,16 +2128,6 @@
 			(type default)
 		)
 		(uuid "1356bb62-369c-4ca2-92d0-955084a67887")
-	)
-	(wire
-		(pts
-			(xy 87.63 97.79) (xy 100.33 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cc609b9-9b39-4fde-8452-d61d5d0ae12b")
 	)
 	(wire
 		(pts
@@ -2246,16 +2208,6 @@
 			(type default)
 		)
 		(uuid "31e2f0f3-ea31-4dbd-b4b0-75305e1dbf9a")
-	)
-	(wire
-		(pts
-			(xy 87.63 100.33) (xy 100.33 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31e3d088-412f-470e-8c00-61f55cc85617")
 	)
 	(wire
 		(pts
@@ -2499,16 +2451,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 97.79) (xy 87.63 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "724ea82d-9768-4bdb-b69b-97ac06340198")
-	)
-	(wire
-		(pts
 			(xy 165.1 99.06) (xy 177.8 99.06)
 		)
 		(stroke
@@ -2729,16 +2671,6 @@
 	)
 	(bus
 		(pts
-			(xy 66.04 100.33) (xy 66.04 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0c7c8e4-bbcc-421a-bf1a-1d49c2df950e")
-	)
-	(bus
-		(pts
 			(xy 149.86 88.9) (xy 149.86 91.44)
 		)
 		(stroke
@@ -2786,16 +2718,6 @@
 			(type default)
 		)
 		(uuid "bd080589-d3b2-4dff-a22e-fcfc43fef9e9")
-	)
-	(bus
-		(pts
-			(xy 66.04 102.87) (xy 62.23 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c196f0f8-f101-4a1d-ab15-b4a51984384f")
 	)
 	(wire
 		(pts
@@ -2968,17 +2890,6 @@
 		)
 		(uuid "5b76c33a-699b-44db-b08c-ffa8ca0ee5bf")
 	)
-	(text "For UART the numbering is as follows\n1: TX\n2: RX\n"
-		(exclude_from_sim no)
-		(at 35.56 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d58b0494-1e6f-4079-8b23-83c2c6218933")
-	)
 	(label "EDU_SPI_2"
 		(at 73.66 67.31 0)
 		(fields_autoplaced yes)
@@ -2989,17 +2900,6 @@
 			(justify left bottom)
 		)
 		(uuid "00b92007-563f-4564-b1de-b92028574e24")
-	)
-	(label "UART_COBC_EDU_1"
-		(at 68.58 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "073a5465-0456-4266-a504-9b716c14a2fb")
 	)
 	(label "COBC_SPI_3"
 		(at 152.4 83.82 0)
@@ -3110,17 +3010,6 @@
 			(justify left bottom)
 		)
 		(uuid "ddf4eec1-af81-48fa-a434-4ca74514b3f0")
-	)
-	(label "UART_COBC_EDU_2"
-		(at 68.58 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "eff9bd63-2795-4e00-a50f-f5260b7da856")
 	)
 	(label "COBC_SPI_6"
 		(at 152.4 91.44 0)

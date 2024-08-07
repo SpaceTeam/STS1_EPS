@@ -2073,7 +2073,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.135 71.12) (xy 193.04 71.12)
+			(xy 191.77 71.12) (xy 193.04 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2619,7 +2619,7 @@
 	)
 	(hierarchical_label "EPS_ANT_DEPLOY"
 		(shape input)
-		(at 191.135 71.12 180)
+		(at 191.77 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4217,7 +4217,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 23.495 31.115 270)
+		(at 24.13 31.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4225,7 +4225,7 @@
 		(dnp no)
 		(uuid "2b6425e0-9d52-4922-a7b1-f727b0c65e3b")
 		(property "Reference" "#PWR0120"
-			(at 17.145 31.115 0)
+			(at 17.78 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4234,7 +4234,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 20.2438 31.242 90)
+			(at 20.8788 31.877 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4243,7 +4243,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 23.495 31.115 0)
+			(at 24.13 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4252,7 +4252,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 23.495 31.115 0)
+			(at 24.13 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4261,7 +4261,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 23.495 31.115 0)
+			(at 24.13 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4283,7 +4283,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 23.495 28.575 0)
+		(at 24.13 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4292,7 +4292,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e26f730-253e-402a-8120-a5ab0c373033")
 		(property "Reference" "H1"
-			(at 26.67 26.0349 0)
+			(at 27.305 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4301,7 +4301,7 @@
 			)
 		)
 		(property "Value" "Mounting hole electronic stack"
-			(at 26.67 28.5749 0)
+			(at 27.305 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4310,7 +4310,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
-			(at 23.495 28.575 0)
+			(at 24.13 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4319,7 +4319,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 23.495 28.575 0)
+			(at 24.13 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4328,7 +4328,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 23.495 28.575 0)
+			(at 24.13 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4350,7 +4350,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 23.495 64.135 270)
+		(at 24.13 64.77 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4358,7 +4358,7 @@
 		(dnp no)
 		(uuid "517a0e72-49b5-4f1e-b514-9db03e38576e")
 		(property "Reference" "#PWR0123"
-			(at 17.145 64.135 0)
+			(at 17.78 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4367,7 +4367,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 20.2438 64.262 90)
+			(at 20.8788 64.897 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4376,7 +4376,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 23.495 64.135 0)
+			(at 24.13 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4385,7 +4385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 23.495 64.135 0)
+			(at 24.13 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4394,7 +4394,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 23.495 64.135 0)
+			(at 24.13 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4480,7 +4480,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 23.495 41.275 270)
+		(at 24.13 41.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4488,7 +4488,7 @@
 		(dnp no)
 		(uuid "9109e67f-58f6-4cb3-9058-cef71d651572")
 		(property "Reference" "#PWR0121"
-			(at 17.145 41.275 0)
+			(at 17.78 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4497,7 +4497,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 20.2438 41.402 90)
+			(at 20.8788 42.037 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4506,7 +4506,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 23.495 41.275 0)
+			(at 24.13 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4515,7 +4515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 23.495 41.275 0)
+			(at 24.13 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4524,7 +4524,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 23.495 41.275 0)
+			(at 24.13 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4546,7 +4546,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 23.495 52.07 270)
+		(at 24.13 52.07 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4554,7 +4554,7 @@
 		(dnp no)
 		(uuid "b52a285a-b80f-4694-a67c-c02257c5c31f")
 		(property "Reference" "#PWR0122"
-			(at 17.145 52.07 0)
+			(at 17.78 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4563,7 +4563,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 20.2438 52.197 90)
+			(at 20.8788 52.197 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4572,7 +4572,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 23.495 52.07 0)
+			(at 24.13 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4581,7 +4581,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 23.495 52.07 0)
+			(at 24.13 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4590,7 +4590,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 23.495 52.07 0)
+			(at 24.13 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4612,7 +4612,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 23.495 49.53 0)
+		(at 24.13 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4621,7 +4621,7 @@
 		(fields_autoplaced yes)
 		(uuid "c826bf62-693b-4c19-886c-ab0ebdd04faa")
 		(property "Reference" "H3"
-			(at 26.67 46.9899 0)
+			(at 27.305 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4630,7 +4630,7 @@
 			)
 		)
 		(property "Value" "Mounting hole electronic stack"
-			(at 26.67 49.5299 0)
+			(at 27.305 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4639,7 +4639,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
-			(at 23.495 49.53 0)
+			(at 24.13 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,7 +4648,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 23.495 49.53 0)
+			(at 24.13 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4657,7 +4657,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 23.495 49.53 0)
+			(at 24.13 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4743,7 +4743,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 23.495 38.735 0)
+		(at 24.13 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4752,7 +4752,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6f3a41e-c12c-4fed-8ae4-99cbe30ad5b9")
 		(property "Reference" "H2"
-			(at 26.67 36.1949 0)
+			(at 27.305 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4761,7 +4761,7 @@
 			)
 		)
 		(property "Value" "Mounting hole electronic stack"
-			(at 26.67 38.7349 0)
+			(at 27.305 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4770,7 +4770,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
-			(at 23.495 38.735 0)
+			(at 24.13 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4779,7 +4779,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 23.495 38.735 0)
+			(at 24.13 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4788,7 +4788,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 23.495 38.735 0)
+			(at 24.13 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4810,7 +4810,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 23.495 61.595 0)
+		(at 24.13 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4819,7 +4819,7 @@
 		(fields_autoplaced yes)
 		(uuid "ecd18666-b577-4e14-af9a-2c822fc2f68a")
 		(property "Reference" "H4"
-			(at 26.67 59.0549 0)
+			(at 27.305 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4828,7 +4828,7 @@
 			)
 		)
 		(property "Value" "Mounting hole electronic stack"
-			(at 26.67 61.5949 0)
+			(at 27.305 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4837,7 +4837,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
-			(at 23.495 61.595 0)
+			(at 24.13 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4846,7 +4846,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 23.495 61.595 0)
+			(at 24.13 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4855,7 +4855,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 23.495 61.595 0)
+			(at 24.13 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
