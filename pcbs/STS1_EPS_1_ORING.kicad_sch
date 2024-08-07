@@ -461,9 +461,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -511,7 +511,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -537,8 +537,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -664,7 +664,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 113.03) (xy 49.53 114.935)
+			(xy 49.53 113.03) (xy 49.53 115.57)
 		)
 		(stroke
 			(width 0)
@@ -694,7 +694,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 122.555) (xy 49.53 125.73)
+			(xy 49.53 123.19) (xy 49.53 125.73)
 		)
 		(stroke
 			(width 0)
@@ -820,7 +820,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 49.53 118.745 0)
+		(at 49.53 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -828,7 +828,7 @@
 		(dnp no)
 		(uuid "0893ed3a-d7df-49a5-bca0-1313115482f4")
 		(property "Reference" "C7"
-			(at 50.8 114.935 0)
+			(at 50.8 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -837,7 +837,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 50.8 122.555 0)
+			(at 50.8 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -846,7 +846,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 50.4952 122.555 0)
+			(at 50.4952 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -855,7 +855,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 118.745 0)
+			(at 49.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -864,7 +864,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 118.745 0)
+			(at 49.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -907,12 +907,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 62.2299 0)
+			(at 49.53 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -933,7 +932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 49.53 60.96 0)
 			(effects
 				(font
@@ -1000,7 +999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 92.71 57.15 0)
 			(effects
 				(font
@@ -1067,7 +1066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 93.98 123.19 0)
 			(effects
 				(font
@@ -1445,7 +1444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 92.71 41.91 0)
 			(effects
 				(font
@@ -1553,12 +1552,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 126.9999 0)
+			(at 49.53 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -1579,7 +1577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 49.53 125.73 0)
 			(effects
 				(font
@@ -1645,7 +1643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 102.87 144.78 0)
 			(effects
 				(font
@@ -1781,7 +1779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 93.98 107.95 0)
 			(effects
 				(font
