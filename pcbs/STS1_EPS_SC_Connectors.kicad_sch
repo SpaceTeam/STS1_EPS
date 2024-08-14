@@ -6755,7 +6755,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b238aad7-e283-4c43-b2c1-de1440f9db36")
 		(property "Reference" "J5"
 			(at 38.1 118.11 0)

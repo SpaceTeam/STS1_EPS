@@ -3162,13 +3162,13 @@
 		(uuid "78023279-1ec1-43ac-9642-268607f3d9bf")
 	)
 	(label "BATT_RAW"
-		(at 250.19 52.07 0)
+		(at 237.49 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "7ba1882c-b745-4f5b-bf27-27fa305182bd")
 	)
@@ -3547,13 +3547,13 @@
 		(uuid "e28451e8-f4ca-48d3-8395-22147b32f233")
 	)
 	(label "CENTER"
-		(at 237.49 52.07 180)
+		(at 250.19 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "e4e383c2-1afa-4d8a-94d3-399c8c174973")
 	)
