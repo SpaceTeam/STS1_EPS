@@ -1945,22 +1945,6 @@
 		(color 0 0 0 0)
 		(uuid "f588674c-4ce8-40eb-a736-3cfd12f7facd")
 	)
-	(no_connect
-		(at 100.33 100.33)
-		(uuid "1224a12f-ff5d-4606-9038-71846ea13594")
-	)
-	(no_connect
-		(at 87.63 97.79)
-		(uuid "7e4381a9-0e5d-475a-9760-bfbde58daba9")
-	)
-	(no_connect
-		(at 100.33 97.79)
-		(uuid "a00a2660-83aa-4339-a29e-2f843f6079e1")
-	)
-	(no_connect
-		(at 87.63 100.33)
-		(uuid "c55c78cc-4f91-49cc-a215-e8d990265834")
-	)
 	(bus_entry
 		(at 149.86 93.98)
 		(size 2.54 -2.54)
@@ -2631,6 +2615,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 97.79) (xy 100.33 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a36f813d-2311-4f47-aa53-274ccda0b376")
+	)
+	(wire
+		(pts
 			(xy 87.63 52.07) (xy 100.33 52.07)
 		)
 		(stroke
@@ -2658,6 +2652,16 @@
 			(type default)
 		)
 		(uuid "ab0ceb71-9155-4b32-80cf-e1eccee449cf")
+	)
+	(wire
+		(pts
+			(xy 87.63 100.33) (xy 100.33 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af6bf798-f8dd-4482-893d-391e09377ba9")
 	)
 	(wire
 		(pts
