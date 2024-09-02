@@ -2229,6 +2229,12 @@
 		(uuid "2d91a845-46b7-4fcd-bc6c-2ee0282a461d")
 	)
 	(junction
+		(at 260.35 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55588ad3-f91d-4e58-9b1b-01e8393fdde2")
+	)
+	(junction
 		(at 93.98 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2281,12 +2287,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94c8a671-7295-4d0a-ac6d-f4acc70b3cda")
-	)
-	(junction
-		(at 260.35 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6d39b76-ef31-4278-8d1e-84fea37c430e")
 	)
 	(junction
 		(at 247.65 82.55)
@@ -2638,16 +2638,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 52.07) (xy 260.35 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7243c44a-40c1-49d7-9ede-4ab14798e020")
-	)
-	(wire
-		(pts
 			(xy 68.58 143.51) (xy 68.58 140.97)
 		)
 		(stroke
@@ -2665,16 +2655,6 @@
 			(type default)
 		)
 		(uuid "758e6930-6071-4ad3-b920-1540a2df2377")
-	)
-	(wire
-		(pts
-			(xy 255.27 52.07) (xy 260.35 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "775bb4fd-d081-40ef-a29f-e1ebf81e03ad")
 	)
 	(wire
 		(pts
@@ -3455,17 +3435,6 @@
 			(justify left bottom)
 		)
 		(uuid "cc057334-743d-4acb-b0b7-d34db5b437a7")
-	)
-	(label "GNDREF"
-		(at 255.27 52.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e2aa265e-b91b-45db-9461-5808afa5b4a7")
 	)
 	(label "IMON"
 		(at 63.5 91.44 0)
@@ -4785,7 +4754,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 81.28 160.02 0)
 			(effects
 				(font
@@ -5682,7 +5651,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 101.6 176.53 0)
 			(effects
 				(font
@@ -5953,6 +5922,74 @@
 			(project "STS1_EPS_2"
 				(path "/38c03ff7-ea47-4d00-b37d-ddcaa7d87722/75dca64b-8858-4c1f-8340-a846cd3da1d0"
 					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 260.35 44.45 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd7eac80-6e64-4b7a-ab2a-fce3ed3af9c4")
+		(property "Reference" "#PWR0100"
+			(at 254 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 256.54 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 260.35 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1b056f0-cd3b-488a-98c8-80a91ac8cccd")
+		)
+		(instances
+			(project "STS1_EPS_2"
+				(path "/38c03ff7-ea47-4d00-b37d-ddcaa7d87722/75dca64b-8858-4c1f-8340-a846cd3da1d0"
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -6730,7 +6767,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 81.28 176.53 0)
 			(effects
 				(font
