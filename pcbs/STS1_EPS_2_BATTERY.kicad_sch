@@ -2229,12 +2229,6 @@
 		(uuid "2d91a845-46b7-4fcd-bc6c-2ee0282a461d")
 	)
 	(junction
-		(at 260.35 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55588ad3-f91d-4e58-9b1b-01e8393fdde2")
-	)
-	(junction
 		(at 93.98 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2535,16 +2529,6 @@
 			(type dash)
 		)
 		(uuid "55edc36b-322c-4c29-bff4-b8ccb31dcc73")
-	)
-	(wire
-		(pts
-			(xy 260.35 49.53) (xy 260.35 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55ff43db-c5cd-445c-ba76-f10a3b8e9b4c")
 	)
 	(wire
 		(pts
@@ -5990,70 +5974,6 @@
 			(project "STS1_EPS_2"
 				(path "/38c03ff7-ea47-4d00-b37d-ddcaa7d87722/75dca64b-8858-4c1f-8340-a846cd3da1d0"
 					(reference "#PWR0100")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 260.35 49.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c0ba48b4-c5b8-4c49-bd36-b3dedb89b44d")
-		(property "Reference" "TP29"
-			(at 254 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 255.016 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 260.35 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 260.35 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 260.35 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6bacc266-ce54-4892-bef5-5c24964acb84")
-		)
-		(instances
-			(project "STS1_EPS_2"
-				(path "/38c03ff7-ea47-4d00-b37d-ddcaa7d87722/75dca64b-8858-4c1f-8340-a846cd3da1d0"
-					(reference "TP29")
 					(unit 1)
 				)
 			)
