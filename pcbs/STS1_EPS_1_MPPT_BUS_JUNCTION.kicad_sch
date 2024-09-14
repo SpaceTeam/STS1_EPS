@@ -5367,7 +5367,7 @@
 			)
 		)
 		(property "Value" "10m"
-			(at 172.72 43.18 90)
+			(at 172.72 45.466 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5394,6 +5394,23 @@
 		)
 		(property "Description" ""
 			(at 172.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 172.72 48.006 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Nr." "WFC0805R0100FE66"
+			(at 172.72 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -4234,10 +4234,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1ac95d21-81f8-4e16-8d18-85403a33781a")
 		(property "Reference" "R41"
-			(at 88.9 96.5199 0)
+			(at 89.154 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4279,6 +4278,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 87.63 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4511,7 +4518,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "30a22278-80f3-416e-8b4f-5fd90b2ba851")
 		(property "Reference" "R39"
 			(at 60.96 96.5199 0)
@@ -4522,7 +4528,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "31k5"
+		(property "Value" "31k6"
 			(at 60.96 99.0599 0)
 			(effects
 				(font
@@ -4556,6 +4562,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 59.944 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5203,7 +5217,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7d5cbac2-3274-4eaa-8cd3-353b74d36d22")
 		(property "Reference" "R42"
 			(at 226.06 130.8099 0)
@@ -5248,6 +5261,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 227.33 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5715,7 +5736,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b15c44c8-e3ba-4f74-8c9b-392274aca16e")
 		(property "Reference" "R43"
 			(at 228.6 107.95 90)
@@ -5758,6 +5778,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 228.346 112.268 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6189,24 +6217,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cff4bfa1-47ce-4aac-8662-973234e5a773")
 		(property "Reference" "R40"
-			(at 80.01 96.5199 0)
+			(at 77.216 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "64k"
-			(at 80.01 99.0599 0)
+		(property "Value" "63k4"
+			(at 76.708 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -6236,6 +6263,14 @@
 				(hide yes)
 			)
 		)
+		(property "Tolernace" "1%"
+			(at 80.264 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "da541c9f-a351-44e5-80bf-275b4eeb4ca6")
 		)
@@ -6259,7 +6294,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ed78df02-724e-4263-93e8-92b7d7f041d0")
 		(property "Reference" "R44"
 			(at 228.6 118.11 90)
@@ -6302,6 +6336,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 228.854 122.428 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

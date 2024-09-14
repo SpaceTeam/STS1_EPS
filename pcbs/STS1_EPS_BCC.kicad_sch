@@ -7233,7 +7233,7 @@
 		(dnp no)
 		(uuid "173363bd-94f3-44c2-a809-e731d7b5b7a2")
 		(property "Reference" "R14"
-			(at 184.912 97.6884 0)
+			(at 184.912 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7242,7 +7242,7 @@
 			)
 		)
 		(property "Value" "30m"
-			(at 184.912 95.377 0)
+			(at 184.912 97.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7268,13 +7268,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "WFC0805R0300FE66"
 			(at 186.69 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 183.896 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8168,7 +8176,7 @@
 		(dnp no)
 		(uuid "2f939447-2163-4316-b260-fb28d8c77a33")
 		(property "Reference" "R2"
-			(at 27.178 177.9016 0)
+			(at 27.432 176.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8177,7 +8185,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 27.178 180.213 0)
+			(at 27.432 178.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8212,6 +8220,14 @@
 				(hide yes)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 28.956 180.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "93416a2c-e844-4795-bc33-bafc784b21d8")
 		)
@@ -8237,7 +8253,7 @@
 		(dnp no)
 		(uuid "333f844c-1832-4fff-a0ea-e75d8a3d835a")
 		(property "Reference" "R3"
-			(at 27.432 58.3184 0)
+			(at 34.036 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8246,7 +8262,7 @@
 			)
 		)
 		(property "Value" "187k"
-			(at 27.432 56.007 0)
+			(at 36.068 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8279,6 +8295,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 32.766 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8436,7 +8460,7 @@
 		(dnp no)
 		(uuid "37a6aae6-af3d-41a7-b4fc-6ce1a713ad71")
 		(property "Reference" "R6"
-			(at 41.148 177.9016 0)
+			(at 41.148 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8445,7 +8469,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 41.148 180.213 0)
+			(at 41.148 178.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8478,6 +8502,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 42.672 180.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8754,6 +8786,14 @@
 				(hide yes)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 80.772 185.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a8c72db5-492d-4e66-8742-3383b70baaed")
 		)
@@ -8788,7 +8828,7 @@
 			)
 		)
 		(property "Value" "30m"
-			(at 191.262 28.067 0)
+			(at 198.882 28.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8814,13 +8854,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "WFC0805R0300FE66"
 			(at 193.04 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 196.088 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9665,6 +9713,14 @@
 				(hide yes)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 272.034 30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2e2f819d-b451-4a3b-a614-d4cc297565a3")
 		)
@@ -10486,7 +10542,7 @@
 		(dnp no)
 		(uuid "78647b3a-bb18-4641-a0b7-ebe2e13283d3")
 		(property "Reference" "R1"
-			(at 27.178 167.7416 0)
+			(at 27.432 165.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10494,8 +10550,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "135k"
-			(at 27.178 170.053 0)
+		(property "Value" "137k"
+			(at 27.432 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10528,6 +10584,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 28.956 169.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12022,6 +12086,14 @@
 				(hide yes)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 32.512 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6536f5d8-f582-4cd6-8f3b-6d4a335b01fa")
 		)
@@ -13064,7 +13136,7 @@
 		(dnp no)
 		(uuid "ed52af64-da95-49d6-8fef-036336cef854")
 		(property "Reference" "R5"
-			(at 41.148 167.7416 0)
+			(at 40.894 165.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13072,8 +13144,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "160k"
-			(at 41.148 170.053 0)
+		(property "Value" "162k"
+			(at 40.894 167.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13106,6 +13178,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 42.418 169.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13339,7 +13419,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f458de1e-ae9b-4650-9d23-8e3e2b2b59c3")
 		(property "Reference" "R8"
 			(at 80.01 163.8299 0)
@@ -13384,6 +13463,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 81.534 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
