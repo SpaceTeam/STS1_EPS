@@ -2473,7 +2473,7 @@
 	)
 	(text "Sets ~500 mA current limit."
 		(exclude_from_sim no)
-		(at 69.85 110.49 0)
+		(at 72.898 111.506 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2495,7 +2495,7 @@
 	)
 	(text "Sets ~500 mA current limit."
 		(exclude_from_sim no)
-		(at 69.85 35.56 0)
+		(at 71.882 36.576 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2506,7 +2506,7 @@
 	)
 	(text "Sets ~500 mA current limit."
 		(exclude_from_sim no)
-		(at 69.85 85.09 0)
+		(at 72.39 85.598 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2517,7 +2517,7 @@
 	)
 	(text "Sets ~500 mA current limit."
 		(exclude_from_sim no)
-		(at 69.85 162.56 0)
+		(at 72.644 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2528,7 +2528,7 @@
 	)
 	(text "Sets ~500 mA current limit."
 		(exclude_from_sim no)
-		(at 69.85 137.16 0)
+		(at 72.898 137.922 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2572,7 +2572,7 @@
 	)
 	(text "Sets ~500 mA current limit."
 		(exclude_from_sim no)
-		(at 69.85 58.42 0)
+		(at 72.39 58.928 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2583,7 +2583,7 @@
 	)
 	(text "Sets ~500 mA current limit."
 		(exclude_from_sim no)
-		(at 148.59 190.5 0)
+		(at 148.082 194.564 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2594,7 +2594,7 @@
 	)
 	(text "Sets ~500 mA current limit."
 		(exclude_from_sim no)
-		(at 69.85 189.23 0)
+		(at 72.644 190.246 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3037,10 +3037,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0e59efa2-1ef0-4f6c-8661-b01bee389562")
 		(property "Reference" "R46"
-			(at 66.675 30.4799 0)
+			(at 67.31 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3048,8 +3047,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6k8"
-			(at 66.675 33.0199 0)
+		(property "Value" "6k81"
+			(at 67.31 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3082,6 +3081,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 68.58 35.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3532,7 +3539,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2df15213-5e9e-459d-ac3e-89afe5a5729b")
 		(property "Reference" "R22"
 			(at 66.675 78.7399 0)
@@ -3543,7 +3549,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "6k81"
 			(at 66.675 81.2799 0)
 			(effects
 				(font
@@ -3577,6 +3583,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 68.072 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3668,7 +3682,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "33c2fd53-5cfd-42ab-aca1-3236996d808c")
 		(property "Reference" "R39"
 			(at 66.675 130.8099 0)
@@ -3679,7 +3692,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "6k81"
 			(at 66.675 133.3499 0)
 			(effects
 				(font
@@ -3715,6 +3728,14 @@
 				(hide yes)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 68.072 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dc9d69af-083a-46b2-b304-570a95be9dd3")
 		)
@@ -3738,7 +3759,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3d183968-30de-4a8d-91c7-a95c8082fa33")
 		(property "Reference" "R42"
 			(at 145.415 184.1499 0)
@@ -3749,7 +3769,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "6k81"
 			(at 145.415 186.6899 0)
 			(effects
 				(font
@@ -3785,6 +3805,14 @@
 				(hide yes)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 146.812 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d23b4953-cd5f-4948-8a02-bb5fb7120fd8")
 		)
@@ -3808,7 +3836,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4805e945-7b0c-4328-9926-b35352aa5303")
 		(property "Reference" "R41"
 			(at 66.675 184.1499 0)
@@ -3819,7 +3846,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "6k81"
 			(at 66.675 186.6899 0)
 			(effects
 				(font
@@ -3853,6 +3880,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 68.072 188.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5591,7 +5626,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "903007be-b977-4b28-bb71-63e167ee01c5")
 		(property "Reference" "R21"
 			(at 66.675 53.3399 0)
@@ -5602,7 +5636,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "6k81"
 			(at 66.675 55.8799 0)
 			(effects
 				(font
@@ -5636,6 +5670,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 68.072 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6019,7 +6061,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b1173f84-7102-457c-ad64-bfff53451056")
 		(property "Reference" "R40"
 			(at 66.675 157.4799 0)
@@ -6030,7 +6071,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "6k81"
 			(at 66.675 160.0199 0)
 			(effects
 				(font
@@ -6064,6 +6105,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 68.072 162.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6831,7 +6880,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d88d28e4-9384-4183-b44f-2c34c2453b27")
 		(property "Reference" "R23"
 			(at 66.675 105.4099 0)
@@ -6842,7 +6890,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "6k81"
 			(at 66.675 107.9499 0)
 			(effects
 				(font
@@ -6876,6 +6924,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 68.326 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

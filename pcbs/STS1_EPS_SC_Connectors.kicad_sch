@@ -3435,7 +3435,7 @@
 	)
 	(text "Sets ~4 A current limit."
 		(exclude_from_sim no)
-		(at 250.19 81.28 0)
+		(at 250.952 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6706,7 +6706,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bf4a7323-4de7-46b2-ba0f-8867e273a4d8")
 		(property "Reference" "R54"
 			(at 247.015 76.1999 0)
@@ -6717,7 +6716,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "820"
+		(property "Value" "825"
 			(at 247.015 78.7399 0)
 			(effects
 				(font
@@ -6751,6 +6750,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 247.142 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(pin "1"

@@ -4980,10 +4980,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4f4fa1eb-492d-404d-b7dd-002a78e82a53")
 		(property "Reference" "R24"
-			(at 210.82 123.1899 0)
+			(at 211.328 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4992,7 +4991,7 @@
 			)
 		)
 		(property "Value" "86k6"
-			(at 210.82 125.7299 0)
+			(at 211.328 121.412 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5025,6 +5024,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 213.106 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5384,7 +5391,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "65588c33-cbaf-48da-984b-d8c1b3dc2ee0")
 		(property "Reference" "R53"
 			(at 237.49 133.3499 0)
@@ -5429,6 +5435,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 239.014 137.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6198,7 +6212,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b0917f33-35b4-44e8-983e-3d1f6ba9470a")
 		(property "Reference" "R25"
 			(at 210.82 133.3499 0)
@@ -6243,6 +6256,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 212.344 138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6816,10 +6837,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e38bd244-a496-4946-b121-0ffdb72633a8")
 		(property "Reference" "R52"
-			(at 237.49 123.1899 0)
+			(at 237.49 120.142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6828,7 +6848,7 @@
 			)
 		)
 		(property "Value" "86k6"
-			(at 237.49 125.7299 0)
+			(at 237.49 122.682 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6861,6 +6881,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 239.014 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
