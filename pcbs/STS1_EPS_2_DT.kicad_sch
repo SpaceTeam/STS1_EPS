@@ -3159,7 +3159,7 @@
 	)
 	(text "Open drain output."
 		(exclude_from_sim no)
-		(at 260.35 62.23 0)
+		(at 264.668 70.612 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3167,17 +3167,6 @@
 			(justify left bottom)
 		)
 		(uuid "90311caa-d0c3-4c73-8b4a-2a768624305d")
-	)
-	(text "Optional bypass \nfor testing purposes.\nMust not be \npopulated in the \nflight model."
-		(exclude_from_sim no)
-		(at 264.16 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a6ee61e9-7b86-4fb3-b858-b60983af4ec6")
 	)
 	(label "SET"
 		(at 146.05 121.92 180)

@@ -4639,7 +4639,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6d5c5344-4166-4f6b-8a60-61e8e3fac33e")
 		(property "Reference" "R45"
 			(at 210.82 20.32 90)
@@ -5289,7 +5289,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "85e89dba-490d-4816-a11a-82096e5ea897")
 		(property "Reference" "R37"
 			(at 242.57 20.32 90)
