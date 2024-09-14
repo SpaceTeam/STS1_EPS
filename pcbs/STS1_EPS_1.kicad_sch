@@ -4877,7 +4877,7 @@
 			)
 			(uuid "c652ccc0-1526-424d-b847-a41e3581df56")
 		)
-		(pin "BAT+_UCI" output
+		(pin "BAT+_EXT" output
 			(at 33.02 111.76 0)
 			(effects
 				(font
@@ -4887,7 +4887,7 @@
 			)
 			(uuid "abecbac2-4eed-4c50-9645-b3b129824ccd")
 		)
-		(pin "UCI_UART_TX" input
+		(pin "UART_TX_EXT" input
 			(at 33.02 114.3 0)
 			(effects
 				(font
@@ -4897,7 +4897,7 @@
 			)
 			(uuid "c2c6fe11-56e8-4a72-b56d-41eb214f8d30")
 		)
-		(pin "UCI_UART_RX" input
+		(pin "UART_RX_EXT" input
 			(at 33.02 116.84 0)
 			(effects
 				(font
@@ -4907,7 +4907,7 @@
 			)
 			(uuid "9a10bd2d-42df-4544-8ef4-1d3e9af3fbbc")
 		)
-		(pin "Bat-" passive
+		(pin "BAT-_EXT" passive
 			(at 33.02 119.38 0)
 			(effects
 				(font
@@ -4917,7 +4917,7 @@
 			)
 			(uuid "67a91158-f393-4f0d-b26b-54a23bb59cea")
 		)
-		(pin "COBC_SWDIO" input
+		(pin "COBC_SWDIO_EXT" input
 			(at 33.02 121.92 0)
 			(effects
 				(font
@@ -4927,7 +4927,7 @@
 			)
 			(uuid "df963b1c-bc83-4263-993f-7f5c46cc7a19")
 		)
-		(pin "~{COBC_RST}" input
+		(pin "~{COBC_RST_EXT}" input
 			(at 33.02 124.46 0)
 			(effects
 				(font
@@ -4937,7 +4937,7 @@
 			)
 			(uuid "4504c520-027d-484b-931c-c7c16ff7cacd")
 		)
-		(pin "5V_ext" input
+		(pin "5V_EXT" input
 			(at 33.02 127 0)
 			(effects
 				(font
@@ -4947,7 +4947,7 @@
 			)
 			(uuid "da30b20c-0c61-4552-a28e-f60e4887d5b9")
 		)
-		(pin "COBC_SWDCLK" input
+		(pin "COBC_SWDCLK_EXT" input
 			(at 33.02 129.54 0)
 			(effects
 				(font
