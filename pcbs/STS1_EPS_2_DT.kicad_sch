@@ -5340,7 +5340,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bf5ff108-d707-40dc-88a7-3efe3f292bee")
 		(property "Reference" "F1"
 			(at 222.25 73.6599 0)
@@ -5351,7 +5350,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "CC12H250mA-TR"
 			(at 222.25 76.1999 0)
 			(effects
 				(font
@@ -5378,13 +5377,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 219.71 74.93 0)
+		(property "Description" "250 mA, normal blow"
+			(at 230.632 71.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
