@@ -922,12 +922,6 @@
 		(uuid "39cb9ef9-8ab5-4c4f-a95a-f1a04b82674e")
 	)
 	(junction
-		(at 95.25 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b8f1a1b-09a2-4074-bfc1-b13fa31474f7")
-	)
-	(junction
 		(at 234.95 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -968,18 +962,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ad8f95c-6b15-4311-9e04-1f3ca09ef02b")
-	)
-	(junction
-		(at 27.94 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a0ea0645-b080-4891-a91b-911cde2e7a4a")
-	)
-	(junction
-		(at 158.75 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3be8ca7-390d-4f19-933c-9d96a4fd882e")
 	)
 	(junction
 		(at 217.17 26.67)
@@ -1109,16 +1091,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 85.09) (xy 171.45 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fbcf9a5-6286-4fab-afeb-42035cbc69b7")
-	)
-	(wire
-		(pts
 			(xy 111.76 158.75) (xy 111.76 161.29)
 		)
 		(stroke
@@ -1199,17 +1171,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 85.09) (xy 111.76 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47854efe-2680-4491-955e-b2144477f1de")
-	)
-	(wire
-		(pts
-			(xy 92.71 85.09) (xy 95.25 85.09)
+			(xy 92.71 85.09) (xy 111.76 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1249,7 +1211,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 85.09) (xy 48.26 85.09)
+			(xy 25.4 85.09) (xy 48.26 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1356,16 +1318,6 @@
 			(type default)
 		)
 		(uuid "7a5d10f0-65a5-4d31-8609-879d0a6bebc1")
-	)
-	(wire
-		(pts
-			(xy 25.4 85.09) (xy 27.94 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c8e4bbd-14c1-42af-b863-e3525425310c")
 	)
 	(wire
 		(pts
@@ -1629,7 +1581,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 85.09) (xy 158.75 85.09)
+			(xy 156.21 85.09) (xy 171.45 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1669,16 +1621,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 74.93) (xy 158.75 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7c25177-1b99-4b04-bade-d699f1b9e92c")
-	)
-	(wire
-		(pts
 			(xy 157.48 95.25) (xy 160.02 95.25)
 		)
 		(stroke
@@ -1686,16 +1628,6 @@
 			(type default)
 		)
 		(uuid "ec07eff6-9f19-437f-8b91-14b55e7d0ac7")
-	)
-	(wire
-		(pts
-			(xy 27.94 74.93) (xy 27.94 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec9abe8c-9687-400d-a312-9bd4c132680a")
 	)
 	(wire
 		(pts
@@ -1726,16 +1658,6 @@
 			(type default)
 		)
 		(uuid "f6a7f953-43fc-46ff-a7c5-f4fce414c99e")
-	)
-	(wire
-		(pts
-			(xy 95.25 74.93) (xy 95.25 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9166c3f-3704-412d-87b5-7225e0837d16")
 	)
 	(text "ADC5"
 		(exclude_from_sim no)
@@ -1836,7 +1758,7 @@
 		)
 		(uuid "06da0967-f362-4998-8ee2-8f74dc9693cd")
 	)
-	(label "Panel_X+_2"
+	(label "Panel_Z-_2"
 		(at 48.26 67.31 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1869,18 +1791,7 @@
 		)
 		(uuid "0b19775d-2542-44c9-a02a-ad65ddafad2e")
 	)
-	(label "5V"
-		(at 158.75 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0f1d7a4a-d939-401b-abdf-ac11f88cced5")
-	)
-	(label "Panel_Y+_7"
+	(label "Panel_Y-_7"
 		(at 229.87 63.5 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1913,7 +1824,7 @@
 		)
 		(uuid "16496fdd-a7e9-478a-a8cb-1ca6116757e7")
 	)
-	(label "Panel_X-_1"
+	(label "Panel_Z+_1"
 		(at 48.26 49.53 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1935,7 +1846,7 @@
 		)
 		(uuid "1a3b6dfb-ece9-4bc9-94cd-2b9dad220064")
 	)
-	(label "Panel_Y+_2"
+	(label "Panel_Y-_2"
 		(at 229.87 60.96 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1946,7 +1857,7 @@
 		)
 		(uuid "1af00bbc-1c25-4ad3-b249-befc0034a8e5")
 	)
-	(label "Panel_Z-_5"
+	(label "Panel_X+_5"
 		(at 48.26 144.78 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1957,7 +1868,7 @@
 		)
 		(uuid "1b2bfdb9-7e33-462e-98eb-8fffe3d1cd63")
 	)
-	(label "Panel_Y+_5"
+	(label "Panel_Y-_5"
 		(at 111.76 46.99 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1968,7 +1879,7 @@
 		)
 		(uuid "1cd7c2df-386b-475a-a6c4-3a930c7b4336")
 	)
-	(label "Panel_Y+_8"
+	(label "Panel_Y-_8"
 		(at 48.26 39.37 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1990,7 +1901,7 @@
 		)
 		(uuid "217ac84d-9e1b-4f66-a268-59c01191fd85")
 	)
-	(label "Panel_Y+_5"
+	(label "Panel_Y-_5"
 		(at 48.26 134.62 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2001,7 +1912,7 @@
 		)
 		(uuid "24f2167a-51b1-49ab-812c-8452b1337a57")
 	)
-	(label "Panel_X-_5"
+	(label "Panel_Z+_5"
 		(at 111.76 54.61 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2045,7 +1956,7 @@
 		)
 		(uuid "2aa61ce6-c6b4-4cb7-b2fa-18d07eb66774")
 	)
-	(label "Panel_Z-_2"
+	(label "Panel_X+_2"
 		(at 48.26 72.39 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2056,7 +1967,7 @@
 		)
 		(uuid "2c465d3d-77ad-474c-bdbb-5fecd295019c")
 	)
-	(label "Panel_Y+_7"
+	(label "Panel_Y-_7"
 		(at 48.26 59.69 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2100,7 +2011,7 @@
 		)
 		(uuid "3380ae36-a8e4-4152-b6a4-cd01f57aa93b")
 	)
-	(label "Panel_Y+_1"
+	(label "Panel_Y-_1"
 		(at 229.87 40.64 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2122,7 +2033,7 @@
 		)
 		(uuid "3488bff0-f036-4b66-91e4-66ddd02140cb")
 	)
-	(label "Panel_Y-_1"
+	(label "Panel_Y+_1"
 		(at 48.26 41.91 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2133,7 +2044,7 @@
 		)
 		(uuid "382b160d-9080-464f-b162-7430d928180b")
 	)
-	(label "Panel_X+_2"
+	(label "Panel_Z-_2"
 		(at 229.87 71.12 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2144,7 +2055,7 @@
 		)
 		(uuid "3abb9d0e-319b-49a2-8c7f-61fe396f425e")
 	)
-	(label "Panel_Y+_1"
+	(label "Panel_Y-_1"
 		(at 48.26 36.83 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2188,7 +2099,7 @@
 		)
 		(uuid "497f7c76-2b94-4870-84cf-9af29ca59ef3")
 	)
-	(label "Panel_X-_2"
+	(label "Panel_Z+_2"
 		(at 48.26 69.85 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2199,7 +2110,7 @@
 		)
 		(uuid "4cb98f6c-5c66-4f48-bc7b-68b68f6cff90")
 	)
-	(label "Panel_X+_5"
+	(label "Panel_Z-_5"
 		(at 111.76 52.07 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2221,7 +2132,7 @@
 		)
 		(uuid "4e41d62a-513e-4025-9e0b-705378696a48")
 	)
-	(label "Panel_Z-_8"
+	(label "Panel_X+_8"
 		(at 229.87 58.42 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2254,7 +2165,7 @@
 		)
 		(uuid "5c2de1fd-c020-4378-87ed-589d5ce53b7f")
 	)
-	(label "Panel_Z-_1"
+	(label "Panel_X+_1"
 		(at 229.87 55.88 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2276,7 +2187,7 @@
 		)
 		(uuid "6da51d72-1050-40f9-a153-731f252654cb")
 	)
-	(label "Panel_Y-_5"
+	(label "Panel_Y+_5"
 		(at 111.76 49.53 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2287,7 +2198,7 @@
 		)
 		(uuid "733480de-25b2-4bcb-9179-e870909bc743")
 	)
-	(label "Panel_X-_2"
+	(label "Panel_Z+_2"
 		(at 229.87 73.66 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2298,7 +2209,7 @@
 		)
 		(uuid "73973553-69c1-41f2-b971-44f05055cd04")
 	)
-	(label "Panel_Z-_2"
+	(label "Panel_X+_2"
 		(at 229.87 76.2 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2353,7 +2264,7 @@
 		)
 		(uuid "80da8a55-c427-4565-a089-8b237d8d2207")
 	)
-	(label "Panel_X+_1"
+	(label "Panel_Z-_1"
 		(at 229.87 50.8 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2375,7 +2286,7 @@
 		)
 		(uuid "8a49dabc-5bb2-424a-a03f-ba349a300cc5")
 	)
-	(label "Panel_Z-_1"
+	(label "Panel_X+_1"
 		(at 48.26 52.07 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2386,7 +2297,7 @@
 		)
 		(uuid "8b7c6c6e-8efa-4a54-9b7a-376f84fb777e")
 	)
-	(label "Panel_Z-_7"
+	(label "Panel_X+_7"
 		(at 229.87 38.1 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2441,7 +2352,7 @@
 		)
 		(uuid "94039159-3021-45b1-9d2d-8cc5ba15a332")
 	)
-	(label "Panel_Y-_5"
+	(label "Panel_Y+_5"
 		(at 48.26 137.16 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2452,7 +2363,7 @@
 		)
 		(uuid "97a8bbcc-f7c1-497e-9803-b02dcd3ed2e3")
 	)
-	(label "Panel_X+_1"
+	(label "Panel_Z-_1"
 		(at 48.26 46.99 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2485,7 +2396,7 @@
 		)
 		(uuid "9e35ace1-e2b7-419f-9a30-54ef3755f33d")
 	)
-	(label "Panel_Y-_2"
+	(label "Panel_Y+_2"
 		(at 48.26 62.23 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2507,7 +2418,7 @@
 		)
 		(uuid "a1a73bc5-46e0-4d90-9d1a-44eff4a58e81")
 	)
-	(label "Panel_Z-_7"
+	(label "Panel_X+_7"
 		(at 48.26 34.29 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2529,7 +2440,7 @@
 		)
 		(uuid "a58160b6-4026-4ef9-9813-6b7335d503ca")
 	)
-	(label "Panel_X-_1"
+	(label "Panel_Z+_1"
 		(at 229.87 53.34 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2540,7 +2451,7 @@
 		)
 		(uuid "a63322a8-1b7c-41e1-a216-997c7402f2e9")
 	)
-	(label "Panel_Y-_8"
+	(label "Panel_Y+_8"
 		(at 48.26 44.45 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2650,7 +2561,7 @@
 		)
 		(uuid "bc2c31bf-69e9-44d5-94ab-ac58a46a49a7")
 	)
-	(label "Panel_Y+_2"
+	(label "Panel_Y-_2"
 		(at 48.26 57.15 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2661,7 +2572,7 @@
 		)
 		(uuid "c2c0c8d7-95d8-484c-8711-a821bb378109")
 	)
-	(label "Panel_Y-_1"
+	(label "Panel_Y+_1"
 		(at 229.87 45.72 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2672,7 +2583,7 @@
 		)
 		(uuid "c3ec5a83-8d56-4581-861a-954966ffcb98")
 	)
-	(label "Panel_Y-_2"
+	(label "Panel_Y+_2"
 		(at 229.87 66.04 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2683,7 +2594,7 @@
 		)
 		(uuid "c5ebfd3a-5c03-4382-8336-5c42efad6c68")
 	)
-	(label "Panel_Y-_7"
+	(label "Panel_Y+_7"
 		(at 48.26 64.77 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2716,7 +2627,7 @@
 		)
 		(uuid "cf3b7ca8-e568-4ac2-8552-11024eabcc2e")
 	)
-	(label "Panel_Z-_8"
+	(label "Panel_X+_8"
 		(at 48.26 54.61 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2727,7 +2638,7 @@
 		)
 		(uuid "d15b3e04-a707-4a97-a6af-03284250c285")
 	)
-	(label "Panel_X-_5"
+	(label "Panel_Z+_5"
 		(at 48.26 142.24 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2760,17 +2671,6 @@
 		)
 		(uuid "e7d476b0-346e-4e10-83a5-ab6449d11aef")
 	)
-	(label "5V"
-		(at 27.94 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "eba97330-052d-4426-b837-6d7eac8594f8")
-	)
 	(label "COBC_SPI_2"
 		(at 111.76 166.37 180)
 		(fields_autoplaced yes)
@@ -2782,7 +2682,7 @@
 		)
 		(uuid "ec43b6bb-91d7-4852-ac49-c016fd6ad941")
 	)
-	(label "Panel_X+_5"
+	(label "Panel_Z-_5"
 		(at 48.26 139.7 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2793,7 +2693,7 @@
 		)
 		(uuid "f0e53673-2c2d-4c21-a213-e71d62dda428")
 	)
-	(label "Panel_Y-_8"
+	(label "Panel_Y+_8"
 		(at 229.87 48.26 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2804,7 +2704,7 @@
 		)
 		(uuid "f123cc0d-e8fa-45f6-a564-7fccdf8b2a93")
 	)
-	(label "Panel_Y-_7"
+	(label "Panel_Y+_7"
 		(at 229.87 68.58 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2837,18 +2737,7 @@
 		)
 		(uuid "f436a81b-edd6-4ef0-9b65-73840a672148")
 	)
-	(label "5V"
-		(at 95.25 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f54f0ef5-f367-4989-a75a-d3a555fc2884")
-	)
-	(label "Panel_Z-_5"
+	(label "Panel_X+_5"
 		(at 111.76 57.15 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2870,7 +2759,7 @@
 		)
 		(uuid "f8835fac-a208-4828-865b-6a1126bb0839")
 	)
-	(label "Panel_Y+_8"
+	(label "Panel_Y-_8"
 		(at 229.87 43.18 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2881,7 +2770,7 @@
 		)
 		(uuid "fe487127-ab57-4cc5-9c1b-09bc58386a3e")
 	)
-	(hierarchical_label "MPPT_I_Y-_2"
+	(hierarchical_label "MPPT_I_Y+_2"
 		(shape input)
 		(at 171.45 46.99 180)
 		(fields_autoplaced yes)
@@ -2893,7 +2782,7 @@
 		)
 		(uuid "05ee7c2c-c3a9-4903-89e2-6b9c5e4c7f2a")
 	)
-	(hierarchical_label "MPPT_I_Y-_1"
+	(hierarchical_label "MPPT_I_Y+_1"
 		(shape input)
 		(at 111.76 135.89 180)
 		(fields_autoplaced yes)
@@ -2905,7 +2794,7 @@
 		)
 		(uuid "11e335fe-dca5-46d8-b7f4-d6b80d5ffe8c")
 	)
-	(hierarchical_label "Panel_Y+_[1..8]"
+	(hierarchical_label "Panel_Y-_[1..8]"
 		(shape input)
 		(at 29.21 24.13 180)
 		(fields_autoplaced yes)
@@ -2929,7 +2818,7 @@
 		)
 		(uuid "18fe8147-848a-41a0-861e-73a3082b4509")
 	)
-	(hierarchical_label "MPPT_I_Y+_1"
+	(hierarchical_label "MPPT_I_Y-_1"
 		(shape input)
 		(at 111.76 140.97 180)
 		(fields_autoplaced yes)
@@ -2941,7 +2830,7 @@
 		)
 		(uuid "201ba95b-9dc9-4119-a245-5929ffbb167a")
 	)
-	(hierarchical_label "Panel_Y-_[1..8]"
+	(hierarchical_label "Panel_Y+_[1..8]"
 		(shape input)
 		(at 29.21 26.67 180)
 		(fields_autoplaced yes)
@@ -2953,7 +2842,7 @@
 		)
 		(uuid "26d43426-cdbc-4cda-ba41-9e47f91a5fff")
 	)
-	(hierarchical_label "Panel_X+_[1..8]"
+	(hierarchical_label "Panel_Z-_[1..8]"
 		(shape input)
 		(at 29.21 29.21 180)
 		(fields_autoplaced yes)
@@ -2977,7 +2866,7 @@
 		)
 		(uuid "2a84ab1a-d10d-412a-acb9-380121cd1d8a")
 	)
-	(hierarchical_label "Panel_X-_[1..8]"
+	(hierarchical_label "Panel_Z+_[1..8]"
 		(shape input)
 		(at 29.21 31.75 180)
 		(fields_autoplaced yes)
@@ -2989,7 +2878,7 @@
 		)
 		(uuid "30afbc43-a342-495b-a800-f111a459a873")
 	)
-	(hierarchical_label "MPPT_I_Y-_1"
+	(hierarchical_label "MPPT_I_Y+_1"
 		(shape input)
 		(at 171.45 44.45 180)
 		(fields_autoplaced yes)
@@ -3025,7 +2914,7 @@
 		)
 		(uuid "4f798839-b5cd-4a94-a92b-f339732fe4a1")
 	)
-	(hierarchical_label "MPPT_I_Z-_1"
+	(hierarchical_label "MPPT_I_X+_1"
 		(shape input)
 		(at 171.45 54.61 180)
 		(fields_autoplaced yes)
@@ -3037,7 +2926,7 @@
 		)
 		(uuid "50a79c45-366c-4ba5-8634-6828b10d3a9b")
 	)
-	(hierarchical_label "MPPT_I_X+_1"
+	(hierarchical_label "MPPT_I_Z-_1"
 		(shape input)
 		(at 171.45 39.37 180)
 		(fields_autoplaced yes)
@@ -3049,7 +2938,7 @@
 		)
 		(uuid "5a26b0a7-46de-4481-81e0-c8d4935459d5")
 	)
-	(hierarchical_label "MPPT_I_Z-_1"
+	(hierarchical_label "MPPT_I_X+_1"
 		(shape input)
 		(at 111.76 146.05 180)
 		(fields_autoplaced yes)
@@ -3097,7 +2986,7 @@
 		)
 		(uuid "68e36d8e-f98a-4de8-bfb0-1067dd999f32")
 	)
-	(hierarchical_label "MPPT_I_Z-_2"
+	(hierarchical_label "MPPT_I_X+_2"
 		(shape input)
 		(at 171.45 57.15 180)
 		(fields_autoplaced yes)
@@ -3121,7 +3010,7 @@
 		)
 		(uuid "7b1997b4-2363-4ba7-8676-147931d75f93")
 	)
-	(hierarchical_label "MPPT_I_Y+_1"
+	(hierarchical_label "MPPT_I_Y-_1"
 		(shape input)
 		(at 171.45 49.53 180)
 		(fields_autoplaced yes)
@@ -3133,7 +3022,7 @@
 		)
 		(uuid "7b820b6c-77dc-4764-b2aa-42fc42278f8f")
 	)
-	(hierarchical_label "MPPT_I_Z-_2"
+	(hierarchical_label "MPPT_I_X+_2"
 		(shape input)
 		(at 111.76 148.59 180)
 		(fields_autoplaced yes)
@@ -3145,7 +3034,7 @@
 		)
 		(uuid "7c04fb2c-c4a2-4341-bd48-734f7eefe0cd")
 	)
-	(hierarchical_label "MPPT_I_Y-_2"
+	(hierarchical_label "MPPT_I_Y+_2"
 		(shape input)
 		(at 111.76 138.43 180)
 		(fields_autoplaced yes)
@@ -3157,7 +3046,7 @@
 		)
 		(uuid "82e3a101-92cf-4644-8e47-20facc3a511c")
 	)
-	(hierarchical_label "MPPT_I_Y+_2"
+	(hierarchical_label "MPPT_I_Y-_2"
 		(shape input)
 		(at 171.45 41.91 180)
 		(fields_autoplaced yes)
@@ -3181,7 +3070,7 @@
 		)
 		(uuid "a2e04197-2adb-473b-ac88-367e1e661ed3")
 	)
-	(hierarchical_label "MPPT_I_X+_1"
+	(hierarchical_label "MPPT_I_Z-_1"
 		(shape input)
 		(at 111.76 130.81 180)
 		(fields_autoplaced yes)
@@ -3241,7 +3130,7 @@
 		)
 		(uuid "bdd33713-9ee2-4f76-be27-effa32f54f14")
 	)
-	(hierarchical_label "MPPT_I_X-_1"
+	(hierarchical_label "MPPT_I_Z+_1"
 		(shape input)
 		(at 171.45 52.07 180)
 		(fields_autoplaced yes)
@@ -3253,7 +3142,7 @@
 		)
 		(uuid "d1fd5248-0426-430d-bfbc-fdd6431ea397")
 	)
-	(hierarchical_label "MPPT_I_Y+_2"
+	(hierarchical_label "MPPT_I_Y-_2"
 		(shape input)
 		(at 111.76 133.35 180)
 		(fields_autoplaced yes)
@@ -3289,7 +3178,7 @@
 		)
 		(uuid "dbd761e1-c873-4773-95d5-499877d53705")
 	)
-	(hierarchical_label "Panel_Z-_[1..8]"
+	(hierarchical_label "Panel_X+_[1..8]"
 		(shape input)
 		(at 29.21 34.29 180)
 		(fields_autoplaced yes)
@@ -3325,7 +3214,7 @@
 		)
 		(uuid "f5a42bbf-b25f-4066-a21c-442fa6ef14e3")
 	)
-	(hierarchical_label "MPPT_I_X-_1"
+	(hierarchical_label "MPPT_I_Z+_1"
 		(shape input)
 		(at 111.76 143.51 180)
 		(fields_autoplaced yes)
@@ -4612,75 +4501,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 158.75 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2ed5f19c-0be6-41ac-b502-c51b03d8af4c")
-		(property "Reference" "R60"
-			(at 160.02 81.534 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 160.02 83.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 156.972 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cbdda87d-9dd5-4950-917e-94302de45202")
-		)
-		(pin "2"
-			(uuid "4807400f-f916-4083-8685-82aca1fbec63")
-		)
-		(instances
-			(project "STS1_EPS_1"
-				(path "/5e906db2-81b9-4191-b4ed-f1d03e54219a/1fa7f756-57e9-4cd3-900e-1a1c84a07cba"
-					(reference "R60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 161.29 26.67 90)
 		(unit 1)
@@ -5160,10 +4980,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4f4fa1eb-492d-404d-b7dd-002a78e82a53")
 		(property "Reference" "R24"
-			(at 210.82 123.1899 0)
+			(at 211.328 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5172,7 +4991,7 @@
 			)
 		)
 		(property "Value" "86k6"
-			(at 210.82 125.7299 0)
+			(at 211.328 121.412 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5205,6 +5024,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 213.106 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5564,7 +5391,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "65588c33-cbaf-48da-984b-d8c1b3dc2ee0")
 		(property "Reference" "R53"
 			(at 237.49 133.3499 0)
@@ -5609,6 +5435,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 239.014 137.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6238,76 +6072,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 27.94 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95fac86c-70fe-4f28-b03e-da74b81ceedc")
-		(property "Reference" "R58"
-			(at 30.48 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 30.48 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 26.162 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 27.94 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df008211-f010-4826-9649-1b25cff29f79")
-		)
-		(pin "2"
-			(uuid "0dca5e63-ffbe-4e15-b76b-99cf5277846e")
-		)
-		(instances
-			(project "STS1_EPS_1"
-				(path "/5e906db2-81b9-4191-b4ed-f1d03e54219a/1fa7f756-57e9-4cd3-900e-1a1c84a07cba"
-					(reference "R58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 102.87 114.3 90)
 		(unit 1)
@@ -6448,7 +6212,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b0917f33-35b4-44e8-983e-3d1f6ba9470a")
 		(property "Reference" "R25"
 			(at 210.82 133.3499 0)
@@ -6493,6 +6256,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 212.344 138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7066,10 +6837,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e38bd244-a496-4946-b121-0ffdb72633a8")
 		(property "Reference" "R52"
-			(at 237.49 123.1899 0)
+			(at 237.49 120.142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7078,7 +6848,7 @@
 			)
 		)
 		(property "Value" "86k6"
-			(at 237.49 125.7299 0)
+			(at 237.49 122.682 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7111,6 +6881,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 239.014 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7189,76 +6967,6 @@
 			(project "STS1_EPS_1"
 				(path "/5e906db2-81b9-4191-b4ed-f1d03e54219a/1fa7f756-57e9-4cd3-900e-1a1c84a07cba"
 					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 95.25 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9060b07-edbf-45fa-aeb8-75c462c0d7a8")
-		(property "Reference" "R59"
-			(at 97.79 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 97.79 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 93.472 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2021bc8f-c3de-4259-ac66-d15a7f3ff965")
-		)
-		(pin "2"
-			(uuid "4e88d2ca-bb27-4343-b88e-38372380f017")
-		)
-		(instances
-			(project "STS1_EPS_1"
-				(path "/5e906db2-81b9-4191-b4ed-f1d03e54219a/1fa7f756-57e9-4cd3-900e-1a1c84a07cba"
-					(reference "R59")
 					(unit 1)
 				)
 			)
