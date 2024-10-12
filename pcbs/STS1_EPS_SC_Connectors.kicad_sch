@@ -3466,7 +3466,7 @@
 		)
 		(uuid "c3715ae4-e90d-4d21-b4d2-f08cb95512f3")
 	)
-	(label "Panel_Z-_2"
+	(label "Panel_X+_2"
 		(at 139.7 163.83 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3477,7 +3477,7 @@
 		)
 		(uuid "100d56c2-8f66-4349-8937-2089ae33bd6f")
 	)
-	(label "Panel_X+_5"
+	(label "Panel_Z-_5"
 		(at 31.75 99.06 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3499,7 +3499,7 @@
 		)
 		(uuid "17641e1b-c912-4227-ad1a-b7f4fb04a08b")
 	)
-	(label "Panel_X+_[1..8]"
+	(label "Panel_Z-_[1..8]"
 		(at 64.77 107.95 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3510,7 +3510,7 @@
 		)
 		(uuid "1bd73ca2-f373-422a-887c-a17e90bd388e")
 	)
-	(label "Panel_Y+_2"
+	(label "Panel_Y-_2"
 		(at 139.7 87.63 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3521,7 +3521,7 @@
 		)
 		(uuid "1ee331e7-d95e-41a7-84de-515a1ed30f42")
 	)
-	(label "Panel_Z+_1"
+	(label "Panel_X-_1"
 		(at 129.54 113.03 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3532,7 +3532,7 @@
 		)
 		(uuid "1fb4bfa9-417b-4d57-826d-d116efdf8c67")
 	)
-	(label "Panel_Z-_1"
+	(label "Panel_X+_1"
 		(at 31.75 124.46 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3543,7 +3543,7 @@
 		)
 		(uuid "20180a0f-cca5-40bf-a0ea-734a59dae4aa")
 	)
-	(label "Panel_Y+_8"
+	(label "Panel_Y-_8"
 		(at 44.45 53.34 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3576,7 +3576,7 @@
 		)
 		(uuid "26be1451-719f-4b0d-bf47-f45093cdb80c")
 	)
-	(label "Panel_Y-_4"
+	(label "Panel_Y+_4"
 		(at 64.77 39.37 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3587,7 +3587,7 @@
 		)
 		(uuid "26be7726-da06-434a-96e2-962af00a8318")
 	)
-	(label "Panel_Z+_2"
+	(label "Panel_X-_2"
 		(at 44.45 69.85 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3598,7 +3598,7 @@
 		)
 		(uuid "27924a28-00ae-4294-9a65-7b30124a0b75")
 	)
-	(label "Panel_Z-_1"
+	(label "Panel_X+_1"
 		(at 129.54 163.83 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3609,7 +3609,7 @@
 		)
 		(uuid "2d0470ef-086e-4a95-b4a2-9fe4d5d13b33")
 	)
-	(label "Panel_X+_1"
+	(label "Panel_Z-_1"
 		(at 31.75 93.98 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3620,7 +3620,7 @@
 		)
 		(uuid "30d5af1e-d2ae-4beb-88fb-57beadcc2f69")
 	)
-	(label "Panel_Z-_4"
+	(label "Panel_X+_4"
 		(at 64.77 148.59 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3631,7 +3631,7 @@
 		)
 		(uuid "338c642e-007e-4f16-a108-3bbdf03ae348")
 	)
-	(label "Panel_Y+_3"
+	(label "Panel_Y-_3"
 		(at 31.75 48.26 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3642,7 +3642,7 @@
 		)
 		(uuid "3c124cf5-174f-48f9-9c2a-a29fed0f7810")
 	)
-	(label "Panel_Z+_4"
+	(label "Panel_X-_4"
 		(at 44.45 72.39 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3664,7 +3664,7 @@
 		)
 		(uuid "3f1c9008-bc8e-4933-80fb-d0244aefaf9b")
 	)
-	(label "Panel_X+_4"
+	(label "Panel_Z-_4"
 		(at 64.77 110.49 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3675,7 +3675,7 @@
 		)
 		(uuid "40046c59-5456-411a-8665-d93b0109b10e")
 	)
-	(label "Panel_Y+_7"
+	(label "Panel_Y-_7"
 		(at 31.75 53.34 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3686,7 +3686,7 @@
 		)
 		(uuid "404e0a7d-0f52-4ef9-9014-1054e2013937")
 	)
-	(label "Panel_Z-_5"
+	(label "Panel_X+_5"
 		(at 31.75 129.54 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3697,7 +3697,7 @@
 		)
 		(uuid "44a87b38-2888-4885-80db-1a52d5cd7024")
 	)
-	(label "Panel_Y+_7"
+	(label "Panel_Y-_7"
 		(at 139.7 92.71 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3708,7 +3708,7 @@
 		)
 		(uuid "44f25702-9aae-4762-a863-2c94c1cff2d1")
 	)
-	(label "Panel_Y-_3"
+	(label "Panel_Y+_3"
 		(at 31.75 25.4 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3719,7 +3719,7 @@
 		)
 		(uuid "4b6f7836-93b6-418f-a88a-b45afaceacde")
 	)
-	(label "Panel_X+_8"
+	(label "Panel_Z-_8"
 		(at 129.54 144.78 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3730,7 +3730,7 @@
 		)
 		(uuid "4b75bc3a-f786-4a3e-a78a-f64507f41c79")
 	)
-	(label "Panel_Z+_4"
+	(label "Panel_X-_4"
 		(at 64.77 86.36 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3741,7 +3741,7 @@
 		)
 		(uuid "4c9fd73a-36c1-4263-963a-75a1bd1cbfa5")
 	)
-	(label "Panel_Y-_1"
+	(label "Panel_Y+_1"
 		(at 129.54 63.5 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3752,7 +3752,7 @@
 		)
 		(uuid "533e7212-8df7-47ee-9989-35ad33ee1087")
 	)
-	(label "Panel_Y+_2"
+	(label "Panel_Y-_2"
 		(at 44.45 45.72 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3763,7 +3763,7 @@
 		)
 		(uuid "573d870c-dec9-407a-a7b6-3305fbac4f78")
 	)
-	(label "Panel_Y+_1"
+	(label "Panel_Y-_1"
 		(at 129.54 87.63 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3774,7 +3774,7 @@
 		)
 		(uuid "595511a4-c093-4f8c-997d-75bc4eeb23f1")
 	)
-	(label "Panel_X+_3"
+	(label "Panel_Z-_3"
 		(at 129.54 139.7 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3796,7 +3796,7 @@
 		)
 		(uuid "654b101b-4892-428f-be75-a12633822b51")
 	)
-	(label "Panel_Y+_3"
+	(label "Panel_Y-_3"
 		(at 129.54 90.17 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3807,7 +3807,7 @@
 		)
 		(uuid "676c1e9c-9b4e-4b1f-adb1-f0f2d779eaa6")
 	)
-	(label "Panel_Y+_8"
+	(label "Panel_Y-_8"
 		(at 129.54 95.25 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3818,7 +3818,7 @@
 		)
 		(uuid "67b8044a-3f70-4973-ba6a-e5ee44b775ab")
 	)
-	(label "Panel_Y+_4"
+	(label "Panel_Y-_4"
 		(at 64.77 62.23 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3840,7 +3840,7 @@
 		)
 		(uuid "68cfd094-c3bd-4a29-b1bc-ddab7c5742da")
 	)
-	(label "Panel_Y-_6"
+	(label "Panel_Y+_6"
 		(at 44.45 27.94 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3851,7 +3851,7 @@
 		)
 		(uuid "69576455-02aa-4dc1-a97d-11cf0d56d0c5")
 	)
-	(label "Panel_Y-_6"
+	(label "Panel_Y+_6"
 		(at 129.54 68.58 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3873,7 +3873,7 @@
 		)
 		(uuid "6e9ef5be-3e14-4bbd-8ece-a9efbfb11548")
 	)
-	(label "Panel_Y+_1"
+	(label "Panel_Y-_1"
 		(at 31.75 45.72 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3884,7 +3884,7 @@
 		)
 		(uuid "6efbcf96-bf64-4fe2-a5ad-9853ea3cf128")
 	)
-	(label "Panel_Y-_8"
+	(label "Panel_Y+_8"
 		(at 129.54 71.12 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3895,7 +3895,7 @@
 		)
 		(uuid "7420d7ed-68cd-4cb7-999c-1969135d6ef4")
 	)
-	(label "Panel_Y-_4"
+	(label "Panel_Y+_4"
 		(at 44.45 25.4 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3906,7 +3906,7 @@
 		)
 		(uuid "748aa014-b026-4df2-b2af-fac131b6c8a9")
 	)
-	(label "Panel_Y+_5"
+	(label "Panel_Y-_5"
 		(at 139.7 90.17 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3917,7 +3917,7 @@
 		)
 		(uuid "76f0215f-a7c8-4a35-8254-712ec9c3d95d")
 	)
-	(label "Panel_Y+_[1..8]"
+	(label "Panel_Y-_[1..8]"
 		(at 64.77 59.69 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3928,7 +3928,7 @@
 		)
 		(uuid "783cf7eb-dee7-4507-914a-038913813fc5")
 	)
-	(label "Panel_Z+_3"
+	(label "Panel_X-_3"
 		(at 129.54 115.57 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3939,7 +3939,7 @@
 		)
 		(uuid "7a8651cc-ce3b-4c64-b3a8-cb71fd059e7b")
 	)
-	(label "Panel_Y-_1"
+	(label "Panel_Y+_1"
 		(at 31.75 22.86 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3950,7 +3950,7 @@
 		)
 		(uuid "7dc30576-f42c-49fb-82b5-68117b252093")
 	)
-	(label "Panel_X+_6"
+	(label "Panel_Z-_6"
 		(at 44.45 99.06 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3961,7 +3961,7 @@
 		)
 		(uuid "83196460-518b-4627-b016-60a75489ae0f")
 	)
-	(label "Panel_Y+_6"
+	(label "Panel_Y-_6"
 		(at 44.45 50.8 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3972,7 +3972,7 @@
 		)
 		(uuid "84920858-2c51-4734-bd1c-b7993f1a74ae")
 	)
-	(label "Panel_X+_2"
+	(label "Panel_Z-_2"
 		(at 139.7 137.16 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3983,7 +3983,7 @@
 		)
 		(uuid "86d30bb2-fa54-4470-aa86-47e662707c29")
 	)
-	(label "Panel_Y+_6"
+	(label "Panel_Y-_6"
 		(at 129.54 92.71 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3994,7 +3994,7 @@
 		)
 		(uuid "8817a63b-4063-4af0-8a56-4ba1eba98436")
 	)
-	(label "Panel_Z+_[1..8]"
+	(label "Panel_X-_[1..8]"
 		(at 64.77 83.82 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4005,7 +4005,7 @@
 		)
 		(uuid "97ffe42f-e9a0-41e3-8235-1cc6cb48c5fe")
 	)
-	(label "Panel_X+_6"
+	(label "Panel_Z-_6"
 		(at 129.54 142.24 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4016,7 +4016,7 @@
 		)
 		(uuid "98ff9b33-8af2-47c5-bf9a-53cc1ff19538")
 	)
-	(label "Panel_Z-_[1..8]"
+	(label "Panel_X+_[1..8]"
 		(at 64.77 146.05 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4027,7 +4027,7 @@
 		)
 		(uuid "9b2fb757-dae8-42ec-ab1c-1c4825a0f65c")
 	)
-	(label "Panel_Z+_3"
+	(label "Panel_X-_3"
 		(at 31.75 72.39 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4038,7 +4038,7 @@
 		)
 		(uuid "9b723f19-81f7-45ff-a1c0-342002eb52bd")
 	)
-	(label "Panel_X+_7"
+	(label "Panel_Z-_7"
 		(at 31.75 101.6 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4071,7 +4071,7 @@
 		)
 		(uuid "a2bcf37d-9371-4341-bb4c-ae7ad9b9e24a")
 	)
-	(label "Panel_Z+_2"
+	(label "Panel_X-_2"
 		(at 139.7 113.03 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4082,7 +4082,7 @@
 		)
 		(uuid "a3c38f89-96c8-496d-a400-d6f6d0c9e85f")
 	)
-	(label "Panel_X+_2"
+	(label "Panel_Z-_2"
 		(at 44.45 93.98 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4093,7 +4093,7 @@
 		)
 		(uuid "a5a41269-768a-43bd-8e51-981e5bd5f2e1")
 	)
-	(label "Panel_Z-_3"
+	(label "Panel_X+_3"
 		(at 31.75 127 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4104,7 +4104,7 @@
 		)
 		(uuid "a7c1ee6d-206a-4727-8c31-430d687e7f68")
 	)
-	(label "Panel_Z-_5"
+	(label "Panel_X+_5"
 		(at 139.7 166.37 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4115,7 +4115,7 @@
 		)
 		(uuid "a9d2cd12-b144-446e-b1db-c9f78de5f358")
 	)
-	(label "Panel_Y-_5"
+	(label "Panel_Y+_5"
 		(at 139.7 66.04 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4126,7 +4126,7 @@
 		)
 		(uuid "ab7439d3-b9df-4511-986d-9923e59c1c11")
 	)
-	(label "Panel_X+_4"
+	(label "Panel_Z-_4"
 		(at 44.45 96.52 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4137,7 +4137,7 @@
 		)
 		(uuid "ac1c530a-a291-44cf-8b68-ccfb9582ab67")
 	)
-	(label "Panel_Y-_[1..8]"
+	(label "Panel_Y+_[1..8]"
 		(at 64.77 36.83 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4170,7 +4170,7 @@
 		)
 		(uuid "b07eda8a-9add-457f-885a-3d185c667c15")
 	)
-	(label "Panel_Y-_2"
+	(label "Panel_Y+_2"
 		(at 44.45 22.86 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4192,7 +4192,7 @@
 		)
 		(uuid "b408c4ed-1dea-4289-9dd5-d1a3ae60507f")
 	)
-	(label "Panel_X+_7"
+	(label "Panel_Z-_7"
 		(at 139.7 142.24 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4214,7 +4214,7 @@
 		)
 		(uuid "b9203013-26d5-4229-a97e-c3bca807c975")
 	)
-	(label "Panel_Y+_5"
+	(label "Panel_Y-_5"
 		(at 31.75 50.8 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4236,7 +4236,7 @@
 		)
 		(uuid "c00a85c6-06e3-4023-a9f6-b21ec8169ab9")
 	)
-	(label "Panel_Y-_8"
+	(label "Panel_Y+_8"
 		(at 44.45 30.48 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4258,7 +4258,7 @@
 		)
 		(uuid "c9ce61e1-4a40-4a32-95f5-d8332846b0e8")
 	)
-	(label "Panel_Z-_4"
+	(label "Panel_X+_4"
 		(at 44.45 127 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4269,7 +4269,7 @@
 		)
 		(uuid "c9d7fa99-bcc0-4b31-afb2-a1c75ebe34b1")
 	)
-	(label "Panel_X+_8"
+	(label "Panel_Z-_8"
 		(at 44.45 101.6 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4280,7 +4280,7 @@
 		)
 		(uuid "c9ea7cf3-4789-47d8-9d54-fe66fd9f81d5")
 	)
-	(label "Panel_X+_5"
+	(label "Panel_Z-_5"
 		(at 139.7 139.7 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4291,7 +4291,7 @@
 		)
 		(uuid "cb032ffa-8efd-4d2e-8b04-e911587dc543")
 	)
-	(label "Panel_Z+_5"
+	(label "Panel_X-_5"
 		(at 31.75 74.93 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4313,7 +4313,7 @@
 		)
 		(uuid "d07bc057-c479-4d8a-8679-619ccaf96711")
 	)
-	(label "Panel_Y-_3"
+	(label "Panel_Y+_3"
 		(at 129.54 66.04 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4324,7 +4324,7 @@
 		)
 		(uuid "d2f10757-ed05-4848-872a-52a6d40e3c10")
 	)
-	(label "Panel_Y-_5"
+	(label "Panel_Y+_5"
 		(at 31.75 27.94 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4346,7 +4346,7 @@
 		)
 		(uuid "d4877473-3db6-4ff8-be44-bf23e2b75487")
 	)
-	(label "Panel_Z+_5"
+	(label "Panel_X-_5"
 		(at 139.7 115.57 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4357,7 +4357,7 @@
 		)
 		(uuid "d49d8aa3-4f9b-4a93-969f-5619d562e3f6")
 	)
-	(label "Panel_Y-_2"
+	(label "Panel_Y+_2"
 		(at 139.7 63.5 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4368,7 +4368,7 @@
 		)
 		(uuid "d50dd138-4d2d-45af-bb22-28d640523342")
 	)
-	(label "Panel_Z-_3"
+	(label "Panel_X+_3"
 		(at 129.54 166.37 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4390,7 +4390,7 @@
 		)
 		(uuid "d7b58f13-5845-4756-9c62-9fc41a0ba0cc")
 	)
-	(label "Panel_Y-_7"
+	(label "Panel_Y+_7"
 		(at 31.75 30.48 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4401,7 +4401,7 @@
 		)
 		(uuid "ec51190e-5ca7-473a-81a4-5ac20fda7c4a")
 	)
-	(label "Panel_X+_3"
+	(label "Panel_Z-_3"
 		(at 31.75 96.52 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4412,7 +4412,7 @@
 		)
 		(uuid "ed1d461b-ca2c-4aa9-8d72-7cfe0d769ce6")
 	)
-	(label "Panel_Z+_1"
+	(label "Panel_X-_1"
 		(at 31.75 69.85 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4423,7 +4423,7 @@
 		)
 		(uuid "f2d35bcc-1279-4113-acab-a6a85ac6ac1c")
 	)
-	(label "Panel_Y+_4"
+	(label "Panel_Y-_4"
 		(at 44.45 48.26 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4434,7 +4434,7 @@
 		)
 		(uuid "f593ba28-9619-4bce-b598-f492cdf99568")
 	)
-	(label "Panel_X+_1"
+	(label "Panel_Z-_1"
 		(at 129.54 137.16 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4445,7 +4445,7 @@
 		)
 		(uuid "fb0a456b-bfe0-4e96-a9f8-3d638b655343")
 	)
-	(label "Panel_Y-_7"
+	(label "Panel_Y+_7"
 		(at 139.7 68.58 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4456,7 +4456,7 @@
 		)
 		(uuid "fbc19e93-7252-4ff0-9a32-aef9f2754abc")
 	)
-	(label "Panel_Z-_2"
+	(label "Panel_X+_2"
 		(at 44.45 124.46 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4467,7 +4467,7 @@
 		)
 		(uuid "fd1a158c-80cf-4e2b-870d-8047cf908bd1")
 	)
-	(hierarchical_label "Panel_Y+_[1..8]"
+	(hierarchical_label "Panel_Y-_[1..8]"
 		(shape input)
 		(at 83.82 59.69 0)
 		(fields_autoplaced yes)
@@ -4503,7 +4503,7 @@
 		)
 		(uuid "1befd4a3-bb91-4cc5-8733-192b9228fdfe")
 	)
-	(hierarchical_label "Panel_Z-_[1..8]"
+	(hierarchical_label "Panel_X+_[1..8]"
 		(shape input)
 		(at 83.82 146.05 0)
 		(fields_autoplaced yes)
@@ -4539,7 +4539,7 @@
 		)
 		(uuid "33b42c5a-34ec-46f3-b8a6-9ae37a11b274")
 	)
-	(hierarchical_label "Panel_X+_[1..8]"
+	(hierarchical_label "Panel_Z-_[1..8]"
 		(shape input)
 		(at 83.82 107.95 0)
 		(fields_autoplaced yes)
@@ -4587,7 +4587,7 @@
 		)
 		(uuid "b620de9c-165a-412c-8792-f54af280a6eb")
 	)
-	(hierarchical_label "Panel_Z+_[1..8]"
+	(hierarchical_label "Panel_X-_[1..8]"
 		(shape input)
 		(at 83.82 83.82 0)
 		(fields_autoplaced yes)
@@ -4611,7 +4611,7 @@
 		)
 		(uuid "cb69bb66-8240-4ca7-a3c8-e1ff4b27e28b")
 	)
-	(hierarchical_label "Panel_Y-_[1..8]"
+	(hierarchical_label "Panel_Y+_[1..8]"
 		(shape input)
 		(at 83.82 36.83 0)
 		(fields_autoplaced yes)
