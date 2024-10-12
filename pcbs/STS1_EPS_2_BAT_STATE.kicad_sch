@@ -544,6 +544,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 107.95) (xy 29.21 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f216403-8ef3-406a-b123-2157a3f6e2d2")
+	)
+	(wire
+		(pts
 			(xy 72.39 109.22) (xy 72.39 115.57)
 		)
 		(stroke
@@ -714,7 +724,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 93.98) (xy 29.21 101.6)
+			(xy 29.21 93.98) (xy 29.21 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1024,16 +1034,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 29.21 105.41 180)
+		(at 29.21 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "28a6a0b6-3e7e-4194-90be-bdd2167c6b1a")
 		(property "Reference" "R33"
-			(at 31.75 104.1399 0)
+			(at 31.75 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1042,7 +1051,7 @@
 			)
 		)
 		(property "Value" "590k"
-			(at 31.75 106.6799 0)
+			(at 31.75 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1051,7 +1060,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 30.988 105.41 90)
+			(at 30.988 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1060,7 +1069,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 105.41 0)
+			(at 29.21 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1069,12 +1078,20 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 105.41 0)
+			(at 29.21 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 33.274 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -1166,10 +1183,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "57c0bbc4-6495-4aa2-879b-239f158b9d5f")
 		(property "Reference" "R31"
-			(at 31.115 60.9599 0)
+			(at 31.496 59.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1178,7 +1194,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 31.115 63.4999 0)
+			(at 31.496 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1211,6 +1227,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 33.02 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -1302,7 +1326,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6f643e74-eea4-441c-b15b-1a99a4f0dfbb")
 		(property "Reference" "R32"
 			(at 31.115 69.8499 0)
@@ -1349,6 +1372,14 @@
 				(hide yes)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 32.512 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "909c2ede-c63c-4e40-97e0-9edcde4004a4")
 		)
@@ -1372,7 +1403,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "75219235-8747-4777-bac0-39a42b0c428e")
 		(property "Reference" "R30"
 			(at 31.75 50.7999 0)
@@ -1419,6 +1449,14 @@
 				(hide yes)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 33.274 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0a22ef4a-871e-4fcf-8fc3-78de6e40507f")
 		)
@@ -1442,10 +1480,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "960488c4-90f9-4409-aa6b-da2c8fd12fd9")
 		(property "Reference" "R34"
-			(at 31.115 113.0299 0)
+			(at 31.75 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1454,7 +1491,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 31.115 115.5699 0)
+			(at 31.75 113.792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1487,6 +1524,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 33.274 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -1933,10 +1978,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ef770d03-7ad6-42bc-a03b-18c3cb8ebfd4")
 		(property "Reference" "R35"
-			(at 31.115 123.1899 0)
+			(at 31.242 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1945,7 +1989,7 @@
 			)
 		)
 		(property "Value" "187k"
-			(at 31.115 125.7299 0)
+			(at 31.242 123.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1978,6 +2022,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 32.766 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

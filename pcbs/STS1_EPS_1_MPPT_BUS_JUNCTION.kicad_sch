@@ -2473,7 +2473,7 @@
 	)
 	(text "Sets ~500 mA current limit."
 		(exclude_from_sim no)
-		(at 69.85 110.49 0)
+		(at 72.898 111.506 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2495,7 +2495,7 @@
 	)
 	(text "Sets ~500 mA current limit."
 		(exclude_from_sim no)
-		(at 69.85 35.56 0)
+		(at 71.882 36.576 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2506,7 +2506,7 @@
 	)
 	(text "Sets ~500 mA current limit."
 		(exclude_from_sim no)
-		(at 69.85 85.09 0)
+		(at 72.39 85.598 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2517,7 +2517,7 @@
 	)
 	(text "Sets ~500 mA current limit."
 		(exclude_from_sim no)
-		(at 69.85 162.56 0)
+		(at 72.644 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2528,7 +2528,7 @@
 	)
 	(text "Sets ~500 mA current limit."
 		(exclude_from_sim no)
-		(at 69.85 137.16 0)
+		(at 72.898 137.922 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2572,7 +2572,7 @@
 	)
 	(text "Sets ~500 mA current limit."
 		(exclude_from_sim no)
-		(at 69.85 58.42 0)
+		(at 72.39 58.928 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2583,7 +2583,7 @@
 	)
 	(text "Sets ~500 mA current limit."
 		(exclude_from_sim no)
-		(at 148.59 190.5 0)
+		(at 148.082 194.564 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2594,7 +2594,7 @@
 	)
 	(text "Sets ~500 mA current limit."
 		(exclude_from_sim no)
-		(at 69.85 189.23 0)
+		(at 72.644 190.246 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2627,7 +2627,7 @@
 		)
 		(uuid "02982181-4aeb-4c93-82c5-3822a27327b2")
 	)
-	(hierarchical_label "MPPT_X+_1_I"
+	(hierarchical_label "MPPT_Z-_1_I"
 		(shape output)
 		(at 69.85 26.67 0)
 		(fields_autoplaced yes)
@@ -2651,7 +2651,7 @@
 		)
 		(uuid "20cfdb13-074e-4e19-8420-2ab3a397617d")
 	)
-	(hierarchical_label "MPPT_X-_1_I"
+	(hierarchical_label "MPPT_Z+_1_I"
 		(shape output)
 		(at 69.85 153.67 0)
 		(fields_autoplaced yes)
@@ -2663,7 +2663,7 @@
 		)
 		(uuid "28caad8a-ab81-47a6-a296-7b0502e86fc7")
 	)
-	(hierarchical_label "MPPT_Z-_1_I"
+	(hierarchical_label "MPPT_X+_1_I"
 		(shape output)
 		(at 69.85 180.34 0)
 		(fields_autoplaced yes)
@@ -2687,7 +2687,7 @@
 		)
 		(uuid "4640e446-09f5-4959-bd71-a21951ae72b3")
 	)
-	(hierarchical_label "MPPT_X+_1_IN"
+	(hierarchical_label "MPPT_Z-_1_IN"
 		(shape input)
 		(at 30.48 21.59 180)
 		(fields_autoplaced yes)
@@ -2699,7 +2699,7 @@
 		)
 		(uuid "4914e234-763d-419d-a229-b60e3afa2132")
 	)
-	(hierarchical_label "MPPT_Z-_2_I"
+	(hierarchical_label "MPPT_X+_2_I"
 		(shape output)
 		(at 148.59 181.61 0)
 		(fields_autoplaced yes)
@@ -2711,7 +2711,7 @@
 		)
 		(uuid "55f4ef8b-859c-4012-8a95-e52f6393f438")
 	)
-	(hierarchical_label "MPPT_Y+_1_I"
+	(hierarchical_label "MPPT_Y-_1_I"
 		(shape output)
 		(at 69.85 128.27 0)
 		(fields_autoplaced yes)
@@ -2723,7 +2723,7 @@
 		)
 		(uuid "580eac5e-6994-4676-8261-ac6cb492a3cd")
 	)
-	(hierarchical_label "MPPT_Z-_2_IN"
+	(hierarchical_label "MPPT_X+_2_IN"
 		(shape input)
 		(at 109.22 176.53 180)
 		(fields_autoplaced yes)
@@ -2747,7 +2747,7 @@
 		)
 		(uuid "6f3657bc-09ad-4896-95a0-f6aea050a2fd")
 	)
-	(hierarchical_label "MPPT_Y+_2_I"
+	(hierarchical_label "MPPT_Y-_2_I"
 		(shape output)
 		(at 69.85 49.53 0)
 		(fields_autoplaced yes)
@@ -2759,7 +2759,7 @@
 		)
 		(uuid "7a2a30b3-0d20-49a5-852a-0234bfa574ec")
 	)
-	(hierarchical_label "MPPT_Y-_2_IN"
+	(hierarchical_label "MPPT_Y+_2_IN"
 		(shape input)
 		(at 30.48 96.52 180)
 		(fields_autoplaced yes)
@@ -2783,7 +2783,7 @@
 		)
 		(uuid "82b535f1-dbd1-4b54-855b-0f6e31565260")
 	)
-	(hierarchical_label "MPPT_X-_1_IN"
+	(hierarchical_label "MPPT_Z+_1_IN"
 		(shape input)
 		(at 30.48 148.59 180)
 		(fields_autoplaced yes)
@@ -2819,7 +2819,7 @@
 		)
 		(uuid "a2677003-e280-4e75-94b7-b51fa87a7329")
 	)
-	(hierarchical_label "MPPT_Z-_1_IN"
+	(hierarchical_label "MPPT_X+_1_IN"
 		(shape input)
 		(at 30.48 175.26 180)
 		(fields_autoplaced yes)
@@ -2855,7 +2855,7 @@
 		)
 		(uuid "c437cb0e-a1f3-41e2-a0d1-a68f355d453d")
 	)
-	(hierarchical_label "MPPT_Y-_2_I"
+	(hierarchical_label "MPPT_Y+_2_I"
 		(shape output)
 		(at 69.85 101.6 0)
 		(fields_autoplaced yes)
@@ -2879,7 +2879,7 @@
 		)
 		(uuid "d42ac237-0b5d-4fb3-8fc3-9a869ecb9e14")
 	)
-	(hierarchical_label "MPPT_Y+_2_IN"
+	(hierarchical_label "MPPT_Y-_2_IN"
 		(shape input)
 		(at 30.48 44.45 180)
 		(fields_autoplaced yes)
@@ -2891,7 +2891,7 @@
 		)
 		(uuid "d554fd5c-6ffc-4cd7-80ba-57a97bc2fd75")
 	)
-	(hierarchical_label "MPPT_Y+_1_IN"
+	(hierarchical_label "MPPT_Y-_1_IN"
 		(shape input)
 		(at 30.48 123.19 180)
 		(fields_autoplaced yes)
@@ -2915,7 +2915,7 @@
 		)
 		(uuid "d939c198-f7d7-4d26-9264-9056385ff526")
 	)
-	(hierarchical_label "MPPT_Y-_1_IN"
+	(hierarchical_label "MPPT_Y+_1_IN"
 		(shape input)
 		(at 30.48 71.12 180)
 		(fields_autoplaced yes)
@@ -2939,7 +2939,7 @@
 		)
 		(uuid "f30ef76c-7b15-46c9-91fe-d1a21254aa30")
 	)
-	(hierarchical_label "MPPT_Y-_1_I"
+	(hierarchical_label "MPPT_Y+_1_I"
 		(shape output)
 		(at 69.85 76.2 0)
 		(fields_autoplaced yes)
@@ -3037,10 +3037,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0e59efa2-1ef0-4f6c-8661-b01bee389562")
 		(property "Reference" "R46"
-			(at 66.675 30.4799 0)
+			(at 67.31 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3048,8 +3047,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6k8"
-			(at 66.675 33.0199 0)
+		(property "Value" "6k81"
+			(at 67.31 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3082,6 +3081,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 68.58 35.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3532,7 +3539,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2df15213-5e9e-459d-ac3e-89afe5a5729b")
 		(property "Reference" "R22"
 			(at 66.675 78.7399 0)
@@ -3543,7 +3549,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "6k81"
 			(at 66.675 81.2799 0)
 			(effects
 				(font
@@ -3577,6 +3583,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 68.072 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3668,7 +3682,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "33c2fd53-5cfd-42ab-aca1-3236996d808c")
 		(property "Reference" "R39"
 			(at 66.675 130.8099 0)
@@ -3679,7 +3692,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "6k81"
 			(at 66.675 133.3499 0)
 			(effects
 				(font
@@ -3715,6 +3728,14 @@
 				(hide yes)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 68.072 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dc9d69af-083a-46b2-b304-570a95be9dd3")
 		)
@@ -3738,7 +3759,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3d183968-30de-4a8d-91c7-a95c8082fa33")
 		(property "Reference" "R42"
 			(at 145.415 184.1499 0)
@@ -3749,7 +3769,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "6k81"
 			(at 145.415 186.6899 0)
 			(effects
 				(font
@@ -3785,6 +3805,14 @@
 				(hide yes)
 			)
 		)
+		(property "Tolerance" "1%"
+			(at 146.812 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d23b4953-cd5f-4948-8a02-bb5fb7120fd8")
 		)
@@ -3808,7 +3836,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4805e945-7b0c-4328-9926-b35352aa5303")
 		(property "Reference" "R41"
 			(at 66.675 184.1499 0)
@@ -3819,7 +3846,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "6k81"
 			(at 66.675 186.6899 0)
 			(effects
 				(font
@@ -3853,6 +3880,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 68.072 188.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4604,7 +4639,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6d5c5344-4166-4f6b-8a60-61e8e3fac33e")
 		(property "Reference" "R45"
 			(at 210.82 20.32 90)
@@ -5254,7 +5289,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "85e89dba-490d-4816-a11a-82096e5ea897")
 		(property "Reference" "R37"
 			(at 242.57 20.32 90)
@@ -5332,7 +5367,7 @@
 			)
 		)
 		(property "Value" "10m"
-			(at 172.72 43.18 90)
+			(at 172.72 45.466 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5359,6 +5394,23 @@
 		)
 		(property "Description" ""
 			(at 172.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 172.72 48.006 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Nr." "WFC0805R0100FE66"
+			(at 172.72 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5591,7 +5643,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "903007be-b977-4b28-bb71-63e167ee01c5")
 		(property "Reference" "R21"
 			(at 66.675 53.3399 0)
@@ -5602,7 +5653,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "6k81"
 			(at 66.675 55.8799 0)
 			(effects
 				(font
@@ -5636,6 +5687,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 68.072 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6019,7 +6078,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b1173f84-7102-457c-ad64-bfff53451056")
 		(property "Reference" "R40"
 			(at 66.675 157.4799 0)
@@ -6030,7 +6088,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "6k81"
 			(at 66.675 160.0199 0)
 			(effects
 				(font
@@ -6064,6 +6122,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 68.072 162.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6831,7 +6897,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d88d28e4-9384-4183-b44f-2c34c2453b27")
 		(property "Reference" "R23"
 			(at 66.675 105.4099 0)
@@ -6842,7 +6907,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "6k81"
 			(at 66.675 107.9499 0)
 			(effects
 				(font
@@ -6876,6 +6941,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 68.326 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
