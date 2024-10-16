@@ -1921,6 +1921,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "TS4148 RYG"
+			(at 185.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f7ca8699-a579-4f00-8db1-93eee6908683")
 		)
@@ -2001,6 +2010,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 27.94 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "TS4148 RYG"
 			(at 27.94 45.72 0)
 			(effects
 				(font
@@ -2421,6 +2439,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "TS4148 RYG"
+			(at 105.41 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b09c252b-56cc-454c-ab64-873adf97b14c")
 		)
@@ -2663,6 +2690,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "TS4148 RYG"
+			(at 66.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d4c4805e-d560-4419-8d46-0fd01244cdc4")
 		)
@@ -2820,6 +2856,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 146.05 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "TS4148 RYG"
 			(at 146.05 45.72 0)
 			(effects
 				(font

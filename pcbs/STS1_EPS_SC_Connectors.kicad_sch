@@ -4875,6 +4875,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "SAMTEC_ZF5S-08-03-T-WT"
+			(at 36.83 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b704e5e3-63f5-42a4-a39e-d61754cd887f")
 		)
@@ -5872,6 +5881,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "SAMTEC_ZF5S-08-03-T-WT"
+			(at 36.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "54dabf61-492a-41ab-a929-301588344604")
 		)
@@ -6402,6 +6420,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "SAMTEC_ZF5S-08-03-T-WT"
+			(at 36.83 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fbcd9496-1695-4fae-8171-66c41d62de9f")
 		)
@@ -6555,6 +6582,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "SAMTEC_ZF5S-08-03-T-WT"
+			(at 36.83 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "799470a5-091a-46de-bf43-fadf3cc2a50c")
 		)
@@ -6657,6 +6693,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 36.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "SAMTEC_ZF5S-08-03-T-WT"
 			(at 36.83 72.39 0)
 			(effects
 				(font

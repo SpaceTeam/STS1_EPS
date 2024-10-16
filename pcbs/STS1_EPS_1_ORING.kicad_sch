@@ -1099,6 +1099,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "C0805T104K1RCLTU"
+			(at 49.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "83556dde-f5bd-4056-b348-669ec764bb66")
 		)
@@ -2215,6 +2224,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "C0805T104K1RCLTU"
+			(at 49.53 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "924dfc8e-2bbe-4b5d-aaa7-9ed2fc3818d0")
 		)
@@ -2343,6 +2361,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 102.87 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "C0805T104K1RCLTU"
 			(at 102.87 137.16 0)
 			(effects
 				(font

@@ -4332,6 +4332,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "SI7135DP-T1-GE3"
+			(at 247.65 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ace4975e-f2de-44e8-962c-895ee0a1ad53")
 		)
@@ -7191,6 +7200,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "SI7135DP-T1-GE3"
+			(at 215.9 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

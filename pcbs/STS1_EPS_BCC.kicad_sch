@@ -6942,6 +6942,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "08051C681JAT2A"
+			(at 87.63 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7090eca5-9311-48ae-8d65-709eb98f1431")
 		)
@@ -7811,6 +7820,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "TPSE687M010R0150V"
+			(at 236.22 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "904933e5-27cb-4ada-9e26-e326a0f0bbe1")
 		)
@@ -8143,6 +8161,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 33.02 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "TPSE687M010R0150V"
 			(at 33.02 24.13 0)
 			(effects
 				(font
@@ -8717,6 +8744,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "08051C681JAT2A"
+			(at 99.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cc5bfecd-fa80-4979-8c89-6e290d516ad8")
 		)
@@ -9279,6 +9315,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "GCM219R71C204JA37J"
+			(at 193.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cddcf4ef-59c6-4545-b7c8-577d10d73359")
 		)
@@ -9448,7 +9493,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50u"
+		(property "Value" "47u"
 			(at 25.4 137.1599 0)
 			(effects
 				(font
@@ -9476,6 +9521,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 21.59 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "TP3B476K010C1800AS"
 			(at 21.59 135.89 0)
 			(effects
 				(font
@@ -9556,6 +9610,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "2N7002"
+			(at 165.1 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "746c2bc2-b17c-4239-9f0a-7dbcb085275e")
 		)
@@ -9623,6 +9686,15 @@
 			)
 		)
 		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 198.12 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "2N7002"
 			(at 198.12 149.86 0)
 			(effects
 				(font
@@ -9898,6 +9970,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "SI7135DP-T1-GE3"
+			(at 265.43 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -10378,6 +10459,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "C0805T105K4RALTU"
+			(at 22.86 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "24c0bd39-680c-4bdf-a532-03d4257eff99")
 		)
@@ -10481,7 +10571,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50u"
+		(property "Value" "47u"
 			(at 41.91 138.43 0)
 			(effects
 				(font
@@ -10509,6 +10599,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 44.45 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "TP3B476K010C1800AS"
 			(at 44.45 135.89 0)
 			(effects
 				(font
@@ -10724,6 +10823,15 @@
 			)
 		)
 		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 224.79 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "2N7002"
 			(at 224.79 151.13 0)
 			(effects
 				(font
@@ -11199,6 +11307,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 22.86 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "C0805T105K4RALTU"
 			(at 22.86 95.25 0)
 			(effects
 				(font
@@ -12161,6 +12278,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "C0805T225K4RACTU"
+			(at 52.07 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b22244a0-3cde-4eae-a79b-b82d2ca7ff3f")
 		)
@@ -12357,6 +12483,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 252.73 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "C0805T334K3RCLTM"
 			(at 252.73 27.94 0)
 			(effects
 				(font
@@ -13252,6 +13387,15 @@
 			)
 		)
 		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 254 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "2N7002"
 			(at 254 151.13 0)
 			(effects
 				(font
