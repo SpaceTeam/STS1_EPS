@@ -3219,6 +3219,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "ESQT-125-02-F-D-560"
+			(at 92.71 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f9603961-b66f-4dbe-a6ab-ad2bf947c003")
 		)
@@ -3431,6 +3440,15 @@
 			)
 		)
 		(property "Part#" "ESQT-125-02-F-D-800"
+			(at 170.18 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "ESQT-125-02-F-D-560"
 			(at 170.18 73.66 0)
 			(effects
 				(font

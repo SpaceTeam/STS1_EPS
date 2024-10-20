@@ -1586,6 +1586,15 @@
 				)
 			)
 		)
+		(property "Part Nr." "RT0805FRE07332RL"
+			(at 74.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a6b3335c-891f-466e-87be-8d3fa90fd8a0")
 		)
@@ -1831,6 +1840,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part Nr." "RT0805FRE073K32L"
+			(at 203.2 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2189,6 +2207,15 @@
 				)
 			)
 		)
+		(property "Part Nr." "RT0805FRE07332RL"
+			(at 154.94 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "86a33365-77be-4a22-b077-9446d5393d05")
 		)
@@ -2349,6 +2376,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part Nr." "RT0805FRE073K32L"
+			(at 163.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2525,6 +2561,15 @@
 				)
 			)
 		)
+		(property "Part Nr." "RT0805FRE07332RL"
+			(at 194.31 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "129fc39c-8637-4b6a-9964-0959426cb046")
 		)
@@ -2600,6 +2645,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part Nr." "RT0805FRE073K32L"
+			(at 83.82 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2774,6 +2828,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part Nr." "RT0805FRE073K32L"
+			(at 123.19 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3035,6 +3098,15 @@
 				)
 			)
 		)
+		(property "Part Nr." "RT0805FRE07332RL"
+			(at 114.3 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "253b9505-f2f7-4674-a5f2-da0f3c1dff31")
 		)
@@ -3112,6 +3184,15 @@
 				)
 			)
 		)
+		(property "Part Nr." "RT0805FRE073K32L"
+			(at 45.72 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e9379a15-f85b-49c5-9d49-851c5709456a")
 		)
@@ -3187,6 +3268,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part Nr." "RT0805FRE07332RL"
+			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

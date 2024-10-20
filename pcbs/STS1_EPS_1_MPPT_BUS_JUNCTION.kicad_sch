@@ -3091,6 +3091,15 @@
 				)
 			)
 		)
+		(property "Part Nr." "MCU08050C6811FP500"
+			(at 64.77 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6ff15344-30fe-41d0-a5a7-5751e3f6f300")
 		)
@@ -3593,6 +3602,15 @@
 				)
 			)
 		)
+		(property "Part Nr." "MCU08050C6811FP500"
+			(at 64.77 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c90ff4ec-4b73-4cd2-a3a6-ad62ed554e00")
 		)
@@ -3736,6 +3754,15 @@
 				)
 			)
 		)
+		(property "Part Nr." "MCU08050C6811FP500"
+			(at 64.77 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dc9d69af-083a-46b2-b304-570a95be9dd3")
 		)
@@ -3813,6 +3840,15 @@
 				)
 			)
 		)
+		(property "Part Nr." "MCU08050C6811FP500"
+			(at 143.51 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d23b4953-cd5f-4948-8a02-bb5fb7120fd8")
 		)
@@ -3888,6 +3924,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part Nr." "MCU08050C6811FP500"
+			(at 64.77 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5629,6 +5674,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "TNPW0805100KFEEA"
+			(at 229.87 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fd43fd18-e4d7-461a-b63b-5ffdffff3409")
 		)
@@ -5704,6 +5758,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part Nr." "MCU08050C6811FP500"
+			(at 64.77 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6139,6 +6202,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part Nr." "MCU08050C6811FP500"
+			(at 64.77 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6883,6 +6955,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "TNPW0805100KFEEA"
+			(at 198.12 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1106851-9943-424e-a073-b09aa2dd6063")
 		)
@@ -6958,6 +7039,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part Nr." "MCU08050C6811FP500"
+			(at 64.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

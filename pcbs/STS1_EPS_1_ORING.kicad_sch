@@ -1376,6 +1376,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "SMF8.0A-HF"
+			(at 36.83 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b19d29dd-6dae-430e-bf7b-fb38bd34718d")
 		)
@@ -1504,6 +1513,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 36.83 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "SMF5.0A"
 			(at 36.83 119.38 0)
 			(effects
 				(font

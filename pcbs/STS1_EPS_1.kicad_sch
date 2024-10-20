@@ -3851,7 +3851,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1µ"
 			(at 125.73 151.1299 0)
 			(effects
 				(font
@@ -3879,6 +3879,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 121.92 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "C0805T105K4RALTU"
 			(at 121.92 149.86 0)
 			(effects
 				(font
@@ -4478,7 +4487,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1µ"
 			(at 156.21 151.1299 0)
 			(effects
 				(font
@@ -4506,6 +4515,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 152.4 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "C0805T105K4RALTU"
 			(at 152.4 149.86 0)
 			(effects
 				(font
@@ -4721,6 +4739,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part Nr." "ESQT-111-02-F-D-560"
+			(at 242.57 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
