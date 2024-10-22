@@ -2785,6 +2785,15 @@
 				)
 			)
 		)
+		(property "Part Nr." "SQT-125-02-L-D"
+			(at 92.71 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f9603961-b66f-4dbe-a6ab-ad2bf947c003")
 		)
@@ -3002,6 +3011,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part Nr." "SQT-125-02-L-D"
+			(at 198.12 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4142,6 +4160,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 23.495 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "STS1_EPS_2"
 				(path "/38c03ff7-ea47-4d00-b37d-ddcaa7d87722/565e35d1-cb7b-4a86-8e2f-32bed42f487e"
@@ -4198,6 +4225,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 23.495 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 23.495 113.665 0)
 			(effects
 				(font
@@ -4336,6 +4372,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 24.13 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b234d351-03cb-4966-85a8-bd93fd062a7b")
 		)
@@ -4461,6 +4506,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 23.495 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 23.495 102.235 0)
 			(effects
 				(font
@@ -4665,6 +4719,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 24.13 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "786af2a6-6b85-43e0-acf3-6ab2da5319cb")
 		)
@@ -4724,6 +4787,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 23.495 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 23.495 96.52 0)
 			(effects
 				(font
@@ -4796,6 +4868,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 24.13 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "44bb48a0-579d-4d7a-82e4-b1020f3eea52")
 		)
@@ -4855,6 +4936,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 24.13 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 24.13 62.23 0)
 			(effects
 				(font

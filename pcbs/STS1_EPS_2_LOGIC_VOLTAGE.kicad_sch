@@ -1557,6 +1557,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 83.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8880163d-31d6-4da8-a350-0135d6b3dbce")
 		)
@@ -1758,6 +1767,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 165.1 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "204237ed-ad5b-4e7c-99f8-5d6d606ba14a")
 		)
@@ -1816,6 +1834,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 40.64 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "C0805T104K1RCLTU"
 			(at 40.64 38.1 0)
 			(effects
 				(font
@@ -1886,6 +1913,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 121.92 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 121.92 66.04 0)
 			(effects
 				(font
@@ -2094,6 +2130,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "C0805T105K4RALTU"
+			(at 129.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8ce6c4f8-7620-446b-b4a4-2182c9e04624")
 		)
@@ -2155,6 +2200,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 40.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "C0805T104K1RCLTU"
 			(at 40.64 102.87 0)
 			(effects
 				(font
@@ -2298,6 +2352,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 26.67 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0226f49c-4e2b-48cc-a89a-e2fd42a4eba8")
 		)
@@ -2359,6 +2422,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 93.98 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "C0805T104K1RCLTU"
 			(at 93.98 121.92 0)
 			(effects
 				(font
@@ -2496,6 +2568,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 85.09 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 85.09 102.87 0)
 			(effects
 				(font
@@ -2770,6 +2851,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "C0805T105K4RALTU"
+			(at 160.02 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "860c466e-e2ef-48ca-aa68-f45a3458d66a")
 		)
@@ -2897,6 +2987,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 144.78 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 144.78 66.04 0)
 			(effects
 				(font
@@ -3036,6 +3135,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 66.04 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2e2efc8f-cf4c-4c54-9168-ac7ff3b0b064")
 		)
@@ -3109,6 +3217,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 29.21 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 29.21 104.14 0)
 			(effects
 				(font
@@ -3291,6 +3408,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
+			(at 67.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

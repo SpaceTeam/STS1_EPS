@@ -3485,6 +3485,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "TNPW0805100KFEEA"
+			(at 43.18 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bc3aa4e2-3f0d-4bad-966b-bd7701d657ea")
 		)
@@ -3592,6 +3601,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
+			(at 119.38 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -3743,6 +3761,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 166.37 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7de40da9-ae5f-42c9-834f-25d3ba463978")
 		)
@@ -3816,6 +3843,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "TNPW0805100KFEEA"
+			(at 101.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3b455255-8bbd-4a97-bcb2-438e87797ffa")
 		)
@@ -3878,6 +3914,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 168.91 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 168.91 129.54 0)
 			(effects
 				(font
@@ -4019,6 +4064,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 143.51 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d1d6c942-c692-46c2-a48d-0ea518fcb734")
 		)
@@ -4096,6 +4150,15 @@
 				)
 			)
 		)
+		(property "Part Nr." "CPF0805B40K2E1"
+			(at 43.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8df7aac3-7cde-48d9-a796-4604fcc420ee")
 		)
@@ -4156,6 +4219,15 @@
 			)
 		)
 		(property "Description" "CD4082BM96"
+			(at 135.89 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "HEF4082BT-Q100J"
 			(at 135.89 96.52 0)
 			(effects
 				(font
@@ -4256,6 +4328,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 73.66 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "TNPW0805100KFEEA"
 			(at 73.66 139.7 0)
 			(effects
 				(font
@@ -4401,6 +4482,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "C0805T105K4RALTU"
+			(at 60.96 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c0e4865-b219-4d92-a4f4-206d28134a97")
 		)
@@ -4476,6 +4566,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part Nr." "RN73R2ATTD6342B25"
+			(at 52.07 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4744,6 +4843,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "HEF4082BT-Q100J"
+			(at 135.89 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "e056a243-1ed0-4eb4-b125-07c5957e7afb")
 		)
@@ -4981,6 +5089,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part Nr." "ERA-6ARB3162V"
+			(at 71.12 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5253,6 +5370,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 149.86 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "89b0bdac-bff0-434b-bb46-a22f45632230")
 		)
@@ -5310,6 +5436,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 156.21 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "TNPW0805100RFETA"
 			(at 156.21 134.62 0)
 			(effects
 				(font
@@ -5589,6 +5724,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "TNPW0805100KFEEA"
+			(at 43.18 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f39d10a3-9520-41dc-b091-de579da594be")
 		)
@@ -5651,6 +5795,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 43.18 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "TNPW0805100KFEEA"
 			(at 43.18 161.29 0)
 			(effects
 				(font
@@ -5793,6 +5946,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 116.84 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "74c0d7ae-aeae-447f-ae8b-098ea8814b00")
 		)
@@ -5855,6 +6017,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 73.66 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "TNPW0805100KFEEA"
 			(at 73.66 161.29 0)
 			(effects
 				(font
@@ -5980,6 +6151,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
+			(at 58.42 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

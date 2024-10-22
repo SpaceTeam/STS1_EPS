@@ -3353,6 +3353,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 219.71 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "de8ffe69-4c89-4a81-ac2c-22005d0efcdb")
 		)
@@ -3501,17 +3510,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 27.94 120.65 0)
-		(mirror y)
+		(at 27.94 123.19 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "320ba84a-0a89-4b4e-83a9-a95a419cd099")
 		(property "Reference" "J5"
-			(at 27.94 114.3 0)
+			(at 22.86 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,7 +3526,7 @@
 			)
 		)
 		(property "Value" "RBF"
-			(at 27.94 116.84 0)
+			(at 22.606 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3527,7 +3534,7 @@
 			)
 		)
 		(property "Footprint" "STS_Connector:M808420245"
-			(at 27.94 120.65 0)
+			(at 27.94 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3536,7 +3543,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 120.65 0)
+			(at 27.94 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3545,7 +3552,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.94 120.65 0)
+			(at 27.94 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "M808420245"
+			(at 27.94 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3755,6 +3771,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." " M80-8510442"
+			(at 27.94 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cdd04d5a-69f5-4482-99b9-3b1d5e28fbc6")
 		)
@@ -3887,6 +3912,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 215.9 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 215.9 78.74 0)
 			(effects
 				(font
@@ -4053,6 +4087,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 49.53 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac18d797-1c09-48e8-acf5-35e7e6a76428")
 		)
@@ -4140,10 +4183,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d55f1a10-ba3c-4c5f-97bf-5adefda70676")
 		(property "Reference" "J1"
-			(at 27.94 82.55 0)
+			(at 23.114 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4151,7 +4193,7 @@
 			)
 		)
 		(property "Value" "DS1"
-			(at 27.94 85.09 0)
+			(at 22.86 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4177,6 +4219,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." " M80-8420245"
 			(at 27.94 88.9 0)
 			(effects
 				(font
@@ -4202,17 +4253,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 27.94 101.6 0)
-		(mirror y)
+		(at 27.94 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d9486d13-e2d9-4597-84db-00f0e8b53a0c")
 		(property "Reference" "J2"
-			(at 27.94 95.25 0)
+			(at 23.368 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4220,7 +4269,7 @@
 			)
 		)
 		(property "Value" "DS2"
-			(at 27.94 97.79 0)
+			(at 22.86 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4228,7 +4277,7 @@
 			)
 		)
 		(property "Footprint" "STS_Connector:M808420245"
-			(at 27.94 101.6 0)
+			(at 27.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4237,7 +4286,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 101.6 0)
+			(at 27.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4246,7 +4295,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.94 101.6 0)
+			(at 27.94 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." " M80-8420245"
+			(at 27.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4327,6 +4385,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part Nr." "SQT-111-02-L-D"
+			(at 33.02 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4451,6 +4518,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 45.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 45.72 43.18 0)
 			(effects
 				(font

@@ -1094,6 +1094,15 @@
 				)
 			)
 		)
+		(property "Part Nr." "TNPW0805590KBEEA"
+			(at 29.21 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "32f404d9-f5dd-4c79-9805-4dae0b345efa")
 		)
@@ -1235,6 +1244,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part Nr." "TNPW080510K0FEEA"
+			(at 29.21 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1380,6 +1398,15 @@
 				)
 			)
 		)
+		(property "Part Nr." "RN73C2A187KBTDF"
+			(at 29.21 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "909c2ede-c63c-4e40-97e0-9edcde4004a4")
 		)
@@ -1455,6 +1482,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part Nr." "ERA-6AEB8063V"
+			(at 29.21 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1534,6 +1570,15 @@
 				)
 			)
 		)
+		(property "Part Nr." "TNPW080510K0FEEA"
+			(at 29.21 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3edd89ff-31b3-4f75-a971-96687b24306a")
 		)
@@ -1596,6 +1641,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 72.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "ERA-6AED474V"
 			(at 72.39 105.41 0)
 			(effects
 				(font
@@ -1872,6 +1926,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "ERA-6AED474V"
+			(at 72.39 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "56b9a2dd-2e6e-4f4b-ba54-0a69a096e85c")
 		)
@@ -1932,6 +1995,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 58.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 58.42 111.76 0)
 			(effects
 				(font
@@ -2032,6 +2104,15 @@
 				)
 			)
 		)
+		(property "Part Nr." "RN73C2A187KBTDF"
+			(at 29.21 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6387877d-da77-45a1-9804-ab6c3bae301e")
 		)
@@ -2092,6 +2173,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 58.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 58.42 58.42 0)
 			(effects
 				(font

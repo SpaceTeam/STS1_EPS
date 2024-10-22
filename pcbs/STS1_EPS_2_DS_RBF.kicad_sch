@@ -2181,6 +2181,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 83.82 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7f25a642-023c-41ee-acd9-da989437170e")
 		)
@@ -2309,6 +2318,15 @@
 			)
 		)
 		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 85.09 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 85.09 39.37 0)
 			(effects
 				(font
@@ -2456,6 +2474,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 64.77 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b0ae587-ad06-4262-b8d9-bd63e17ec140")
 		)
@@ -2588,6 +2615,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "C0805T104K1RCLTU"
+			(at 15.24 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf077557-7cc7-4456-b551-11d62cc39f8c")
 		)
@@ -2650,6 +2686,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 35.56 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "TNPW0805100KFEEA"
 			(at 35.56 72.39 0)
 			(effects
 				(font
@@ -2731,6 +2776,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 62.23 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "12a90d8d-68ba-4caa-b20c-5aecb74c8c2b")
 		)
@@ -2804,6 +2858,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 158.75 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1fdc4929-bc37-40f7-9698-e7256d9b456b")
 		)
@@ -2863,6 +2926,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 87.63 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 87.63 33.02 0)
 			(effects
 				(font
@@ -3138,6 +3210,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 156.21 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a3af932-2d61-4c79-9ac8-649cd8c8007c")
 		)
@@ -3205,6 +3286,15 @@
 			)
 		)
 		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 43.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 43.18 78.74 0)
 			(effects
 				(font
@@ -3355,6 +3445,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 81.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e50fcb7-5fe7-4336-a607-0cb94bb53406")
 		)
@@ -3418,6 +3517,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 30.48 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 30.48 41.91 0)
 			(effects
 				(font
@@ -3549,6 +3657,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 121.92 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 121.92 40.64 0)
 			(effects
 				(font
@@ -3756,6 +3873,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 64.77 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6ac9ac9c-801e-4f53-9f05-5e4ceecc2aa8")
 		)
@@ -3815,6 +3941,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 45.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 45.72 73.66 0)
 			(effects
 				(font
@@ -3955,6 +4090,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "C0805T104K1RCLTU"
+			(at 16.51 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1c702c28-5fb0-40c5-b42d-e4f4e0b3271e")
 		)
@@ -4020,6 +4164,15 @@
 			)
 		)
 		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 203.2 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 203.2 40.64 0)
 			(effects
 				(font
@@ -4099,6 +4252,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 29.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "10565563-096a-4427-8985-f302cc990a9e")
 		)
@@ -4158,6 +4320,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 148.59 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 148.59 46.99 0)
 			(effects
 				(font
@@ -4239,6 +4410,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 179.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b923f5b-d6d3-454b-839e-a03734a2505a")
 		)
@@ -4304,6 +4484,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 35.56 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 35.56 45.72 0)
 			(effects
 				(font
@@ -4508,6 +4697,15 @@
 			)
 		)
 		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 62.23 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 62.23 78.74 0)
 			(effects
 				(font
@@ -4721,6 +4919,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 45.72 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "299eb41b-a08a-4beb-b438-2f9ceb4d7b08")
 		)
@@ -4845,6 +5052,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 121.92 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "C0805T104K1RCLTU"
 			(at 121.92 48.26 0)
 			(effects
 				(font
@@ -5055,6 +5271,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 35.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a042a0c8-03c9-4b45-8d3b-f6cdccf4cf78")
 		)
@@ -5116,6 +5341,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 128.27 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 128.27 48.26 0)
 			(effects
 				(font
@@ -5194,6 +5428,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "TNPW0805100KFEEA"
+			(at 148.59 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "61afd4d6-f8ea-41e4-b6f3-5fcf6f28b31e")
 		)
@@ -5255,6 +5498,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 21.59 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 21.59 46.99 0)
 			(effects
 				(font
@@ -5333,6 +5585,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 205.74 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4b0004ec-29d5-46bc-87e6-969d9c58c29c")
 		)
@@ -5392,6 +5653,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 35.56 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "TNPW0805100KFEEA"
 			(at 35.56 33.02 0)
 			(effects
 				(font
@@ -5469,6 +5739,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 20.32 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e1ddd8eb-3fb6-4f34-bf48-c323a6c0f24e")
 		)
@@ -5533,6 +5812,15 @@
 			)
 		)
 		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 43.18 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 43.18 39.37 0)
 			(effects
 				(font
@@ -5738,6 +6026,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 181.61 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 181.61 34.29 0)
 			(effects
 				(font
