@@ -6075,7 +6075,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.45x1.45mm_ThermalVias"
+		(property "Footprint" "STS_Package_DFN_QFN:QFN65P400X400X100-17N"
 			(at 58.42 52.07 0)
 			(effects
 				(font
