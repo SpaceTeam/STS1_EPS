@@ -126,6 +126,181 @@
 				)
 			)
 		)
+		(symbol "MIC841_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MIC841"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MIC841_1_0_1"
+				(rectangle
+					(start -5.08 0)
+					(end 5.08 -11.43)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 1.778 -0.508)
+					(end 1.778 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.778 -0.508)
+					(end 1.778 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MIC841_1_1_1"
+				(pin input line
+					(at -7.62 -3.81 0)
+					(length 2.54)
+					(name "HTH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -8.89 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "LTH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "STS_Analog:MIC841"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -146,7 +321,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:TDFN-6-1EP_2.5x2.5mm_P0.65mm_EP1.3x2mm"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -210,9 +385,9 @@
 			)
 			(symbol "MIC841_1_1"
 				(pin input line
-					(at -7.62 -1.27 0)
+					(at -7.62 -3.81 0)
 					(length 2.54)
-					(name "LTH"
+					(name "HTH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -246,9 +421,9 @@
 					)
 				)
 				(pin input line
-					(at -7.62 -3.81 0)
+					(at -7.62 -1.27 0)
 					(length 2.54)
-					(name "HTH"
+					(name "LTH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -256,42 +431,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 -1.27 180)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 7.62 -6.35 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -309,7 +448,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -317,17 +456,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -13.97 90)
+				(pin input line
+					(at 7.62 -1.27 180)
 					(length 2.54)
-					(name "EP"
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -621,16 +760,6 @@
 			(type default)
 		)
 		(uuid "52e349f6-e008-4920-881e-7ab0db1336b7")
-	)
-	(wire
-		(pts
-			(xy 58.42 125.73) (xy 58.42 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "536b7632-517a-4148-80b2-a2851cbf153a")
 	)
 	(wire
 		(pts
@@ -967,72 +1096,6 @@
 		(uuid "a9ac08ef-17f3-4e6e-9db9-3ac00c9148ae")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 58.42 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0259761a-e99a-4f0e-a606-935483dec5b7")
-		(property "Reference" "#PWR059"
-			(at 58.42 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 58.42 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb7e9b88-7375-437d-a2fd-31798aa63c71")
-		)
-		(instances
-			(project "STS1_EPS_2"
-				(path "/38c03ff7-ea47-4d00-b37d-ddcaa7d87722/f6013889-7b77-4458-9ae4-3903f8947363"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 29.21 104.14 180)
 		(unit 1)
@@ -1265,72 +1328,6 @@
 			(project "STS1_EPS_2"
 				(path "/38c03ff7-ea47-4d00-b37d-ddcaa7d87722/f6013889-7b77-4458-9ae4-3903f8947363"
 					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 58.42 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ee1b713-3f25-4da3-abfd-ad806c0cffd9")
-		(property "Reference" "#PWR066"
-			(at 58.42 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 58.42 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c67560e2-70bc-4924-8dd6-354518c5d1b3")
-		)
-		(instances
-			(project "STS1_EPS_2"
-				(path "/38c03ff7-ea47-4d00-b37d-ddcaa7d87722/f6013889-7b77-4458-9ae4-3903f8947363"
-					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -1976,7 +1973,7 @@
 				)
 			)
 		)
-		(property "Footprint" "STS_Package_DFN_QFN:TDFN-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
 			(at 58.42 111.76 0)
 			(effects
 				(font
@@ -2026,12 +2023,6 @@
 		)
 		(pin "5"
 			(uuid "7d187cca-72d2-4ada-ad39-9d09d9673de5")
-		)
-		(pin "6"
-			(uuid "202f4c15-93cc-4cea-9a47-b76f8e707f6b")
-		)
-		(pin "7"
-			(uuid "7fe47087-0a54-4f79-b284-e93e9ae1cc07")
 		)
 		(instances
 			(project "STS1_EPS_2"
@@ -2129,6 +2120,7 @@
 		)
 	)
 	(symbol
+		(lib_name "MIC841_1")
 		(lib_id "STS_Analog:MIC841")
 		(at 58.42 58.42 0)
 		(unit 1)
@@ -2154,7 +2146,7 @@
 				)
 			)
 		)
-		(property "Footprint" "STS_Package_DFN_QFN:TDFN-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
 			(at 58.42 58.42 0)
 			(effects
 				(font
@@ -2204,12 +2196,6 @@
 		)
 		(pin "5"
 			(uuid "4e68132a-5989-4c1c-a009-e945f9117738")
-		)
-		(pin "6"
-			(uuid "735c5a46-c5da-4121-b092-853d1969ddd8")
-		)
-		(pin "7"
-			(uuid "4e0ff110-f280-412d-ba97-9d47906d6678")
 		)
 		(instances
 			(project "STS1_EPS_2"
