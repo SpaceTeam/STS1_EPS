@@ -4875,6 +4875,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "SAMTEC_ZF5S-08-03-T-WT"
+			(at 36.83 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b704e5e3-63f5-42a4-a39e-d61754cd887f")
 		)
@@ -5152,6 +5161,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 134.62 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "SMF3.3"
 			(at 134.62 26.67 0)
 			(effects
 				(font
@@ -5872,6 +5890,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "SAMTEC_ZF5S-08-03-T-WT"
+			(at 36.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "54dabf61-492a-41ab-a929-301588344604")
 		)
@@ -6402,6 +6429,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "SAMTEC_ZF5S-08-03-T-WT"
+			(at 36.83 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fbcd9496-1695-4fae-8171-66c41d62de9f")
 		)
@@ -6488,6 +6524,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "RN73R2ATTD3903F25"
+			(at 194.31 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3a5e826b-8d75-428c-ab3b-162d4f02e12a")
 		)
@@ -6547,6 +6592,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 36.83 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "SAMTEC_ZF5S-08-03-T-WT"
 			(at 36.83 132.08 0)
 			(effects
 				(font
@@ -6665,6 +6719,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "SAMTEC_ZF5S-08-03-T-WT"
+			(at 36.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "096da303-fd31-4921-a5bf-aa4df242c052")
 		)
@@ -6759,6 +6822,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "Part Nr." "RT0805FRE07825RL"
+			(at 245.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7312,6 +7384,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 134.62 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "SMF3.3"
 			(at 134.62 45.72 0)
 			(effects
 				(font

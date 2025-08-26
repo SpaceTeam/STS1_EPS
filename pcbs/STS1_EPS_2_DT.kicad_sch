@@ -3429,6 +3429,15 @@
 				)
 			)
 		)
+		(property "Part Nr." "ERA-6AEB8873V"
+			(at 128.27 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2f4c1cfb-69ad-4d39-9856-ea4fbacdfca4")
 		)
@@ -3558,6 +3567,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 151.13 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 151.13 90.17 0)
 			(effects
 				(font
@@ -3740,6 +3758,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 133.35 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a411205a-6418-4244-b03a-06eab56c17a3")
 		)
@@ -3822,6 +3849,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "TNPW0805100KFEEA"
+			(at 33.02 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cdc5614b-da4a-4cc2-a700-72c9b10739a2")
 		)
@@ -3884,6 +3920,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 252.73 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 252.73 73.66 0)
 			(effects
 				(font
@@ -3967,6 +4012,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
+			(at 171.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4080,6 +4134,15 @@
 				)
 			)
 		)
+		(property "Part Nr." "CRT0805-BY-1004ELF"
+			(at 128.27 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c3cd59aa-05a7-4822-b2e5-2c07dd2d7b35")
 		)
@@ -4142,6 +4205,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 106.68 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 106.68 95.25 0)
 			(effects
 				(font
@@ -4222,6 +4294,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part Nr." "RN73H2ATTD1273B25"
+			(at 146.05 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4439,6 +4520,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 193.04 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7b2bbae-a73e-4bd6-9c68-72e5159210b8")
 		)
@@ -4531,6 +4621,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 226.06 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "TNPW0805100RFETA"
 			(at 226.06 82.55 0)
 			(effects
 				(font
@@ -4743,6 +4842,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 207.01 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ab8635d0-9346-40e7-bda7-e489f0659bb8")
 		)
@@ -4800,6 +4908,15 @@
 			)
 		)
 		(property "Description" "Dual 4 input OR gate"
+			(at 92.71 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "CD4072BM96G4"
 			(at 92.71 95.25 0)
 			(effects
 				(font
@@ -4972,6 +5089,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "TNPW0805100RFETA"
+			(at 165.1 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0bbf040a-4608-49bc-8049-7b5042ae62a7")
 		)
@@ -5107,6 +5233,15 @@
 				)
 			)
 		)
+		(property "Part Nr." ""
+			(at 219.71 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5b2a92a8-230d-45ad-91c1-dbb9cd841fad")
 		)
@@ -5169,6 +5304,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 33.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "TNPW0805100KFEEA"
 			(at 33.02 77.47 0)
 			(effects
 				(font
@@ -5242,6 +5386,15 @@
 			)
 		)
 		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 234.95 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 234.95 87.63 0)
 			(effects
 				(font
@@ -5524,6 +5677,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "TNPW0805100KFEEA"
+			(at 33.02 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "06a9222b-1541-4dfd-ab0c-c16983cfea63")
 		)
@@ -5586,6 +5748,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 219.71 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "RN73H2ATTD1273B25"
 			(at 219.71 92.71 0)
 			(effects
 				(font
@@ -5797,6 +5968,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "CD4072BM96G4"
+			(at 92.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "89338088-2844-4e9a-9298-674c359ae710")
 		)
@@ -5887,6 +6067,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 154.94 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "C0805T104K1RCLTU"
 			(at 154.94 85.09 0)
 			(effects
 				(font

@@ -1017,6 +1017,127 @@
 				)
 			)
 		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -3692,6 +3813,12 @@
 		(uuid "512914bb-a103-4d39-80aa-ce94aacb6af3")
 	)
 	(junction
+		(at 186.69 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5626af28-6200-4afc-bd50-f01bc2084b2c")
+	)
+	(junction
 		(at 193.04 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5449,6 +5576,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 105.41) (xy 186.69 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8dce761-c584-42d8-838f-d948f12a2d1f")
+	)
+	(wire
+		(pts
 			(xy 252.73 24.13) (xy 252.73 21.59)
 		)
 		(stroke
@@ -5596,6 +5733,16 @@
 			(type default)
 		)
 		(uuid "dfc36a16-922c-41e5-a9be-a858eebdd39a")
+	)
+	(wire
+		(pts
+			(xy 170.18 105.41) (xy 173.99 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0659677-9fef-423e-92e3-184891b8e6b3")
 	)
 	(wire
 		(pts
@@ -5933,7 +6080,7 @@
 	)
 	(text "Maximum of 1,66A inductor current"
 		(exclude_from_sim no)
-		(at 151.13 104.14 0)
+		(at 144.78 96.012 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6184,6 +6331,17 @@
 		)
 		(uuid "5b1a4c86-46eb-4fc4-b6a7-633c0c74ad8d")
 	)
+	(label "GND_TIE"
+		(at 74.93 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e716452-b989-445b-ac37-37494f564490")
+	)
 	(label "BGATE"
 		(at 236.22 43.18 0)
 		(fields_autoplaced yes)
@@ -6260,6 +6418,17 @@
 			(justify right bottom)
 		)
 		(uuid "7b119a9d-a74b-447d-b44c-0cd94cf33a28")
+	)
+	(label "GND_TIE"
+		(at 170.18 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7bfd52e4-0dac-4583-963a-b7e03df28d34")
 	)
 	(label "STAT1"
 		(at 74.93 62.23 180)
@@ -6942,6 +7111,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "08051C681JAT2A"
+			(at 87.63 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7090eca5-9311-48ae-8d65-709eb98f1431")
 		)
@@ -7143,6 +7321,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "TNPW0805100KFEEA"
+			(at 115.57 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aa4b211a-51e5-43ab-a523-269d963ceeff")
 		)
@@ -7283,6 +7470,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part Nr." "WSL0805R0300FEA"
+			(at 186.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7534,6 +7730,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "SMF5.0A"
+			(at 176.53 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11cdcd1c-e155-43ad-94cb-89b4561c1ebb")
 		)
@@ -7675,6 +7880,15 @@
 				)
 			)
 		)
+		(property "Part Nr." " IHLP4040DZER101M11"
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f81cb45b-f330-4fa0-acfe-c7ab3ca1de33")
 		)
@@ -7803,6 +8017,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 236.22 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "TPSE687M010R0150V"
 			(at 236.22 20.32 0)
 			(effects
 				(font
@@ -7960,6 +8183,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 176.53 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29b6be9a-7af1-4dba-bbe8-b93c6b1618e9")
+		(property "Reference" "NT1"
+			(at 176.53 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 176.53 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 176.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 176.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8b598d11-9690-4a3f-a284-762bb100566e")
+		)
+		(pin "1"
+			(uuid "26a19610-09b1-46dc-b7e6-c71afdbd8175")
+		)
+		(instances
+			(project ""
+				(path "/5e906db2-81b9-4191-b4ed-f1d03e54219a/3f2412fd-ceb3-4d5f-b693-7628adb9c64f"
+					(reference "NT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 157.48 132.08 0)
 		(unit 1)
@@ -8014,6 +8305,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "TNPW0805100KFEEA"
+			(at 157.48 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eb682fbc-8ed1-438c-a15e-f5fbb4cafcf6")
 		)
@@ -8024,73 +8324,6 @@
 			(project "STS1_EPS_1"
 				(path "/5e906db2-81b9-4191-b4ed-f1d03e54219a/3f2412fd-ceb3-4d5f-b693-7628adb9c64f"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 74.93 41.91 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e5cc4b2-aba9-4f07-97c2-9b31aedbe1de")
-		(property "Reference" "#PWR08"
-			(at 68.58 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 71.12 41.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "99012353-4842-41fa-861f-66381d278c7d")
-		)
-		(instances
-			(project "STS1_EPS_1"
-				(path "/5e906db2-81b9-4191-b4ed-f1d03e54219a/3f2412fd-ceb3-4d5f-b693-7628adb9c64f"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8143,6 +8376,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 33.02 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "TPSE687M010R0150V"
 			(at 33.02 24.13 0)
 			(effects
 				(font
@@ -8228,6 +8470,15 @@
 				)
 			)
 		)
+		(property "Part Nr." "TNPW0805100KFEEA"
+			(at 25.4 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "93416a2c-e844-4795-bc33-bafc784b21d8")
 		)
@@ -8303,6 +8554,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part Nr." "AA0805FR-07187KL"
+			(at 29.21 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8512,6 +8772,15 @@
 				)
 			)
 		)
+		(property "Part Nr." "TNPW0805100KFEEA"
+			(at 39.37 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "21382720-6b14-47e4-91c6-befa79ba262e")
 		)
@@ -8571,6 +8840,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 64.77 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "CR0805-FX-4993ELF"
 			(at 64.77 181.61 0)
 			(effects
 				(font
@@ -8648,6 +8926,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "CR0805-FX-5362ELF"
+			(at 115.57 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "64b00339-1436-4e5c-ac9e-ca326a1cff4d")
 		)
@@ -8709,6 +8996,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 99.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "08051C681JAT2A"
 			(at 99.06 118.11 0)
 			(effects
 				(font
@@ -8794,6 +9090,15 @@
 				)
 			)
 		)
+		(property "Part Nr." "RE0805FRE07169KL"
+			(at 77.47 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a8c72db5-492d-4e66-8742-3383b70baaed")
 		)
@@ -8869,6 +9174,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part Nr." "WSL0805R0300FEA"
+			(at 193.04 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8999,6 +9313,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 87.63 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "KTR10EZPF3302"
 			(at 87.63 107.95 0)
 			(effects
 				(font
@@ -9174,7 +9497,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10µ"
 			(at 170.18 48.26 0)
 			(effects
 				(font
@@ -9202,6 +9525,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 168.91 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." " CM21X7R106K06AT"
 			(at 168.91 45.72 0)
 			(effects
 				(font
@@ -9271,6 +9603,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 193.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "GCM219R71C204JA37J"
 			(at 193.04 97.79 0)
 			(effects
 				(font
@@ -9378,7 +9719,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10µ"
 			(at 231.14 22.86 0)
 			(effects
 				(font
@@ -9406,6 +9747,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 229.87 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." " CM21X7R106K06AT"
 			(at 229.87 20.32 0)
 			(effects
 				(font
@@ -9448,7 +9798,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50u"
+		(property "Value" "47u"
 			(at 25.4 137.1599 0)
 			(effects
 				(font
@@ -9476,6 +9826,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 21.59 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "TP3B476K010C1800AS"
 			(at 21.59 135.89 0)
 			(effects
 				(font
@@ -9548,6 +9907,15 @@
 			)
 		)
 		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 165.1 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "2N7002"
 			(at 165.1 151.13 0)
 			(effects
 				(font
@@ -9631,6 +9999,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "2N7002"
+			(at 198.12 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "246b4325-c866-42b9-ae53-832218be190a")
 		)
@@ -9704,7 +10081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Nr." "PCS1206DR0100ET"
+		(property "Part Nr." "PE1206FRF7W0R017L"
 			(at 267.97 27.94 0)
 			(effects
 				(font
@@ -9901,6 +10278,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "SI7135DP-T1-GE3"
+			(at 265.43 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a3f0c2bc-3e1f-40d6-960d-0120342ec00c")
 		)
@@ -9971,6 +10357,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 233.68 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "SMF5.0A"
 			(at 233.68 149.86 0)
 			(effects
 				(font
@@ -10378,6 +10773,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "C0805T105K4RALTU"
+			(at 22.86 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "24c0bd39-680c-4bdf-a532-03d4257eff99")
 		)
@@ -10448,6 +10852,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "CRT0805AFY-1001ELF"
+			(at 256.54 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d36fedc1-4266-477c-8905-d264d682e9d3")
 		)
@@ -10481,7 +10894,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50u"
+		(property "Value" "47u"
 			(at 41.91 138.43 0)
 			(effects
 				(font
@@ -10509,6 +10922,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 44.45 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "TP3B476K010C1800AS"
 			(at 44.45 135.89 0)
 			(effects
 				(font
@@ -10592,6 +11014,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part Nr." "CR0805-FX-1373ELF"
+			(at 25.4 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10732,6 +11163,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "2N7002"
+			(at 224.79 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8149ee84-032a-403c-b1b7-7688fa6a035d")
 		)
@@ -10797,6 +11237,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 99.06 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "KTR10EZPF3302"
 			(at 99.06 107.95 0)
 			(effects
 				(font
@@ -11207,6 +11656,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "C0805T105K4RALTU"
+			(at 22.86 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "801cba30-2570-4406-b0d0-6b2fb7742a4f")
 		)
@@ -11266,6 +11724,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 261.62 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "TNPW0805100RFETA"
 			(at 261.62 34.29 0)
 			(effects
 				(font
@@ -11335,6 +11802,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 30.48 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "SD1206T040S1R0"
 			(at 30.48 102.87 0)
 			(effects
 				(font
@@ -11469,6 +11945,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 30.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "SD1206T040S1R0"
 			(at 30.48 90.17 0)
 			(effects
 				(font
@@ -11613,6 +12098,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "CRT0805AFY-1001ELF"
+			(at 200.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c6527752-11c7-4d58-834a-acad24eb9884")
 		)
@@ -11739,6 +12233,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 242.57 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "TNPW0805100RFETA"
 			(at 242.57 151.13 0)
 			(effects
 				(font
@@ -11876,6 +12379,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 167.64 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "TNPW0805100KFEEA"
 			(at 167.64 132.08 0)
 			(effects
 				(font
@@ -12094,6 +12606,15 @@
 				)
 			)
 		)
+		(property "Part Nr." "TNPW0805100KFEEA"
+			(at 29.21 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6536f5d8-f582-4cd6-8f3b-6d4a335b01fa")
 		)
@@ -12153,6 +12674,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 52.07 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "C0805T225K4RACTU"
 			(at 52.07 96.52 0)
 			(effects
 				(font
@@ -12296,6 +12826,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "TNPW0805100KFEEA"
+			(at 217.17 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd7fd283-c4ac-4217-b222-7df791fbda29")
 		)
@@ -12365,6 +12904,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "C0805T334K3RCLTM"
+			(at 252.73 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d0a80b70-661e-49ff-9335-626637d768e9")
 		)
@@ -12426,6 +12974,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 266.7 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "C0805T104J5RALTU"
 			(at 266.7 95.25 0)
 			(effects
 				(font
@@ -12683,6 +13240,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." "TNPW0805100KFEEA"
+			(at 227.33 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5587248a-5d2e-4ae9-a891-d48e23ee1d78")
 		)
@@ -12856,6 +13422,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 261.62 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "TNPW0805100RFETA"
 			(at 261.62 21.59 0)
 			(effects
 				(font
@@ -13188,6 +13763,15 @@
 				)
 			)
 		)
+		(property "Part Nr." "CR0805-FX-1623ELF"
+			(at 39.37 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "08b6cff0-4ef1-406a-b8ad-e2aea4bd127d")
 		)
@@ -13252,6 +13836,15 @@
 			)
 		)
 		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 254 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "2N7002"
 			(at 254 151.13 0)
 			(effects
 				(font
@@ -13473,6 +14066,15 @@
 				)
 			)
 		)
+		(property "Part Nr." "TNPW0805100KFEEA"
+			(at 77.47 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4f414588-9c69-49de-990f-6da1e9310531")
 		)
@@ -13532,6 +14134,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 189.23 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "TNPW0805100RFETA"
 			(at 189.23 149.86 0)
 			(effects
 				(font

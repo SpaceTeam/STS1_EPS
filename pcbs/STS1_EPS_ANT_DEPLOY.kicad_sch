@@ -1692,6 +1692,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 134.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce6d1085-26a0-4acf-884b-df8cfdaa85e8")
 		)
@@ -1806,6 +1815,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 149.86 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e177fe23-d963-469b-be79-4b1af1891f79")
 		)
@@ -1917,6 +1935,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
+			(at 93.98 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2100,6 +2127,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 80.01 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "960a6d7f-29a4-4613-9440-5f899ae850b3")
 		)
@@ -2203,6 +2239,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Nr." ""
+			(at 118.11 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "49918360-3ceb-4805-a8f0-5693563c9c0a")
 		)
@@ -2261,6 +2306,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 35.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." ""
 			(at 35.56 99.06 0)
 			(effects
 				(font
@@ -2375,7 +2429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 42.672 105.41 90)
 			(effects
 				(font
@@ -2394,6 +2448,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "TNPW0805100KFEEA"
 			(at 44.45 105.41 0)
 			(effects
 				(font
