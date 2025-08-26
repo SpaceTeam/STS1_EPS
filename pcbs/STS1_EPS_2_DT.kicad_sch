@@ -1153,7 +1153,7 @@
 				)
 			)
 			(property "Footprint" "Package_DFN_QFN:DFN-6-1EP_3x2mm_P0.5mm_EP1.65x1.35mm"
-				(at 0 0 0)
+				(at -26.924 10.922 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1182,7 +1182,7 @@
 				)
 			)
 			(property "STANDARD" "IPC 7351B"
-				(at 0 0 0)
+				(at -19.812 16.256 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1192,7 +1192,7 @@
 				)
 			)
 			(property "MAXIMUM_PACKAGE_HEIGHT" "1.0mm"
-				(at 0 0 0)
+				(at -3.048 16.002 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1202,7 +1202,7 @@
 				)
 			)
 			(property "MANUFACTURER" "Analog Devices Inc."
-				(at 0 0 0)
+				(at -8.128 12.954 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1212,7 +1212,7 @@
 				)
 			)
 			(property "PARTREV" "Rev. B"
-				(at 0 0 0)
+				(at -4.826 17.526 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1223,50 +1223,14 @@
 			)
 			(symbol "LTC6995IDCB-1_0_0"
 				(rectangle
-					(start -10.16 -10.16)
-					(end 10.16 7.62)
+					(start -10.16 7.62)
+					(end 10.16 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
-					)
-				)
-				(pin input line
-					(at -15.24 -5.08 0)
-					(length 5.08)
-					(name "RST/~{RST}"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -7.62 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
 					)
 				)
 				(pin input line
@@ -1287,10 +1251,66 @@
 						)
 					)
 				)
+				(pin output line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LTC6995IDCB-1_1_0"
+				(pin passive line
+					(at 15.24 5.08 180)
+					(length 5.08)
+					(name "V+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -15.24 0 0)
 					(length 5.08)
 					(name "DIV"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -5.08 0)
+					(length 5.08)
+					(name "RST/~{RST}"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1306,9 +1326,9 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 5.08 180)
+					(at 15.24 -7.62 180)
 					(length 5.08)
-					(name "V+"
+					(name "GND"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1323,17 +1343,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 15.24 0 180)
-					(length 5.08)
-					(name "OUT"
+				(pin passive line
+					(at 15.24 -7.62 180)
+					(length 5.08) hide
+					(name "GND"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "6"
+					(number "7"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3690,7 +3710,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:DFN-6-1EP_3x2mm_P0.5mm_EP1.65x1.35mm"
-			(at 133.35 90.17 0)
+			(at 106.426 79.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3719,7 +3739,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 133.35 90.17 0)
+			(at 113.538 73.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3729,7 +3749,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.0mm"
-			(at 133.35 90.17 0)
+			(at 130.302 74.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3739,7 +3759,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Analog Devices Inc."
-			(at 133.35 90.17 0)
+			(at 125.222 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3749,7 +3769,7 @@
 			)
 		)
 		(property "PARTREV" "Rev. B"
-			(at 133.35 90.17 0)
+			(at 128.524 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3784,6 +3804,9 @@
 		)
 		(pin "6"
 			(uuid "88f4e300-52ef-48f9-93ab-818dd07d82b6")
+		)
+		(pin "7"
+			(uuid "ee52ae98-8f1f-4a12-ac25-9bee98b28f10")
 		)
 		(instances
 			(project "STS1_EPS_2"
