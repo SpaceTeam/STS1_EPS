@@ -3079,7 +3079,7 @@
 		)
 		(uuid "178c7e74-e758-44d9-aa70-02b512aaeffa")
 	)
-	(label "~{BATT_INHIBIT}"
+	(label "BATT_INHIBIT"
 		(at 95.25 62.23 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3156,7 +3156,7 @@
 		)
 		(uuid "64d35ddd-c187-48a7-8e3d-2ef0c3a0fe2b")
 	)
-	(label "~{BATT_INHIBIT}"
+	(label "BATT_INHIBIT"
 		(at 125.73 161.29 0)
 		(fields_autoplaced yes)
 		(effects
