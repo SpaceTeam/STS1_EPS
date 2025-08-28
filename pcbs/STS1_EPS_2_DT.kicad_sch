@@ -3816,7 +3816,7 @@
 			(uuid "88f4e300-52ef-48f9-93ab-818dd07d82b6")
 		)
 		(pin "7"
-			(uuid "ee52ae98-8f1f-4a12-ac25-9bee98b28f10")
+			(uuid "011a4fdc-dce4-4da7-837b-cac54dd79c84")
 		)
 		(instances
 			(project "STS1_EPS_2"
