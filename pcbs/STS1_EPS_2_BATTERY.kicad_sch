@@ -5160,7 +5160,7 @@
 				)
 			)
 		)
-		(property "Value" "4072"
+		(property "Value" "4012"
 			(at 100.33 158.7814 0)
 			(effects
 				(font
@@ -5177,7 +5177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf"
+		(property "Datasheet" ""
 			(at 86.36 161.29 0)
 			(effects
 				(font
@@ -5186,7 +5186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual 4 input OR gate"
+		(property "Description" "Dual 4 input NAND gate"
 			(at 86.36 161.29 0)
 			(effects
 				(font
@@ -5195,7 +5195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Nr." "CD4072BM96G4"
+		(property "Part Nr." "CD4012B"
 			(at 86.36 160.02 0)
 			(effects
 				(font
@@ -7459,7 +7459,7 @@
 				)
 			)
 		)
-		(property "Value" "4072"
+		(property "Value" "4012"
 			(at 127 181.6414 0)
 			(effects
 				(font
@@ -7476,7 +7476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf"
+		(property "Datasheet" ""
 			(at 113.03 184.15 0)
 			(effects
 				(font
@@ -7485,7 +7485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual 4 input OR gate"
+		(property "Description" "Dual 4 input NAND gate"
 			(at 113.03 184.15 0)
 			(effects
 				(font
@@ -7494,7 +7494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Nr." "CD4072BM96G4"
+		(property "Part Nr." "CD4012B"
 			(at 113.03 182.88 0)
 			(effects
 				(font

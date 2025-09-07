@@ -5,27 +5,27 @@
 	(uuid "0dabcb4b-9b98-4c91-b860-db9e3bf4b1ef")
 	(paper "A4")
 	(lib_symbols
-		(symbol "4072_1"
+		(symbol "4012_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 5.08 6.35 0)
+			(property "Reference" "U1"
+				(at 8.89 6.3186 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "4072"
-				(at 5.08 -6.35 0)
+			(property "Value" "4012"
+				(at 8.89 3.7786 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -34,7 +34,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -43,7 +43,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Dual 4 input NAND gate"
 				(at 0 0 0)
 				(effects
 					(font
@@ -52,32 +52,17 @@
 					(hide yes)
 				)
 			)
-			(symbol "4072_1_0_0"
-				(polyline
-					(pts
-						(xy -3.048 -2.032) (xy -1.524 -0.508) (xy -1.524 -0.508)
+			(property "Part Nr." "CD4012B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
+					(hide yes)
 				)
-				(polyline
-					(pts
-						(xy -3.048 1.524) (xy -1.524 0) (xy -3.048 -1.524) (xy -3.048 -1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "1"
+			)
+			(symbol "4012_1_0_0"
+				(text "&"
 					(at 0 0 0)
 					(effects
 						(font
@@ -86,10 +71,10 @@
 					)
 				)
 			)
-			(symbol "4072_1_0_1"
+			(symbol "4012_1_0_1"
 				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
+					(start -5.08 6.35)
+					(end 5.08 -6.35)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -100,7 +85,7 @@
 				)
 				(pin power_in line
 					(at 0 10.16 270)
-					(length 5.08)
+					(length 3.81)
 					(name "Vdd"
 						(effects
 							(font
@@ -118,7 +103,7 @@
 				)
 				(pin power_in line
 					(at 0 -10.16 90)
-					(length 5.08)
+					(length 3.81)
 					(name "Vss"
 						(effects
 							(font
@@ -135,8 +120,8 @@
 					)
 				)
 			)
-			(symbol "4072_1_1_1"
-				(pin output line
+			(symbol "4012_1_1_1"
+				(pin output inverted
 					(at 12.7 0 180)
 					(length 7.62)
 					(name "~"
@@ -155,7 +140,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 3.81 0)
+					(at -12.7 5.08 0)
 					(length 7.62)
 					(name "~"
 						(effects
@@ -173,7 +158,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 1.27 0)
+					(at -12.7 2.54 0)
 					(length 7.62)
 					(name "~"
 						(effects
@@ -191,7 +176,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -1.27 0)
+					(at -12.7 0 0)
 					(length 7.62)
 					(name "~"
 						(effects
@@ -209,7 +194,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -3.81 0)
+					(at -12.7 -2.54 0)
 					(length 7.62)
 					(name "~"
 						(effects
@@ -227,9 +212,9 @@
 					)
 				)
 			)
-			(symbol "4072_1_2_1"
+			(symbol "4012_1_2_1"
 				(pin input line
-					(at -12.7 1.27 0)
+					(at -12.7 2.54 0)
 					(length 7.62)
 					(name "~"
 						(effects
@@ -247,7 +232,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -1.27 0)
+					(at -12.7 0 0)
 					(length 7.62)
 					(name "~"
 						(effects
@@ -265,7 +250,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -3.81 0)
+					(at -12.7 -2.54 0)
 					(length 7.62)
 					(name "~"
 						(effects
@@ -282,7 +267,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin output inverted
 					(at 12.7 0 180)
 					(length 7.62)
 					(name "~"
@@ -301,7 +286,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 3.81 0)
+					(at -12.7 5.08 0)
 					(length 7.62)
 					(name "~"
 						(effects
@@ -320,27 +305,27 @@
 				)
 			)
 		)
-		(symbol "4xxx_IEEE:4072"
+		(symbol "4xxx_IEEE:4012"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 5.08 6.35 0)
+			(property "Reference" "U1"
+				(at 8.89 6.3186 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "4072"
-				(at 5.08 -6.35 0)
+			(property "Value" "4012"
+				(at 8.89 3.7786 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -349,7 +334,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -358,7 +343,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Dual 4 input NAND gate"
 				(at 0 0 0)
 				(effects
 					(font
@@ -367,32 +352,17 @@
 					(hide yes)
 				)
 			)
-			(symbol "4072_0_0"
-				(polyline
-					(pts
-						(xy -3.048 -2.032) (xy -1.524 -0.508) (xy -1.524 -0.508)
+			(property "Part Nr." "CD4012B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
+					(hide yes)
 				)
-				(polyline
-					(pts
-						(xy -3.048 1.524) (xy -1.524 0) (xy -3.048 -1.524) (xy -3.048 -1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "1"
+			)
+			(symbol "4012_0_0"
+				(text "&"
 					(at 0 0 0)
 					(effects
 						(font
@@ -401,10 +371,10 @@
 					)
 				)
 			)
-			(symbol "4072_0_1"
+			(symbol "4012_0_1"
 				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
+					(start -5.08 6.35)
+					(end 5.08 -6.35)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -415,7 +385,7 @@
 				)
 				(pin power_in line
 					(at 0 10.16 270)
-					(length 5.08)
+					(length 3.81)
 					(name "Vdd"
 						(effects
 							(font
@@ -433,7 +403,7 @@
 				)
 				(pin power_in line
 					(at 0 -10.16 90)
-					(length 5.08)
+					(length 3.81)
 					(name "Vss"
 						(effects
 							(font
@@ -450,8 +420,8 @@
 					)
 				)
 			)
-			(symbol "4072_1_1"
-				(pin output line
+			(symbol "4012_1_1"
+				(pin output inverted
 					(at 12.7 0 180)
 					(length 7.62)
 					(name "~"
@@ -470,25 +440,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -3.81 0)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 3.81 0)
+					(at -12.7 5.08 0)
 					(length 7.62)
 					(name "~"
 						(effects
@@ -506,7 +458,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 1.27 0)
+					(at -12.7 2.54 0)
 					(length 7.62)
 					(name "~"
 						(effects
@@ -524,7 +476,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -1.27 0)
+					(at -12.7 0 0)
 					(length 7.62)
 					(name "~"
 						(effects
@@ -541,10 +493,28 @@
 						)
 					)
 				)
-			)
-			(symbol "4072_2_1"
 				(pin input line
-					(at -12.7 1.27 0)
+					(at -12.7 -2.54 0)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4012_2_1"
+				(pin input line
+					(at -12.7 2.54 0)
 					(length 7.62)
 					(name "~"
 						(effects
@@ -562,7 +532,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -1.27 0)
+					(at -12.7 0 0)
 					(length 7.62)
 					(name "~"
 						(effects
@@ -580,7 +550,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -3.81 0)
+					(at -12.7 -2.54 0)
 					(length 7.62)
 					(name "~"
 						(effects
@@ -597,7 +567,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin output inverted
 					(at 12.7 0 180)
 					(length 7.62)
 					(name "~"
@@ -616,7 +586,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 3.81 0)
+					(at -12.7 5.08 0)
 					(length 7.62)
 					(name "~"
 						(effects
@@ -2716,6 +2686,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 106.68) (xy 92.71 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4484be76-bb7c-4bf2-8571-031c1dcd2340")
+	)
+	(wire
+		(pts
 			(xy 241.3 95.25) (xy 241.3 97.79)
 		)
 		(stroke
@@ -2803,6 +2783,16 @@
 			(type default)
 		)
 		(uuid "6b146ac4-9603-4938-b81f-a8e961f3d27d")
+	)
+	(wire
+		(pts
+			(xy 92.71 85.09) (xy 92.71 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d99a462-9e06-485e-82e0-578aad23978c")
 	)
 	(wire
 		(pts
@@ -2973,6 +2963,16 @@
 			(type default)
 		)
 		(uuid "cb1910bb-d393-4f53-8875-13195a3093ca")
+	)
+	(wire
+		(pts
+			(xy 59.69 97.79) (xy 72.39 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce294e2d-f35b-4e54-9289-168202837c28")
 	)
 	(wire
 		(pts
@@ -3152,7 +3152,7 @@
 	)
 	(hierarchical_label "V_LOGIC"
 		(shape input)
-		(at 92.71 85.09 0)
+		(at 92.71 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3164,7 +3164,7 @@
 	)
 	(hierarchical_label "DS2_SIGNAL"
 		(shape input)
-		(at 80.01 91.44 180)
+		(at 80.01 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3236,6 +3236,18 @@
 	)
 	(hierarchical_label "V_LOGIC"
 		(shape input)
+		(at 59.69 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d566f5c-ab73-434b-b89e-bb023f7dca5c")
+	)
+	(hierarchical_label "V_LOGIC"
+		(shape input)
 		(at 219.71 67.31 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3260,7 +3272,7 @@
 	)
 	(hierarchical_label "DS1_SIGNAL"
 		(shape input)
-		(at 80.01 96.52 180)
+		(at 80.01 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3284,7 +3296,7 @@
 	)
 	(hierarchical_label "RBF_SIGNAL"
 		(shape input)
-		(at 80.01 93.98 180)
+		(at 80.01 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4421,73 +4433,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 80.01 99.06 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6494ff97-5021-4817-ab30-a0ceac6a731f")
-		(property "Reference" "#PWR026"
-			(at 73.66 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 76.2 99.0599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38f9ac59-6132-463d-bd26-79fbf7454929")
-		)
-		(instances
-			(project "STS1_EPS_2"
-				(path "/38c03ff7-ea47-4d00-b37d-ddcaa7d87722/d08cc104-26df-403e-aeed-bb3c2e21e328"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "STS_Transistor_FET:SI7272DP-T1-GE3")
 		(at 193.04 90.17 0)
 		(unit 2)
@@ -4755,7 +4700,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 120.65 270)
+		(at 80.01 119.38 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4764,7 +4709,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a5882b8-8f43-4901-b721-ce65e725a46a")
 		(property "Reference" "#PWR016"
-			(at 73.66 120.65 0)
+			(at 73.66 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4773,7 +4718,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 120.6499 90)
+			(at 76.2 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4782,7 +4727,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 120.65 0)
+			(at 80.01 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4791,7 +4736,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 120.65 0)
+			(at 80.01 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4800,7 +4745,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 120.65 0)
+			(at 80.01 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4897,7 +4842,7 @@
 		)
 	)
 	(symbol
-		(lib_id "4xxx_IEEE:4072")
+		(lib_id "4xxx_IEEE:4012")
 		(at 92.71 95.25 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -4914,7 +4859,7 @@
 				)
 			)
 		)
-		(property "Value" "4072"
+		(property "Value" "4012"
 			(at 101.6 91.4714 0)
 			(effects
 				(font
@@ -4940,7 +4885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual 4 input OR gate"
+		(property "Description" "Dual 4 input NAND gate"
 			(at 92.71 95.25 0)
 			(effects
 				(font
@@ -4949,7 +4894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Nr." "CD4072BM96G4"
+		(property "Part Nr." "CD4012B"
 			(at 92.71 95.25 0)
 			(effects
 				(font
@@ -4979,7 +4924,7 @@
 		(pin "11"
 			(uuid "fe2c8348-3ded-4dfd-a4e3-26ec81b57c72")
 		)
-		(pin "12"
+		(pin "5"
 			(uuid "490c5c18-57b3-48e4-a5c7-a7ac3f514c62")
 		)
 		(pin "13"
@@ -5005,7 +4950,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 128.27 270)
+		(at 80.01 127 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5014,7 +4959,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5d228d7-ab88-4327-908f-189a41dee4e1")
 		(property "Reference" "#PWR023"
-			(at 73.66 128.27 0)
+			(at 73.66 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5023,7 +4968,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 128.2699 90)
+			(at 76.2 126.9999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5032,7 +4977,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 128.27 0)
+			(at 80.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5041,7 +4986,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 128.27 0)
+			(at 80.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5050,7 +4995,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 128.27 0)
+			(at 80.01 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5456,7 +5401,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 123.19 270)
+		(at 80.01 121.92 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5465,7 +5410,7 @@
 		(fields_autoplaced yes)
 		(uuid "db915c3a-983d-4bdd-973e-714a0f8e7888")
 		(property "Reference" "#PWR017"
-			(at 73.66 123.19 0)
+			(at 73.66 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5474,7 +5419,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 123.1899 90)
+			(at 76.2 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5483,7 +5428,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 123.19 0)
+			(at 80.01 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5492,7 +5437,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 123.19 0)
+			(at 80.01 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5501,7 +5446,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 123.19 0)
+			(at 80.01 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5815,7 +5760,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 125.73 270)
+		(at 80.01 124.46 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5824,7 +5769,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5168d71-747d-4a3c-9f70-182c86482c59")
 		(property "Reference" "#PWR022"
-			(at 73.66 125.73 0)
+			(at 73.66 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5833,7 +5778,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 125.7299 90)
+			(at 76.2 124.4599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5842,7 +5787,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 125.73 0)
+			(at 80.01 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5851,7 +5796,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 125.73 0)
+			(at 80.01 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5860,7 +5805,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 125.73 0)
+			(at 80.01 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5882,7 +5827,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 92.71 105.41 0)
+		(at 92.71 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5891,7 +5836,7 @@
 		(fields_autoplaced yes)
 		(uuid "f3bdbffc-50b2-4e49-9faf-87e7aef67dd6")
 		(property "Reference" "#PWR0110"
-			(at 92.71 111.76 0)
+			(at 92.71 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5900,7 +5845,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 106.6799 0)
+			(at 95.25 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5909,7 +5854,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 105.41 0)
+			(at 92.71 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5918,7 +5863,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 105.41 0)
+			(at 92.71 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5927,7 +5872,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 105.41 0)
+			(at 92.71 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5948,8 +5893,8 @@
 		)
 	)
 	(symbol
-		(lib_name "4072_1")
-		(lib_id "4xxx_IEEE:4072")
+		(lib_name "4012_1")
+		(lib_id "4xxx_IEEE:4012")
 		(at 92.71 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5966,7 +5911,7 @@
 				)
 			)
 		)
-		(property "Value" "4072"
+		(property "Value" "4012"
 			(at 101.6 120.6814 0)
 			(effects
 				(font
@@ -5992,7 +5937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual 4 input OR gate"
+		(property "Description" "Dual 4 input NAND gate"
 			(at 92.71 124.46 0)
 			(effects
 				(font
@@ -6001,7 +5946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Nr." "CD4072BM96G4"
+		(property "Part Nr." "CD4012B"
 			(at 92.71 124.46 0)
 			(effects
 				(font
@@ -6127,6 +6072,93 @@
 			(project "STS1_EPS_2"
 				(path "/38c03ff7-ea47-4d00-b37d-ddcaa7d87722/d08cc104-26df-403e-aeed-bb3c2e21e328"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 76.2 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdda7c8d-4777-46d6-aa8f-a85d2cf1aa9c")
+		(property "Reference" "R51"
+			(at 78.232 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 77.47 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 76.2 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 79.502 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "CRT0805-BY-1004ELF"
+			(at 76.2 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e83dce32-7952-47ab-96b1-b2b1ad4078ad")
+		)
+		(pin "2"
+			(uuid "f6cc77de-2247-4ea1-829c-53f771201837")
+		)
+		(instances
+			(project "STS1_EPS_2"
+				(path "/38c03ff7-ea47-4d00-b37d-ddcaa7d87722/d08cc104-26df-403e-aeed-bb3c2e21e328"
+					(reference "R51")
 					(unit 1)
 				)
 			)
