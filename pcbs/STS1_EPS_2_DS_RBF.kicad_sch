@@ -944,12 +944,6 @@
 		(uuid "42b21cc5-6f95-43ef-b1a6-0b38cb37cb6a")
 	)
 	(junction
-		(at 137.16 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47d79ed0-34b8-44ce-80a3-6b76b7276ec4")
-	)
-	(junction
 		(at 173.99 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1040,13 +1034,19 @@
 		(uuid "c6b6dbaf-8c93-4006-8b31-25e7165ef65d")
 	)
 	(junction
+		(at 148.59 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7094960-280b-403e-a3de-1d25fd7dcb90")
+	)
+	(junction
 		(at 87.63 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7aaff67-61b8-4123-acbf-733ecd4b0ead")
 	)
 	(junction
-		(at 148.59 26.67)
+		(at 148.59 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc3e7c38-f054-4a0e-b1e4-3201e9c9675e")
@@ -1081,7 +1081,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 22.86) (xy 148.59 26.67)
+			(xy 148.59 16.51) (xy 148.59 20.32)
 		)
 		(stroke
 			(width 0)
@@ -1141,6 +1141,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 30.48) (xy 148.59 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0db87d38-400b-4221-86a7-3f83801d87b5")
+	)
+	(wire
+		(pts
 			(xy 35.56 78.74) (xy 38.1 78.74)
 		)
 		(stroke
@@ -1171,7 +1181,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 26.67) (xy 148.59 30.48)
+			(xy 148.59 20.32) (xy 148.59 24.13)
 		)
 		(stroke
 			(width 0)
@@ -1241,16 +1251,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 40.64) (xy 148.59 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e5f696b-68ac-4a43-b0fd-4dc32534b82c")
-	)
-	(wire
-		(pts
 			(xy 64.77 33.02) (xy 64.77 34.29)
 		)
 		(stroke
@@ -1281,7 +1281,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 35.56) (xy 148.59 40.64)
+			(xy 148.59 29.21) (xy 148.59 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1298,6 +1298,16 @@
 			(type default)
 		)
 		(uuid "39041bb6-e634-4261-92fe-773c6d2fee4a")
+	)
+	(wire
+		(pts
+			(xy 148.59 30.48) (xy 148.59 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39995a1c-543b-4679-86f4-abe3a3cb1a57")
 	)
 	(wire
 		(pts
@@ -1341,7 +1351,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 40.64) (xy 137.16 40.64)
+			(xy 128.27 40.64) (xy 148.59 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1391,7 +1401,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 26.67) (xy 137.16 26.67)
+			(xy 148.59 20.32) (xy 137.16 20.32)
 		)
 		(stroke
 			(width 0)
@@ -1461,7 +1471,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 26.67) (xy 137.16 29.21)
+			(xy 137.16 20.32) (xy 137.16 22.86)
 		)
 		(stroke
 			(width 0)
@@ -1578,6 +1588,16 @@
 			(type default)
 		)
 		(uuid "a07bb65f-93a1-445e-9cda-1a2d73efe765")
+	)
+	(wire
+		(pts
+			(xy 148.59 39.37) (xy 148.59 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2f989f5-2e1d-42d5-9127-cd505a21c713")
 	)
 	(wire
 		(pts
@@ -1819,16 +1839,6 @@
 		)
 		(uuid "f82891bc-405c-403e-bf06-b7213b276e0b")
 	)
-	(wire
-		(pts
-			(xy 137.16 36.83) (xy 137.16 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9a110fa-c49e-47f5-96c5-a7f0076563b5")
-	)
 	(text "Open drain outputs"
 		(exclude_from_sim no)
 		(at 209.804 18.796 0)
@@ -1884,7 +1894,7 @@
 	)
 	(hierarchical_label "RBF+"
 		(shape input)
-		(at 148.59 30.48 180)
+		(at 148.59 24.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1908,7 +1918,7 @@
 	)
 	(hierarchical_label "RBF-"
 		(shape input)
-		(at 148.59 35.56 180)
+		(at 148.59 29.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1932,7 +1942,7 @@
 	)
 	(hierarchical_label "V_LOGIC"
 		(shape input)
-		(at 148.59 22.86 180)
+		(at 148.59 16.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3114,6 +3124,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 148.59 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35bf9fee-aba3-46f3-8a39-4e89a04a99d1")
+		(property "Reference" "R52"
+			(at 151.13 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 151.13 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 146.812 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "TNPW0805100KFEEA"
+			(at 148.59 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8487e8ab-a9fd-467b-9238-4e07e12946d8")
+		)
+		(pin "2"
+			(uuid "74d41c0a-d841-45cc-afdd-a286fc3190c5")
+		)
+		(instances
+			(project "STS1_EPS_2"
+				(path "/38c03ff7-ea47-4d00-b37d-ddcaa7d87722/782ccd28-d43b-446c-892c-2705ffe9f1f3"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:2N7002")
 		(at 156.21 40.64 0)
 		(unit 1)
@@ -4235,7 +4324,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 137.16 33.02 0)
+		(at 137.16 26.67 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4244,7 +4333,7 @@
 		(dnp yes)
 		(uuid "7604cdb0-6079-420b-a2a4-40aca61f1918")
 		(property "Reference" "R46"
-			(at 134.62 31.7499 0)
+			(at 134.62 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4253,7 +4342,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 134.62 34.2899 0)
+			(at 134.62 27.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4262,7 +4351,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 135.382 33.02 90)
+			(at 135.382 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4271,7 +4360,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 33.02 0)
+			(at 137.16 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4280,7 +4369,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 33.02 0)
+			(at 137.16 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4289,7 +4378,7 @@
 			)
 		)
 		(property "Part Nr." ""
-			(at 148.59 46.99 0)
+			(at 148.59 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
