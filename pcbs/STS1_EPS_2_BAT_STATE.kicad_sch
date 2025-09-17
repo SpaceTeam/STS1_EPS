@@ -2138,7 +2138,7 @@
 				)
 			)
 		)
-		(property "Value" "MIC841H"
+		(property "Value" "MIC841N"
 			(at 58.547 55.88 0)
 			(effects
 				(font

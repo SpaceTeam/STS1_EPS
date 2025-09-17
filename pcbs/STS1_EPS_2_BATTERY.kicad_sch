@@ -5,12 +5,12 @@
 	(uuid "5b1de025-fadc-430f-b400-f0b3da9bcf91")
 	(paper "A4")
 	(lib_symbols
-		(symbol "4072_1"
+		(symbol "4012_2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 5.08 6.35 0)
+			(property "Reference" "U8"
+				(at 13.97 5.0486 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -18,14 +18,14 @@
 				)
 			)
 			(property "Value" "4072"
-				(at 5.08 -6.35 0)
+				(at 13.97 2.5086 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -34,7 +34,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -43,7 +43,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Dual 4 input OR gate"
 				(at 0 0 0)
 				(effects
 					(font
@@ -52,32 +52,8 @@
 					(hide yes)
 				)
 			)
-			(symbol "4072_1_0_0"
-				(polyline
-					(pts
-						(xy -3.048 -2.032) (xy -1.524 -0.508) (xy -1.524 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 1.524) (xy -1.524 0) (xy -3.048 -1.524) (xy -3.048 -1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "1"
+			(symbol "4012_2_0_0"
+				(text "&"
 					(at 0 0 0)
 					(effects
 						(font
@@ -86,10 +62,10 @@
 					)
 				)
 			)
-			(symbol "4072_1_0_1"
+			(symbol "4012_2_0_1"
 				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
+					(start -5.08 6.35)
+					(end 5.08 -6.35)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -100,7 +76,7 @@
 				)
 				(pin power_in line
 					(at 0 10.16 270)
-					(length 5.08)
+					(length 3.81)
 					(name "Vdd"
 						(effects
 							(font
@@ -118,7 +94,7 @@
 				)
 				(pin power_in line
 					(at 0 -10.16 90)
-					(length 5.08)
+					(length 3.81)
 					(name "Vss"
 						(effects
 							(font
@@ -135,8 +111,8 @@
 					)
 				)
 			)
-			(symbol "4072_1_1_1"
-				(pin output line
+			(symbol "4012_2_1_1"
+				(pin output inverted
 					(at 12.7 0 180)
 					(length 7.62)
 					(name "~"
@@ -155,7 +131,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 3.81 0)
+					(at -12.7 5.08 0)
 					(length 7.62)
 					(name "~"
 						(effects
@@ -173,7 +149,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 1.27 0)
+					(at -12.7 2.54 0)
 					(length 7.62)
 					(name "~"
 						(effects
@@ -191,7 +167,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -1.27 0)
+					(at -12.7 0 0)
 					(length 7.62)
 					(name "~"
 						(effects
@@ -209,7 +185,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -3.81 0)
+					(at -12.7 -2.54 0)
 					(length 7.62)
 					(name "~"
 						(effects
@@ -227,9 +203,9 @@
 					)
 				)
 			)
-			(symbol "4072_1_2_1"
+			(symbol "4012_2_2_1"
 				(pin input line
-					(at -12.7 1.27 0)
+					(at -12.7 2.54 0)
 					(length 7.62)
 					(name "~"
 						(effects
@@ -247,7 +223,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -1.27 0)
+					(at -12.7 0 0)
 					(length 7.62)
 					(name "~"
 						(effects
@@ -265,7 +241,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -3.81 0)
+					(at -12.7 -2.54 0)
 					(length 7.62)
 					(name "~"
 						(effects
@@ -282,7 +258,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin output inverted
 					(at 12.7 0 180)
 					(length 7.62)
 					(name "~"
@@ -301,7 +277,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 3.81 0)
+					(at -12.7 5.08 0)
 					(length 7.62)
 					(name "~"
 						(effects
@@ -320,12 +296,12 @@
 				)
 			)
 		)
-		(symbol "4xxx_IEEE:4072"
+		(symbol "4012_3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 5.08 6.35 0)
+			(property "Reference" "U8"
+				(at 13.97 5.0486 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -333,14 +309,14 @@
 				)
 			)
 			(property "Value" "4072"
-				(at 5.08 -6.35 0)
+				(at 13.97 2.5086 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -349,7 +325,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -358,7 +334,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Dual 4 input OR gate"
 				(at 0 0 0)
 				(effects
 					(font
@@ -367,32 +343,8 @@
 					(hide yes)
 				)
 			)
-			(symbol "4072_0_0"
-				(polyline
-					(pts
-						(xy -3.048 -2.032) (xy -1.524 -0.508) (xy -1.524 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 1.524) (xy -1.524 0) (xy -3.048 -1.524) (xy -3.048 -1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "1"
+			(symbol "4012_3_0_0"
+				(text "&"
 					(at 0 0 0)
 					(effects
 						(font
@@ -401,10 +353,10 @@
 					)
 				)
 			)
-			(symbol "4072_0_1"
+			(symbol "4012_3_0_1"
 				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
+					(start -5.08 6.35)
+					(end 5.08 -6.35)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -415,7 +367,7 @@
 				)
 				(pin power_in line
 					(at 0 10.16 270)
-					(length 5.08)
+					(length 3.81)
 					(name "Vdd"
 						(effects
 							(font
@@ -433,7 +385,7 @@
 				)
 				(pin power_in line
 					(at 0 -10.16 90)
-					(length 5.08)
+					(length 3.81)
 					(name "Vss"
 						(effects
 							(font
@@ -450,8 +402,8 @@
 					)
 				)
 			)
-			(symbol "4072_1_1"
-				(pin output line
+			(symbol "4012_3_1_1"
+				(pin output inverted
 					(at 12.7 0 180)
 					(length 7.62)
 					(name "~"
@@ -470,25 +422,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -3.81 0)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 3.81 0)
+					(at -12.7 5.08 0)
 					(length 7.62)
 					(name "~"
 						(effects
@@ -506,7 +440,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 1.27 0)
+					(at -12.7 2.54 0)
 					(length 7.62)
 					(name "~"
 						(effects
@@ -524,7 +458,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -1.27 0)
+					(at -12.7 0 0)
 					(length 7.62)
 					(name "~"
 						(effects
@@ -541,10 +475,28 @@
 						)
 					)
 				)
-			)
-			(symbol "4072_2_1"
 				(pin input line
-					(at -12.7 1.27 0)
+					(at -12.7 -2.54 0)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4012_3_2_1"
+				(pin input line
+					(at -12.7 2.54 0)
 					(length 7.62)
 					(name "~"
 						(effects
@@ -562,7 +514,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -1.27 0)
+					(at -12.7 0 0)
 					(length 7.62)
 					(name "~"
 						(effects
@@ -580,7 +532,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -3.81 0)
+					(at -12.7 -2.54 0)
 					(length 7.62)
 					(name "~"
 						(effects
@@ -597,7 +549,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin output inverted
 					(at 12.7 0 180)
 					(length 7.62)
 					(name "~"
@@ -616,7 +568,7 @@
 					)
 				)
 				(pin input line
-					(at -12.7 3.81 0)
+					(at -12.7 5.08 0)
 					(length 7.62)
 					(name "~"
 						(effects
@@ -2051,6 +2003,301 @@
 				)
 			)
 		)
+		(symbol "Transistor_FET:2N7002"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N7002"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel Switching MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2N7002_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "2N7002_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2227,7 +2474,7 @@
 		(uuid "aebef920-5c7a-4b6f-8643-8ae958662040")
 	)
 	(junction
-		(at 110.49 160.02)
+		(at 110.49 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "afcb55d7-0f41-4898-9eac-90ed31cce619")
@@ -2237,6 +2484,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce84d298-2514-4574-88c7-9a3af8d6bbd2")
+	)
+	(junction
+		(at 167.64 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d733b3ed-acdc-497e-9786-c3c9b1d40f91")
 	)
 	(junction
 		(at 204.47 41.91)
@@ -2255,8 +2508,18 @@
 		(uuid "82201623-9440-4932-be6a-4d944366a46f")
 	)
 	(no_connect
-		(at 125.73 182.88)
+		(at 125.73 184.15)
 		(uuid "daa473b0-d56a-4363-b5ab-40ddc7169706")
+	)
+	(wire
+		(pts
+			(xy 167.64 57.15) (xy 210.82 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "032d0a80-2913-4c0a-8554-0ed7328939b4")
 	)
 	(wire
 		(pts
@@ -2320,7 +2583,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 160.02) (xy 110.49 160.02)
+			(xy 99.06 161.29) (xy 110.49 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2390,7 +2653,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 146.05) (xy 86.36 149.86)
+			(xy 86.36 146.05) (xy 86.36 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2590,6 +2853,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 67.31) (xy 167.64 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81560a98-e504-428f-9542-7e09aba8c2b1")
+	)
+	(wire
+		(pts
 			(xy 234.95 114.3) (xy 243.84 114.3)
 		)
 		(stroke
@@ -2760,6 +3033,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 57.15) (xy 210.82 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af7c40d1-2bf9-42f6-b9fe-d6ae4979a0e1")
+	)
+	(wire
+		(pts
 			(xy 58.42 41.91) (xy 58.42 44.45)
 		)
 		(stroke
@@ -2810,7 +3093,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 160.02) (xy 125.73 160.02)
+			(xy 110.49 161.29) (xy 125.73 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2857,6 +3140,16 @@
 			(type default)
 		)
 		(uuid "cb89dcf1-9288-46c1-b86b-0222ff54d735")
+	)
+	(wire
+		(pts
+			(xy 149.86 62.23) (xy 152.4 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4da9354-1e9b-49af-9cf0-669bcec9ed8b")
 	)
 	(wire
 		(pts
@@ -2947,6 +3240,16 @@
 			(type default)
 		)
 		(uuid "e7b09258-c7c6-4a2c-be26-974bdf187af7")
+	)
+	(wire
+		(pts
+			(xy 167.64 46.99) (xy 167.64 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8101e2b-1b05-4563-b4a4-cb3cec7e697a")
 	)
 	(wire
 		(pts
@@ -3127,7 +3430,7 @@
 		)
 		(uuid "178c7e74-e758-44d9-aa70-02b512aaeffa")
 	)
-	(label "~{BATT_INHIBIT}"
+	(label "BATT_INHIBIT"
 		(at 95.25 62.23 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3204,8 +3507,8 @@
 		)
 		(uuid "64d35ddd-c187-48a7-8e3d-2ef0c3a0fe2b")
 	)
-	(label "~{BATT_INHIBIT}"
-		(at 125.73 160.02 0)
+	(label "BATT_INHIBIT"
+		(at 125.73 161.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3315,7 +3618,7 @@
 		(uuid "c493b8e9-6940-48f5-83c6-f2ad9f223924")
 	)
 	(label "BAT_FAULT"
-		(at 210.82 59.69 180)
+		(at 149.86 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3415,7 +3718,7 @@
 	)
 	(hierarchical_label "V_LOGIC"
 		(shape input)
-		(at 113.03 172.72 90)
+		(at 113.03 173.99 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3556,6 +3859,18 @@
 			(justify left)
 		)
 		(uuid "c6fe114e-3a8e-46e4-8017-48bf606304ac")
+	)
+	(hierarchical_label "V_LOGIC"
+		(shape input)
+		(at 167.64 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9ab296e-b29a-458b-8ee9-dd3381910d76")
 	)
 	(hierarchical_label "DS1_SIGNAL"
 		(shape input)
@@ -4515,6 +4830,86 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 167.64 53.34 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30181af1-ae6a-49ab-a797-5060e18e0db6")
+		(property "Reference" "R49"
+			(at 165.1 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 165.1 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 165.862 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "PTN0805E6422BST1"
+			(at 167.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30b27ae4-0747-4769-89f0-6ee1bbcc7201")
+		)
+		(pin "2"
+			(uuid "850ec897-b9f5-4d81-bbaa-cd41e7eba168")
+		)
+		(instances
+			(project "STS1_EPS_2"
+				(path "/38c03ff7-ea47-4d00-b37d-ddcaa7d87722/75dca64b-8858-4c1f-8340-a846cd3da1d0"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 63.5 97.79 0)
 		(mirror y)
 		(unit 1)
@@ -4748,9 +5143,9 @@
 		)
 	)
 	(symbol
-		(lib_name "4072_1")
-		(lib_id "4xxx_IEEE:4072")
-		(at 86.36 160.02 0)
+		(lib_name "4012_2")
+		(lib_id "4xxx_IEEE:4012")
+		(at 86.36 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4758,14 +5153,6 @@
 		(dnp no)
 		(uuid "33e4772a-ca30-4940-877b-00919f3e7546")
 		(property "Reference" "U8"
-			(at 100.33 153.7014 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4072"
 			(at 100.33 156.2414 0)
 			(effects
 				(font
@@ -4773,8 +5160,16 @@
 				)
 			)
 		)
+		(property "Value" "4012"
+			(at 100.33 158.7814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 86.36 160.02 0)
+			(at 86.36 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4782,8 +5177,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf"
-			(at 86.36 160.02 0)
+		(property "Datasheet" ""
+			(at 86.36 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4791,8 +5186,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual 4 input OR gate"
-			(at 86.36 160.02 0)
+		(property "Description" "Dual 4 input NAND gate"
+			(at 86.36 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4800,7 +5195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Nr." "CD4072BM96G4"
+		(property "Part Nr." "CD4012B"
 			(at 86.36 160.02 0)
 			(effects
 				(font
@@ -4935,7 +5330,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 170.18 0)
+		(at 86.36 171.45 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4944,7 +5339,7 @@
 		(dnp no)
 		(uuid "6186d5f8-7bc1-47f7-bbe2-e179b80e1002")
 		(property "Reference" "#PWR0101"
-			(at 86.36 176.53 0)
+			(at 86.36 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4953,7 +5348,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 176.53 0)
+			(at 109.22 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4962,7 +5357,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 170.18 0)
+			(at 86.36 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4971,7 +5366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 170.18 0)
+			(at 86.36 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4980,7 +5375,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 170.18 0)
+			(at 86.36 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5002,7 +5397,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 193.04 0)
+		(at 113.03 194.31 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5011,7 +5406,7 @@
 		(dnp no)
 		(uuid "62d2e012-6760-45a0-89aa-519859fec0f2")
 		(property "Reference" "#PWR0111"
-			(at 113.03 199.39 0)
+			(at 113.03 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5020,7 +5415,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 199.39 0)
+			(at 135.89 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5029,7 +5424,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 193.04 0)
+			(at 113.03 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5038,7 +5433,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 193.04 0)
+			(at 113.03 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5047,7 +5442,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 193.04 0)
+			(at 113.03 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5501,7 +5896,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 110.49 160.02 0)
+		(at 110.49 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5510,7 +5905,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d35698f-5d01-4fe8-a178-90e4f91db9b6")
 		(property "Reference" "TP14"
-			(at 113.03 155.4479 0)
+			(at 113.03 156.7179 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5519,7 +5914,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 113.03 157.9879 0)
+			(at 113.03 159.2579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5528,7 +5923,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 115.57 160.02 0)
+			(at 115.57 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5537,7 +5932,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 160.02 0)
+			(at 115.57 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5546,7 +5941,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 160.02 0)
+			(at 110.49 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5715,6 +6110,84 @@
 			(project "STS1_EPS_2"
 				(path "/38c03ff7-ea47-4d00-b37d-ddcaa7d87722/75dca64b-8858-4c1f-8340-a846cd3da1d0"
 					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 156.21 62.23 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93917843-2082-4be4-bab9-c1e35a6c45bd")
+		(property "Reference" "R50"
+			(at 156.21 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 156.21 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 156.21 64.008 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "PTN0805E6422BST1"
+			(at 156.21 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e5410d3-a54e-4821-a0a1-e70ac4d3f8eb")
+		)
+		(pin "2"
+			(uuid "44ecf177-6f57-4d4f-bef4-c2dbe8c694aa")
+		)
+		(instances
+			(project "STS1_EPS_2"
+				(path "/38c03ff7-ea47-4d00-b37d-ddcaa7d87722/75dca64b-8858-4c1f-8340-a846cd3da1d0"
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -6383,6 +6856,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 167.64 69.85 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d09caf77-bf00-4717-bf39-4cc1e0672a93")
+		(property "Reference" "#PWR059"
+			(at 167.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2dc3bd0e-c09b-4d32-a44e-508eb9050b27")
+		)
+		(instances
+			(project "STS1_EPS_2"
+				(path "/38c03ff7-ea47-4d00-b37d-ddcaa7d87722/75dca64b-8858-4c1f-8340-a846cd3da1d0"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 228.6 124.46 90)
 		(unit 1)
@@ -6614,6 +7154,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 165.1 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5490705-c839-48d8-879b-c6d79da89464")
+		(property "Reference" "Q4"
+			(at 171.196 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 170.688 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 170.18 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 165.1 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 165.1 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Nr." "2N7002"
+			(at 165.1 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5db0ee23-af26-4598-8c46-97370e31b84f")
+		)
+		(pin "2"
+			(uuid "fa9d743f-dd35-4421-9bde-eec430933418")
+		)
+		(pin "3"
+			(uuid "7c22c953-8144-42bc-88fd-12ac08a25dd6")
+		)
+		(instances
+			(project "STS1_EPS_2"
+				(path "/38c03ff7-ea47-4d00-b37d-ddcaa7d87722/75dca64b-8858-4c1f-8340-a846cd3da1d0"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 58.42 59.69 270)
 		(mirror x)
@@ -6818,8 +7442,9 @@
 		)
 	)
 	(symbol
-		(lib_id "4xxx_IEEE:4072")
-		(at 113.03 182.88 0)
+		(lib_name "4012_3")
+		(lib_id "4xxx_IEEE:4012")
+		(at 113.03 184.15 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6827,15 +7452,15 @@
 		(dnp no)
 		(uuid "ff74f336-81b5-42fb-a45d-ec8cb0b3ae22")
 		(property "Reference" "U8"
-			(at 107.188 172.72 0)
+			(at 127 179.1014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4072"
-			(at 106.68 175.514 0)
+		(property "Value" "4012"
+			(at 127 181.6414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6843,7 +7468,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 113.03 182.88 0)
+			(at 113.03 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6851,8 +7476,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf"
-			(at 113.03 182.88 0)
+		(property "Datasheet" ""
+			(at 113.03 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6860,8 +7485,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual 4 input OR gate"
-			(at 113.03 182.88 0)
+		(property "Description" "Dual 4 input NAND gate"
+			(at 113.03 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6869,7 +7494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Nr." "CD4072BM96G4"
+		(property "Part Nr." "CD4012B"
 			(at 113.03 182.88 0)
 			(effects
 				(font
@@ -6905,7 +7530,7 @@
 		(pin "7"
 			(uuid "eb4f8b82-fed0-4714-9f99-fc846ebeb429")
 		)
-		(pin "12"
+		(pin "5"
 			(uuid "5a37bcac-74f9-4d0a-9864-8fa64210c43f")
 		)
 		(pin "10"

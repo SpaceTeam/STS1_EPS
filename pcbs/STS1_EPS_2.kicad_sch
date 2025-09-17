@@ -1734,15 +1734,9 @@
 		(color 0 0 0 0)
 		(uuid "b178b695-3b8a-49d3-add9-b0402532455a")
 	)
-	(wire
-		(pts
-			(xy 240.03 50.8) (xy 242.57 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00dee938-a500-4be6-8872-41c07e766f48")
+	(no_connect
+		(at 220.98 83.82)
+		(uuid "bece8246-1528-4db7-9a37-a11621854aac")
 	)
 	(wire
 		(pts
@@ -2616,28 +2610,6 @@
 		)
 		(uuid "0859d7bb-efe6-4326-8bdc-e5cb3b889abf")
 	)
-	(label "BAT_FAULT"
-		(at 220.98 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0996fc0f-ed99-434d-9501-cb5b8daed0e0")
-	)
-	(label "BAT_FAULT"
-		(at 190.5 142.24 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "121483f0-813e-4f69-a3c0-6cd0d53c169d")
-	)
 	(label "EPS_ANT_DEPLOY"
 		(at 48.26 153.67 180)
 		(fields_autoplaced yes)
@@ -2736,6 +2708,17 @@
 			(justify right bottom)
 		)
 		(uuid "30d6c439-2d7e-441a-81dc-c67de30def9e")
+	)
+	(label "UVLO_SIGNAL"
+		(at 190.5 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "350a9696-4def-4813-9815-26a3925b2ffd")
 	)
 	(label "UVLO_SIGNAL"
 		(at 223.52 110.49 0)
@@ -2890,17 +2873,6 @@
 			(justify right bottom)
 		)
 		(uuid "7cf9e318-4864-48b3-8a16-1a7e3e3f371a")
-	)
-	(label "BAT_FAULT"
-		(at 240.03 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "82b42276-c5e6-4244-ad22-b3db481722e4")
 	)
 	(label "VOUT_I"
 		(at 40.64 50.8 0)
@@ -4723,16 +4695,6 @@
 				(justify left)
 			)
 			(uuid "8560f339-9d8d-4a93-ba90-2048146727be")
-		)
-		(pin "EPS_BAT_FAULT" input
-			(at 242.57 50.8 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9ae94b41-5868-42bc-9ee7-b92cc78c5f46")
 		)
 		(pin "VOUT" input
 			(at 242.57 43.18 180)
