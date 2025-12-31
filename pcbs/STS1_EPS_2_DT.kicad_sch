@@ -6140,7 +6140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Nr." "CRT0805-BY-1004ELF"
+		(property "Part Nr." ""
 			(at 76.2 97.79 0)
 			(effects
 				(font

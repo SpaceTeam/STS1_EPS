@@ -4884,7 +4884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Nr." "PTN0805E6422BST1"
+		(property "Part Nr." "TNPW0805100KFEEA"
 			(at 167.64 53.34 0)
 			(effects
 				(font
@@ -6169,7 +6169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Nr." "PTN0805E6422BST1"
+		(property "Part Nr." "TNPW0805100RFETA"
 			(at 156.21 62.23 0)
 			(effects
 				(font

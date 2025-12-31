@@ -6569,7 +6569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Nr." "TNPW0805100KFEEA"
+		(property "Part Nr." "TNPW0805100RFETA"
 			(at 26.67 90.17 0)
 			(effects
 				(font
@@ -7242,7 +7242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Nr." "TNPW0805100KFEEA"
+		(property "Part Nr." "TNPW0805100RFETA"
 			(at 154.94 83.82 0)
 			(effects
 				(font
@@ -8139,7 +8139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Nr." "TNPW0805100KFEEA"
+		(property "Part Nr." "TNPW0805100RFETA"
 			(at 92.71 86.36 0)
 			(effects
 				(font
