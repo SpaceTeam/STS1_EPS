@@ -6096,7 +6096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "STS_Connector:SAMTEC_ZF5S-08-03-T-WT"
+		(property "Footprint" "Connector_Samtec_MicroMate:Samtec_T1M-08-X-SV-L_1x08-1MP_P1.0mm_Terminal_Vertical_Latch"
 			(at 36.83 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -6721,7 +6721,7 @@
 				)
 			)
 		)
-		(property "Footprint" "STS_Connector:SAMTEC_ZF5S-08-03-T-WT"
+		(property "Footprint" "Connector_Samtec_MicroMate:Samtec_T1M-08-X-SV-L_1x08-1MP_P1.0mm_Terminal_Vertical_Latch"
 			(at 36.83 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -7053,7 +7053,7 @@
 				)
 			)
 		)
-		(property "Footprint" "STS_Connector:SAMTEC_ZF5S-08-03-T-WT"
+		(property "Footprint" "Connector_Samtec_MicroMate:Samtec_T1M-08-X-SV-L_1x08-1MP_P1.0mm_Terminal_Vertical_Latch"
 			(at 36.83 72.39 0)
 			(hide yes)
 			(show_name no)
