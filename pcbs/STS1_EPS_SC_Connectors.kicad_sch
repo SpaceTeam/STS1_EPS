@@ -5491,7 +5491,7 @@
 				)
 			)
 		)
-		(property "Value" "VESD05A8A-HNH-GS08"
+		(property "Value" "SP7538PUTG"
 			(at 134.62 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5501,7 +5501,7 @@
 				)
 			)
 		)
-		(property "Footprint" "STS_Misc:LLP1713-9L"
+		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
 			(at 134.874 106.934 0)
 			(hide yes)
 			(show_name no)
@@ -5828,7 +5828,7 @@
 				)
 			)
 		)
-		(property "Value" "VESD05A8A-HNH-GS08"
+		(property "Value" "SP7538PUTG"
 			(at 134.62 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5838,7 +5838,7 @@
 				)
 			)
 		)
-		(property "Footprint" "STS_Misc:LLP1713-9L"
+		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
 			(at 134.874 81.534 0)
 			(hide yes)
 			(show_name no)
@@ -6195,7 +6195,7 @@
 				)
 			)
 		)
-		(property "Value" "VESD05A8A-HNH-GS08"
+		(property "Value" "SP7538PUTG"
 			(at 134.62 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6205,7 +6205,7 @@
 				)
 			)
 		)
-		(property "Footprint" "STS_Misc:LLP1713-9L"
+		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
 			(at 134.874 57.404 0)
 			(hide yes)
 			(show_name no)
@@ -6610,7 +6610,7 @@
 				)
 			)
 		)
-		(property "Value" "VESD05A8A-HNH-GS08"
+		(property "Value" "SP7538PUTG"
 			(at 134.62 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6620,7 +6620,7 @@
 				)
 			)
 		)
-		(property "Footprint" "STS_Misc:LLP1713-9L"
+		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
 			(at 134.874 131.064 0)
 			(hide yes)
 			(show_name no)
@@ -7921,7 +7921,7 @@
 				)
 			)
 		)
-		(property "Value" "VESD05A8A-HNH-GS08"
+		(property "Value" "SP7538PUTG"
 			(at 134.62 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7931,7 +7931,7 @@
 				)
 			)
 		)
-		(property "Footprint" "STS_Misc:LLP1713-9L"
+		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
 			(at 134.874 157.734 0)
 			(hide yes)
 			(show_name no)
