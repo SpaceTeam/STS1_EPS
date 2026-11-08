@@ -1842,6 +1842,12 @@
 		(uuid "006309cb-4561-40e9-9922-700bbe13bc49")
 	)
 	(junction
+		(at 35.56 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11187299-0b19-4dad-bcb2-22c87a565b0c")
+	)
+	(junction
 		(at 27.94 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1854,16 +1860,10 @@
 		(uuid "50e29a30-cf43-4757-b149-73554c91dd05")
 	)
 	(junction
-		(at 35.56 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9227a8b0-189f-4c38-bde6-7d38e71cbcb3")
-	)
-	(junction
 		(at 35.56 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9c889cf3-92cf-4e07-989a-2075ebe49506")
+		(uuid "81421330-92e8-499d-941b-a06db60de79d")
 	)
 	(junction
 		(at 27.94 48.26)
@@ -1976,26 +1976,6 @@
 			(type default)
 		)
 		(uuid "277497cf-c546-40ba-918f-8f546c8f0668")
-	)
-	(wire
-		(pts
-			(xy 35.56 147.32) (xy 49.53 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2968889a-c95b-49fd-b942-cbcd1c882f61")
-	)
-	(wire
-		(pts
-			(xy 22.86 147.32) (xy 35.56 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dcbcd0d-960a-455b-952c-e4ae8749a3ee")
 	)
 	(wire
 		(pts
@@ -2169,16 +2149,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 149.86) (xy 35.56 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6507b218-8b89-424d-b1b5-66a14122da5a")
-	)
-	(wire
-		(pts
 			(xy 109.22 123.19) (xy 109.22 106.68)
 		)
 		(stroke
@@ -2226,6 +2196,16 @@
 			(type default)
 		)
 		(uuid "6f7382de-996a-485e-bf63-c3a390566c39")
+	)
+	(wire
+		(pts
+			(xy 35.56 149.86) (xy 49.53 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "704e404e-a93c-48ba-a68b-d0dbc6023e1b")
 	)
 	(wire
 		(pts
@@ -2369,6 +2349,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 149.86) (xy 35.56 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2837909-0bf4-450c-a525-5d37a727fbee")
+	)
+	(wire
+		(pts
 			(xy 26.67 53.34) (xy 27.94 53.34)
 		)
 		(stroke
@@ -2509,6 +2499,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 147.32) (xy 35.56 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0769874-5caa-4320-9f7e-f87438e3b694")
+	)
+	(wire
+		(pts
 			(xy 240.03 48.26) (xy 242.57 48.26)
 		)
 		(stroke
@@ -2529,13 +2529,13 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 149.86) (xy 49.53 149.86)
+			(xy 35.56 147.32) (xy 49.53 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da3be849-45a2-4972-88ae-b554dc3a5220")
+		(uuid "dadf912d-cde1-4120-9677-683721f04842")
 	)
 	(wire
 		(pts
@@ -3865,7 +3865,7 @@
 				)
 			)
 		)
-		(property "Footprint" "STS_Connector:M80-85104YY"
+		(property "Footprint" "STS_Connector:SAMTEC_T1M-04-X-SV-L"
 			(at 27.94 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -3898,7 +3898,7 @@
 				)
 			)
 		)
-		(property "Part Nr." " M80-8510442"
+		(property "Part Nr." "SAMTEC T1M-04-X-SV-L"
 			(at 27.94 147.32 0)
 			(hide yes)
 			(show_name no)
